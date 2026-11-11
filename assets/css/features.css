@@ -1,5 +1,22 @@
 /* OLIVE — dedicated feature pages. Visual-first, low-density. */
 
+/* Black feature mode: page, cards and chrome only. The homepage and the
+   olive narrative keep the global Terminal Luxe tokens. */
+body[data-theme="black"] {
+  --bg: #050604;
+  --surface: #0B0D09;
+  --raised: #11140E;
+  --line: #1B2117;
+  --line-strong: #2A3221;
+  --text-4: #7F8468;
+}
+body[data-theme="black"] .nav--solid {
+  background: rgba(5, 6, 4, .82);
+}
+body[data-theme="black"] .fig-node {
+  fill: var(--bg);
+}
+
 .feature-hero {
   position: relative;
   padding-block: 160px 54px;
