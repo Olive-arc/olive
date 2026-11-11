@@ -1,0 +1,11 @@
+# Internal working files — not part of the public site
+.backup-*/
+previews/
+CONTEXT.md
+DESIGN_SYSTEM.md
+FEATURE_PAGES.md
+specimen.html
+assets/js/specimen.js
+
+# Local/system noise
+.DS_Store

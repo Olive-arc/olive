@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quantitative Investments — OLIVE</title>
+  <meta name="description" content="Research, models and market data for clearer investment decisions.">
+  <meta property="og:title" content="Quantitative Investments — OLIVE">
+  <meta property="og:description" content="Research, models and market data for clearer investment decisions.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0B0E07">
+  <link rel="icon" href="../../assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="../../assets/img/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="../../assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="../../assets/css/main.css">
+  <link rel="stylesheet" href="../../assets/css/landing.css">
+  <link rel="stylesheet" href="../../assets/css/features.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body data-feature="quantitative-investments">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="olive-mark" viewBox="180 180 640 640">
+      <circle cx="500" cy="500" r="320" fill="currentColor"/>
+      <g fill="var(--brand-sage, #86B69B)">
+        <ellipse cx="410" cy="410" rx="83" ry="56" transform="rotate(-48 410 410)"/>
+        <ellipse cx="590" cy="410" rx="83" ry="56" transform="rotate(48 590 410)"/>
+        <ellipse cx="410" cy="590" rx="83" ry="56" transform="rotate(48 410 590)"/>
+        <ellipse cx="590" cy="590" rx="83" ry="56" transform="rotate(-48 590 590)"/>
+      </g>
+    </symbol>
+    <symbol id="olive-wordmark" viewBox="-4 -4 556 128">
+      <g fill="none" stroke="currentColor" stroke-width="7" stroke-linecap="butt" stroke-linejoin="miter">
+        <ellipse cx="62" cy="60" rx="58" ry="56.5"/>
+        <path d="M165 3.5V116.5H240"/>
+        <path d="M282 3.5V116.5"/>
+        <path d="M322 3.5 372 116.5 422 3.5"/>
+        <path d="M462 3.5V116.5M462 3.5H542M462 60H522M462 116.5H542"/>
+      </g>
+    </symbol>
+    <symbol id="arr" viewBox="0 0 16 16">
+      <path d="M1.5 8h11M8.5 3.5 13 8l-4.5 4.5" stroke="currentColor" stroke-width="1.4" fill="none"/>
+    </symbol>
+  </defs>
+</svg>
+
+<a class="skip-link" href="#top">Skip to content</a>
+
+<header class="nav js-nav" id="nav">
+  <div class="nav__inner">
+    <a class="brand" href="../../index.html" aria-label="OLIVE home">
+      <svg class="brand__mark" aria-hidden="true"><use href="#olive-mark"/></svg>
+      <svg class="brand__wordmark" viewBox="-4 -4 556 128" aria-hidden="true"><use href="#olive-wordmark"/></svg>
+      <span class="brand__desc">Intelligent Finance</span>
+    </a>
+    <div class="nav__feature">
+      <button class="nav__feature-trigger mono" type="button" aria-expanded="false" aria-controls="nav-features-panel">
+        <span>Features</span>
+        <svg class="nav__chev" viewBox="0 0 11 7" width="11" height="7" fill="none" stroke="currentColor" aria-hidden="true"><path d="M1 1l4.5 4.5L10 1"/></svg>
+      </button>
+      <div class="nav__feature-panel" id="nav-features-panel" hidden>
+        <div class="container nav__feature-inner">
+          <div class="nav__feature-head">
+            <p class="mono">The Olive system</p>
+            <p>Four connected capabilities. One wallet foundation.</p>
+          </div>
+          <div class="nav__feature-grid">
+            <a class="nav__feature-col" href="../connected-defi/" data-feature-link="connected-defi">
+              <span class="mono nav__feature-num">01 / Access</span>
+              <span class="nav__feature-name">Connected DeFi</span>
+              <span class="nav__feature-copy">One route into supported networks, protocols and opportunities.</span>
+              <svg class="nav__feature-arrow" width="16" height="16" aria-hidden="true"><use href="#arr"/></svg>
+            </a>
+            <a class="nav__feature-col" href="../quantitative-investments/" data-feature-link="quantitative-investments">
+              <span class="mono nav__feature-num">02 / Intelligence</span>
+              <span class="nav__feature-name">Quantitative Investments</span>
+              <span class="nav__feature-copy">Research, models and analysis for market understanding.</span>
+              <svg class="nav__feature-arrow" width="16" height="16" aria-hidden="true"><use href="#arr"/></svg>
+            </a>
+            <a class="nav__feature-col" href="../agentic-trading/" data-feature-link="agentic-trading">
+              <span class="mono nav__feature-num">03 / Execution</span>
+              <span class="nav__feature-name">Agentic Trading</span>
+              <span class="nav__feature-copy">Authorised agents acting within your limits.</span>
+              <svg class="nav__feature-arrow" width="16" height="16" aria-hidden="true"><use href="#arr"/></svg>
+            </a>
+            <a class="nav__feature-col" href="../asset-portfolio-management/" data-feature-link="asset-portfolio-management">
+              <span class="mono nav__feature-num">04 / Oversight</span>
+              <span class="nav__feature-name">Asset &amp; Portfolio Management</span>
+              <span class="nav__feature-copy">One view of positions, performance and events.</span>
+              <svg class="nav__feature-arrow" width="16" height="16" aria-hidden="true"><use href="#arr"/></svg>
+            </a>
+          </div>
+          <div class="nav__feature-foot">
+            <a class="nav__foundation" href="../../index.html#wallet">
+              <svg class="nav__foundation-mark" aria-hidden="true"><use href="#olive-mark"/></svg>
+              <span class="nav__foundation-copy">
+                <span class="mono">Foundation / Olive Wallet</span>
+                <span>The account, asset-access and authorization layer beneath all four.</span>
+              </span>
+              <svg class="nav__feature-arrow" width="16" height="16" aria-hidden="true"><use href="#arr"/></svg>
+            </a>
+            <div class="nav__feature-utility">
+              <a class="mono" href="../../index.html#system">How the system connects</a>
+              <a class="mono" href="../../index.html#how-it-works">How it works</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="btn btn--primary btn--sm nav__cta" href="../../index.html#system"><span>Explore Olive</span><svg class="btn__arrow" width="14" height="14" aria-hidden="true"><use href="#arr"/></svg></a>
+    <button class="nav__burger" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+      <span class="mono nav__burger-label">Menu</span>
+      <span class="nav__burger-icon" aria-hidden="true"><span></span><span></span></span>
+    </button>
+  </div>
+  <div class="nav__menu" id="nav-menu">
+    <nav class="container nav__menu-list" aria-label="Mobile sections">
+      <details class="nav__mobile-group">
+        <summary class="nav__mobile-summary mono">
+          <span>Features</span>
+          <svg class="nav__chev" viewBox="0 0 11 7" width="11" height="7" fill="none" stroke="currentColor" aria-hidden="true"><path d="M1 1l4.5 4.5L10 1"/></svg>
+        </summary>
+        <div class="nav__mobile-sub">
+          <a class="mono" href="../../index.html#system">The four pillars</a>
+          <a class="mono" href="../../index.html#wallet">Wallet / Foundation</a>
+          <a class="mono" href="../connected-defi/">Connected DeFi</a>
+          <a class="mono" href="../quantitative-investments/" aria-current="page">Quantitative Investments</a>
+          <a class="mono" href="../agentic-trading/">Agentic Trading</a>
+          <a class="mono" href="../asset-portfolio-management/">Asset &amp; Portfolio Management</a>
+        </div>
+      </details>
+      <a class="mono" href="../../index.html#how-it-works">How it works</a>
+      <a class="mono" href="../../index.html#user-control">User control</a>
+      <a class="mono" href="../../index.html#vision">Vision</a>
+    </nav>
+    <div class="container nav__menu-foot">
+      <a class="btn btn--primary" href="../../index.html#system"><span>Explore Olive</span><svg class="btn__arrow" width="16" height="16" aria-hidden="true"><use href="#arr"/></svg></a>
+    </div>
+  </div>
+</header>
+
+<main id="top" tabindex="-1">
+
+  <section class="feature-hero" aria-labelledby="feature-title">
+    <div class="container feature-hero__inner">
+      <div class="feature-hero__copy">
+        <p class="mono feature-hero__crumb"><a href="../../index.html">OLIVE</a> / FEATURES / 02</p>
+        <p class="mono feature-hero__kicker">02 / Intelligence</p>
+        <h1 class="feature-hero__title" id="feature-title">Turn market and asset information into investment understanding.</h1>
+        <p class="body-l feature-hero__lede">Research, models and market data for clearer investment decisions.</p>
+        <div class="feature-hero__actions">
+          <a class="btn btn--primary" href="../../index.html#system"><span>Explore the four pillars</span><svg class="btn__arrow" width="16" height="16" aria-hidden="true"><use href="#arr"/></svg></a>
+          <a class="btn btn--secondary" href="#how"><span>See how it works</span></a>
+        </div>
+      </div>
+      <figure class="feature-figure feature-figure--intelligence">
+        <div class="feature-figure__bar">
+          <span class="mono">System view / Intelligence</span>
+          <span class="mono">Illustrative</span>
+        </div>
+        <div class="feature-figure__canvas">
+          <svg class="feature-schematic" viewBox="0 0 520 340" role="img" aria-labelledby="quant-fig-title quant-fig-desc">
+            <title id="quant-fig-title">Research stack</title>
+            <desc id="quant-fig-desc">Market, on-chain and research data flow into a model and strategy view.</desc>
+            <path class="fig-line" d="M160 65H185"/>
+            <path class="fig-line" d="M160 155H185"/>
+            <path class="fig-line" d="M160 245H185"/>
+            <path class="fig-line" d="M185 65V245"/>
+            <path class="fig-line" d="M185 155H210"/>
+            <path class="fig-line" d="M320 155H360"/>
+            <rect class="fig-node" x="30" y="42" width="130" height="46" rx="4"/>
+            <text class="fig-label" x="48" y="70">MARKET</text>
+            <rect class="fig-node" x="30" y="132" width="130" height="46" rx="4"/>
+            <text class="fig-label" x="48" y="160">ON-CHAIN</text>
+            <rect class="fig-node" x="30" y="222" width="130" height="46" rx="4"/>
+            <text class="fig-label" x="48" y="250">RESEARCH</text>
+            <rect class="fig-node fig-node--core" x="210" y="115" width="110" height="80" rx="4"/>
+            <text class="fig-label" x="228" y="150">MODEL</text>
+            <text class="fig-mono" x="228" y="172">DATA</text>
+            <rect class="fig-node" x="360" y="95" width="130" height="130" rx="4"/>
+            <text class="fig-label" x="378" y="125">STRATEGY</text>
+            <path class="fig-spark" d="M378 180 398 168 418 174 438 152 458 162"/>
+            <text class="fig-mono" x="378" y="202">ANALYSIS</text>
+          </svg>
+        </div>
+        <figcaption class="feature-figure__caption">Illustrative architecture. Product in development.</figcaption>
+      </figure>
+    </div>
+    <div class="container feature-meta-strip">
+      <div class="feature-meta-strip__item"><span class="mono">Layer</span><span>Intelligence</span></div>
+      <div class="feature-meta-strip__item"><span class="mono">Foundation</span><span>Olive Wallet</span></div>
+      <div class="feature-meta-strip__item"><span class="mono">Status</span><span>In development</span></div>
+    </div>
+  </section>
+
+  <section class="section feature-section" id="what">
+    <div class="container">
+      <div class="sec-head" data-reveal>
+        <p class="mono sec-index">01 / What it does</p>
+        <h2 class="h2 sec-title">From market data to a considered view.</h2>
+        <p class="body-l sec-lede">Research, compare and test before you decide.</p>
+      </div>
+      <div class="feature-cap-grid" data-reveal>
+        <article class="feature-cap">
+          <svg class="feature-glyph" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 19V11M12 19V5M18 19v-5"/></svg>
+          <h3>Market intelligence</h3>
+          <p>Prices, trends and on-chain data in one view.</p>
+        </article>
+        <article class="feature-cap">
+          <svg class="feature-glyph" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4v16h16M6 16l4-4 3 2 5-6"/></svg>
+          <h3>Quantitative research</h3>
+          <p>Models, statistics and comparable evidence.</p>
+        </article>
+        <article class="feature-cap">
+          <svg class="feature-glyph" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4 4 8l8 4 8-4-8-4ZM4 12l8 4 8-4M4 16l8 4 8-4"/></svg>
+          <h3>RWA evaluation</h3>
+          <p>Issuer, structure, income, liquidity and risk.</p>
+        </article>
+      </div>
+      <div class="feature-use-row" data-reveal>
+        <span class="mono">Use it for</span>
+        <ul>
+          <li>Asset research</li>
+          <li>Strategy testing</li>
+          <li>RWA comparison</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--surface feature-section" id="how">
+    <div class="container">
+      <div class="sec-head" data-reveal>
+        <p class="mono sec-index">02 / How it works</p>
+        <h2 class="h2 sec-title">Gather. Analyse. Decide.</h2>
+      </div>
+      <div class="feature-flow" data-reveal>
+        <article class="feature-flow__node">
+          <span class="feature-flow__dot" aria-hidden="true"></span>
+          <span class="mono">01</span>
+          <h3>Gather</h3>
+          <p>Bring market data together.</p>
+        </article>
+        <article class="feature-flow__node">
+          <span class="feature-flow__dot" aria-hidden="true"></span>
+          <span class="mono">02</span>
+          <h3>Analyse</h3>
+          <p>Apply models and research.</p>
+        </article>
+        <article class="feature-flow__node">
+          <span class="feature-flow__dot" aria-hidden="true"></span>
+          <span class="mono">03</span>
+          <h3>Decide</h3>
+          <p>Keep authority with you.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section feature-section" id="rwa">
+    <div class="container">
+      <div class="feature-rwa" data-reveal>
+        <div class="feature-rwa__intro">
+          <p class="mono">03 / RWA context</p>
+          <h2>Evaluate the terms.</h2>
+          <p>RWA products are third-party investments with product-specific terms.</p>
+        </div>
+        <div class="feature-terms">
+          <div class="feature-terms__bar"><span class="mono">Product terms</span><span class="mono">Product-specific</span></div>
+          <div class="feature-terms__row"><span class="mono">Issuer</span><span>Third-party</span></div>
+          <div class="feature-terms__row"><span class="mono">Structure</span><span>Product-specific</span></div>
+          <div class="feature-terms__row"><span class="mono">Income</span><span>Not guaranteed</span></div>
+          <div class="feature-terms__row"><span class="mono">Valuation</span><span>Reported, not live</span></div>
+          <div class="feature-terms__row"><span class="mono">Risk</span><span>Product-specific</span></div>
+        </div>
+      </div>
+      <p class="feature-rwa__note mono">Historical performance and projected income are not guarantees.</p>
+      <div class="feature-control">
+        <div>
+          <h2>Analysis supports the decision.</h2>
+          <p>Authority stays with the user.</p>
+        </div>
+        <a class="tlink" href="../../index.html#user-control"><span>See user control</span><svg width="14" height="14" aria-hidden="true"><use href="#arr"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--surface feature-section" id="questions">
+    <div class="container">
+      <div class="sec-head" data-reveal>
+        <p class="mono sec-index">04 / Questions</p>
+        <h2 class="h2 sec-title">What the analysis can and cannot do.</h2>
+      </div>
+      <div class="feature-faq" data-reveal>
+        <details>
+          <summary>What data is used?</summary>
+          <p>Market and on-chain data where available; coverage varies.</p>
+        </details>
+        <details>
+          <summary>Does backtesting predict returns?</summary>
+          <p>No. Historical or simulated results do not guarantee future outcomes.</p>
+        </details>
+        <details>
+          <summary>Is this financial advice?</summary>
+          <p>No. Olive is in development and provides no financial advice.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="section feature-section" id="related">
+    <div class="container">
+      <div class="sec-head" data-reveal>
+        <p class="mono sec-index">05 / The other pillars</p>
+        <h2 class="h2 sec-title">Understanding is one part of the path.</h2>
+      </div>
+      <div class="feature-related-grid" data-reveal>
+        <a class="feature-related-card" href="../connected-defi/">
+          <span class="mono">01 / Access</span>
+          <h3>Connected DeFi</h3>
+          <p>Supported networks and opportunities.</p>
+          <svg width="16" height="16" aria-hidden="true"><use href="#arr"/></svg>
+        </a>
+        <a class="feature-related-card" href="../agentic-trading/">
+          <span class="mono">03 / Execution</span>
+          <h3>Agentic Trading</h3>
+          <p>Authorised execution within limits.</p>
+          <svg width="16" height="16" aria-hidden="true"><use href="#arr"/></svg>
+        </a>
+        <a class="feature-related-card" href="../asset-portfolio-management/">
+          <span class="mono">04 / Oversight</span>
+          <h3>Asset &amp; Portfolio Management</h3>
+          <p>Portfolio visibility and control.</p>
+          <svg width="16" height="16" aria-hidden="true"><use href="#arr"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section feature-section" id="close">
+    <div class="container">
+      <div class="feature-close" data-reveal>
+        <div>
+          <h2>See how the four connect.</h2>
+          <p class="body-l">Access, intelligence, execution and oversight, connected through one wallet.</p>
+        </div>
+        <div class="feature-close__side">
+          <a class="btn btn--primary" href="../../index.html#system"><span>Explore the four pillars</span><svg class="btn__arrow" width="16" height="16" aria-hidden="true"><use href="#arr"/></svg></a>
+          <span class="mono">Product in development</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <a class="footer__word" href="../../index.html" aria-label="OLIVE home"><svg class="footer__wordmark" viewBox="-4 -4 556 128" aria-hidden="true"><use href="#olive-wordmark"/></svg></a>
+      <div class="footer__cols">
+        <div class="footer__col">
+          <h4>Explore</h4>
+          <a href="../../index.html#system">The four pillars</a>
+          <a href="../../index.html#wallet">Wallet</a>
+          <a href="../connected-defi/">Connected DeFi</a>
+          <a href="../quantitative-investments/">Quantitative Investments</a>
+          <a href="../agentic-trading/">Agentic Trading</a>
+          <a href="../asset-portfolio-management/">Asset &amp; Portfolio Management</a>
+        </div>
+        <div class="footer__col">
+          <h4>Product</h4>
+          <a href="../../index.html#how-it-works">How it works</a>
+          <a href="../../index.html#user-control">User control</a>
+          <a href="../../index.html#vision">Vision</a>
+          <a href="../../index.html#closing">Closing</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__status">
+      <span class="mono">Product in development</span>
+      <p>Olive is in development. Nothing on this website constitutes financial advice or a promise of returns.</p>
+    </div>
+    <div class="footer__bottom">
+      <span class="mono">OLIVE · INTELLIGENT FINANCE</span>
+      <span class="mono">IN DEVELOPMENT</span>
+      <nav aria-label="Footer"><a class="mono" href="#top">Back to top</a></nav>
+    </div>
+  </div>
+</footer>
+
+<script src="../../assets/js/landing.js"></script>
+</body>
+</html>

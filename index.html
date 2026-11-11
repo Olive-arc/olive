@@ -1,0 +1,1188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OLIVE — The future of DeFi is intelligent.</title>
+  <meta name="description" content="Olive combines Connected DeFi, Quantitative Investments, Agentic Trading, and Asset and Portfolio Management in one platform, built around a native wallet.">
+  <meta property="og:title" content="OLIVE — The future of DeFi is intelligent.">
+  <meta property="og:description" content="Olive combines Connected DeFi, Quantitative Investments, Agentic Trading, and Asset and Portfolio Management in one platform, built around a native wallet.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0B0E07">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/img/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/landing.css">
+  <link rel="stylesheet" href="assets/css/narrative.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="olive-mark" viewBox="180 180 640 640">
+      <circle cx="500" cy="500" r="320" fill="currentColor"/>
+      <g fill="var(--brand-sage, #86B69B)">
+        <ellipse cx="410" cy="410" rx="83" ry="56" transform="rotate(-48 410 410)"/>
+        <ellipse cx="590" cy="410" rx="83" ry="56" transform="rotate(48 590 410)"/>
+        <ellipse cx="410" cy="590" rx="83" ry="56" transform="rotate(48 410 590)"/>
+        <ellipse cx="590" cy="590" rx="83" ry="56" transform="rotate(-48 590 590)"/>
+      </g>
+    </symbol>
+    <symbol id="olive-wordmark" viewBox="-4 -4 556 128">
+      <g fill="none" stroke="currentColor" stroke-width="7" stroke-linecap="butt" stroke-linejoin="miter">
+        <ellipse cx="62" cy="60" rx="58" ry="56.5"/>
+        <path d="M165 3.5V116.5H240"/>
+        <path d="M282 3.5V116.5"/>
+        <path d="M322 3.5 372 116.5 422 3.5"/>
+        <path d="M462 3.5V116.5M462 3.5H542M462 60H522M462 116.5H542"/>
+      </g>
+    </symbol>
+    <symbol id="arr" viewBox="0 0 16 16">
+      <path d="M1.5 8h11M8.5 3.5 13 8l-4.5 4.5" stroke="currentColor" stroke-width="1.4" fill="none"/>
+    </symbol>
+  </defs>
+</svg>
+
+<a class="skip-link" href="#top">Skip to content</a>
+
+<header class="nav js-nav" id="nav">
+  <div class="nav__inner">
+    <a class="brand" href="#top" aria-label="OLIVE home">
+      <svg class="brand__mark" aria-hidden="true"><use href="#olive-mark"/></svg>
+      <svg class="brand__wordmark" viewBox="-4 -4 556 128" aria-hidden="true"><use href="#olive-wordmark"/></svg>
+      <span class="brand__desc">Intelligent Finance</span>
+    </a>
+    <div class="nav__feature">
+      <button class="nav__feature-trigger mono" type="button" aria-expanded="false" aria-controls="nav-features-panel">
+        <span>Features</span>
+        <svg class="nav__chev" viewBox="0 0 11 7" width="11" height="7" fill="none" stroke="currentColor" aria-hidden="true"><path d="M1 1l4.5 4.5L10 1"/></svg>
+      </button>
+      <div class="nav__feature-panel" id="nav-features-panel" hidden>
+        <div class="container nav__feature-inner">
+          <div class="nav__feature-head">
+            <p class="mono">The Olive system</p>
+            <p>Four connected capabilities. One wallet foundation.</p>
+          </div>
+          <div class="nav__feature-grid">
+            <a class="nav__feature-col" href="features/connected-defi/" data-feature-link="connected-defi">
+              <span class="mono nav__feature-num">01 / Access</span>
+              <span class="nav__feature-name">Connected DeFi</span>
+              <span class="nav__feature-copy">One route into supported networks, protocols and opportunities.</span>
+              <svg class="nav__feature-arrow" width="16" height="16" aria-hidden="true"><use href="#arr"/></svg>
+            </a>
+            <a class="nav__feature-col" href="features/quantitative-investments/" data-feature-link="quantitative-investments">
+              <span class="mono nav__feature-num">02 / Intelligence</span>
+              <span class="nav__feature-name">Quantitative Investments</span>
+              <span class="nav__feature-copy">Research, models and analysis for market understanding.</span>
+              <svg class="nav__feature-arrow" width="16" height="16" aria-hidden="true"><use href="#arr"/></svg>
+            </a>
+            <a class="nav__feature-col" href="features/agentic-trading/" data-feature-link="agentic-trading">
+              <span class="mono nav__feature-num">03 / Execution</span>
+              <span class="nav__feature-name">Agentic Trading</span>
+              <span class="nav__feature-copy">Authorised agents acting within your limits.</span>
+              <svg class="nav__feature-arrow" width="16" height="16" aria-hidden="true"><use href="#arr"/></svg>
+            </a>
+            <a class="nav__feature-col" href="features/asset-portfolio-management/" data-feature-link="asset-portfolio-management">
+              <span class="mono nav__feature-num">04 / Oversight</span>
+              <span class="nav__feature-name">Asset &amp; Portfolio Management</span>
+              <span class="nav__feature-copy">One view of positions, performance and events.</span>
+              <svg class="nav__feature-arrow" width="16" height="16" aria-hidden="true"><use href="#arr"/></svg>
+            </a>
+          </div>
+          <div class="nav__feature-foot">
+            <a class="nav__foundation" href="#wallet">
+              <svg class="nav__foundation-mark" aria-hidden="true"><use href="#olive-mark"/></svg>
+              <span class="nav__foundation-copy">
+                <span class="mono">Foundation / Olive Wallet</span>
+                <span>The account, asset-access and authorization layer beneath all four.</span>
+              </span>
+              <svg class="nav__feature-arrow" width="16" height="16" aria-hidden="true"><use href="#arr"/></svg>
+            </a>
+            <div class="nav__feature-utility">
+              <a class="mono" href="#system">How the system connects</a>
+              <a class="mono" href="#how-it-works">How it works</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="btn btn--primary btn--sm nav__cta" href="#system"><span>Explore Olive</span><svg class="btn__arrow" width="14" height="14" aria-hidden="true"><use href="#arr"/></svg></a>
+    <button class="nav__burger" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+      <span class="mono nav__burger-label">Menu</span>
+      <span class="nav__burger-icon" aria-hidden="true"><span></span><span></span></span>
+    </button>
+  </div>
+  <div class="nav__menu" id="nav-menu">
+    <nav class="container nav__menu-list" aria-label="Mobile sections">
+      <details class="nav__mobile-group">
+        <summary class="nav__mobile-summary mono">
+          <span>Features</span>
+          <svg class="nav__chev" viewBox="0 0 11 7" width="11" height="7" fill="none" stroke="currentColor" aria-hidden="true"><path d="M1 1l4.5 4.5L10 1"/></svg>
+        </summary>
+        <div class="nav__mobile-sub">
+          <a class="mono" href="#system">The four pillars</a>
+          <a class="mono" href="#wallet">Wallet / Foundation</a>
+          <a class="mono" href="features/connected-defi/">Connected DeFi</a>
+          <a class="mono" href="features/quantitative-investments/">Quantitative Investments</a>
+          <a class="mono" href="features/agentic-trading/">Agentic Trading</a>
+          <a class="mono" href="features/asset-portfolio-management/">Asset &amp; Portfolio Management</a>
+        </div>
+      </details>
+      <a class="mono" href="#how-it-works">How it works</a>
+      <a class="mono" href="#user-control">User control</a>
+      <a class="mono" href="#vision">Vision</a>
+    </nav>
+    <div class="container nav__menu-foot">
+      <a class="btn btn--primary" href="#system"><span>Explore Olive</span><svg class="btn__arrow" width="16" height="16" aria-hidden="true"><use href="#arr"/></svg></a>
+    </div>
+  </div>
+</header>
+
+<main id="top" tabindex="-1">
+
+  <!-- 01 HERO -->
+  <section class="hero hero--landing" aria-label="Introduction">
+    <div class="ascii-tree ascii-tree--main" aria-hidden="true"><div class="ln"></div><div class="ln"></div><div class="ln"></div><div class="ln"></div><div class="ln"></div><div class="ln">                    <span class="c-s">```</span>  <span class="c-l">`</span><span class="c-s">:</span> <span class="c-s">&#x27;&#x27;&#x27;&#x27;</span><span class="c-l">&#x27;</span></div><div class="ln">                 <span class="c-s">`</span>   <span class="c-l">&#x27;</span><span class="c-d">·..</span><span class="c-h">**</span><span class="c-s">:</span><span class="c-d">·.</span><span class="c-s">:</span> <span class="c-l">&#x27;</span> <span class="c-s">&#x27;&#x27;</span></div><div class="ln">                 <span class="c-s">``</span> <span class="c-l">&#x27;</span><span class="c-s">;</span><span class="c-d">·</span><span class="c-l">&#x27;</span> <span class="c-d">.</span><span class="c-l">&#x27;</span><span class="c-d">.</span> <span class="c-d">...·...</span></div><div class="ln">               <span class="c-s">``;</span><span class="c-d">.</span><span class="c-s">;</span> <span class="c-d">.</span><span class="c-l">&#x27;</span><span class="c-d">...</span><span class="c-s">:</span><span class="c-d">.</span><span class="c-h">*</span><span class="c-d">.....</span><span class="c-s">:</span><span class="c-d">...</span> <span class="c-l">&#x27;</span></div><div class="ln">               <span class="c-s">.</span><span class="c-d">·</span><span class="c-l">,</span><span class="c-d">·.</span><span class="c-l">,</span><span class="c-d">...</span><span class="c-l">,</span><span class="c-d">...</span><span class="c-s">:</span><span class="c-l">,,,</span><span class="c-s">:</span><span class="c-d">...</span><span class="c-l">&#x27;</span><span class="c-d">..</span>   <span class="c-s">&#x27;</span></div><div class="ln">               <span class="c-s">`</span><span class="c-d">..·..</span><span class="c-l">,</span><span class="c-d">..</span><span class="c-h">*</span><span class="c-d">.....·..</span><span class="c-l">&#x27;</span><span class="c-d">.·...</span><span class="c-l">&#x27;</span><span class="c-d">.</span> <span class="c-s">&#x27;</span><span class="c-l">&#x27;</span> <span class="c-l">&#x27;</span><span class="c-s">&#x27;</span></div><div class="ln">           <span class="c-l">`</span><span class="c-s">`</span><span class="c-l">``</span><span class="c-d">...</span><span class="c-s">;</span><span class="c-d">·......</span><span class="c-l">&#x27;</span><span class="c-w">|</span><span class="c-d">..</span><span class="c-s">::</span><span class="c-d">.</span><span class="c-l">&#x27;&#x27;</span><span class="c-s">:</span><span class="c-l">&#x27;</span> <span class="c-s">:</span><span class="c-d">..</span><span class="c-s">:</span><span class="c-d">.</span>  <span class="c-s">&#x27;</span></div><div class="ln">          <span class="c-l">`</span><span class="c-s">``</span> <span class="c-h">*</span><span class="c-d">.</span><span class="c-s">;</span><span class="c-h">*</span><span class="c-d">.......</span><span class="c-o">o</span><span class="c-d">.</span><span class="c-w">|</span><span class="c-d">.</span><span class="c-s">:</span><span class="c-d">.</span><span class="c-l">&#x27;&#x27;</span><span class="c-d">.</span><span class="c-s">:</span><span class="c-d">.·.....·...</span><span class="c-s">&#x27;&#x27;</span></div><div class="ln">          <span class="c-s">``</span><span class="c-d">··.</span><span class="c-l">&#x27;&#x27;</span><span class="c-d">.·........</span><span class="c-w">|</span><span class="c-d">·</span><span class="c-s">:</span><span class="c-d">...</span><span class="c-s">:</span><span class="c-d">...</span><span class="c-l">&#x27;</span><span class="c-d">..</span><span class="c-o">o</span><span class="c-l">&#x27;</span><span class="c-d">..·..</span> <span class="c-s">&#x27;&#x27;</span></div><div class="ln">         <span class="c-l">```</span><span class="c-s">;</span><span class="c-d">..</span><span class="c-s">;</span><span class="c-g">o</span><span class="c-s">;</span><span class="c-d">...··</span><span class="c-l">&#x27;</span><span class="c-d">..</span><span class="c-w">|</span><span class="c-d">...</span><span class="c-l">&#x27;</span><span class="c-s">:</span><span class="c-d">.....</span><span class="c-w">|</span><span class="c-d">..</span><span class="c-o">o</span><span class="c-s">:</span><span class="c-d">··...</span><span class="c-s">&#x27;&#x27;&#x27;</span></div><div class="ln">        <span class="c-s">`</span> <span class="c-l">`</span><span class="c-d">..</span><span class="c-s">;;</span><span class="c-d">..</span><span class="c-s">;</span><span class="c-d">.</span><span class="c-s">;</span><span class="c-d">.</span><span class="c-l">&#x27;</span><span class="c-s">;</span><span class="c-l">&#x27;</span><span class="c-s">;</span><span class="c-d">·</span><span class="c-w">|</span><span class="c-l">&#x27;</span><span class="c-d">··</span><span class="c-l">&#x27;</span><span class="c-d">..</span><span class="c-s">:</span><span class="c-d">.</span> <span class="c-d">·</span><span class="c-w">|</span><span class="c-d">......</span><span class="c-s">::</span><span class="c-d">..</span>  <span class="c-s">&#x27;</span></div><div class="ln">        <span class="c-s">..;</span><span class="c-d">....</span><span class="c-l">,</span><span class="c-d">.</span><span class="c-s">;</span><span class="c-d">..</span><span class="c-h">**</span><span class="c-d">..</span><span class="c-s">;</span><span class="c-l">,</span><span class="c-w">|</span><span class="c-l">,</span><span class="c-o">o</span><span class="c-d">·...</span><span class="c-l">,</span><span class="c-d">...</span><span class="c-w">||</span><span class="c-h">*</span><span class="c-d">..·.</span><span class="c-l">,</span> <span class="c-d">··</span><span class="c-s">:</span> <span class="c-s">&#x27;</span></div><div class="ln">         <span class="c-d">·</span><span class="c-g">o</span><span class="c-s">;</span><span class="c-l">&#x27;&#x27;</span><span class="c-d">.....</span><span class="c-l">,</span><span class="c-d">...</span><span class="c-l">,</span><span class="c-s">;</span><span class="c-d">.</span><span class="c-w">|</span><span class="c-l">,,</span><span class="c-d">..·.</span><span class="c-l">,</span><span class="c-d">..</span><span class="c-l">,</span><span class="c-d">.</span><span class="c-w">|</span><span class="c-d">..</span><span class="c-s">:</span><span class="c-h">*</span><span class="c-d">...·</span><span class="c-h">*</span><span class="c-d">..</span></div><div class="ln">        <span class="c-s">`</span><span class="c-d">...</span><span class="c-l">&#x27;</span><span class="c-d">.·.·..</span><span class="c-l">&#x27;</span><span class="c-d">.</span><span class="c-h">*</span><span class="c-d">....</span><span class="c-w">|</span><span class="c-d">·.....·.</span><span class="c-l">,</span><span class="c-h">*</span><span class="c-d">.</span><span class="c-w">|</span><span class="c-l">&#x27;</span><span class="c-d">......</span><span class="c-s">::</span><span class="c-d">...</span> <span class="c-s">&#x27;</span></div><div class="ln">        <span class="c-l">`</span><span class="c-d">.·</span> <span class="c-d">.......</span><span class="c-l">&#x27;</span><span class="c-d">..</span><span class="c-h">*</span><span class="c-d">...</span><span class="c-s">;</span><span class="c-w">|</span><span class="c-s">;</span><span class="c-d">...</span><span class="c-s">:</span><span class="c-d">.</span><span class="c-l">,</span><span class="c-d">...</span><span class="c-w">|</span><span class="c-l">&#x27;</span><span class="c-d">.</span><span class="c-l">&#x27;</span><span class="c-d">...</span><span class="c-h">*</span> <span class="c-d">.</span><span class="c-l">&#x27;</span><span class="c-s">:</span><span class="c-d">.</span></div><div class="ln">        <span class="c-l">.</span> <span class="c-d">.</span><span class="c-s">;</span><span class="c-l">,</span><span class="c-d">....·..·.</span><span class="c-l">,</span><span class="c-d">·</span><span class="c-l">,</span><span class="c-s">;</span><span class="c-l">,</span><span class="c-w">|</span><span class="c-d">..</span><span class="c-h">*</span><span class="c-d">.</span><span class="c-l">,</span><span class="c-s">:</span><span class="c-d">.</span><span class="c-s">::</span><span class="c-w">|</span><span class="c-d">·............</span> <span class="c-l">,</span></div><div class="ln">        <span class="c-l">..</span> <span class="c-s">;</span><span class="c-d">·</span><span class="c-l">,,</span><span class="c-d">.·</span><span class="c-h">*</span><span class="c-d">..</span><span class="c-l">,</span><span class="c-d">.</span><span class="c-l">,</span><span class="c-d">.·.·</span><span class="c-w">|</span><span class="c-l">,</span><span class="c-d">.</span><span class="c-s">::</span><span class="c-l">,,</span><span class="c-d">.·.</span><span class="c-w">|</span><span class="c-d">·......</span><span class="c-l">,</span><span class="c-d">...</span><span class="c-s">:</span><span class="c-d">.</span><span class="c-s">,,</span></div><div class="ln">         <span class="c-s">.</span> <span class="c-d">....</span><span class="c-s">;</span><span class="c-d">.·</span><span class="c-l">,</span><span class="c-d">·..</span><span class="c-l">,</span><span class="c-d">·</span><span class="c-l">,</span><span class="c-d">·</span><span class="c-l">,</span><span class="c-w">|</span><span class="c-d">.</span><span class="c-l">,</span><span class="c-d">...·..</span><span class="c-w">|</span><span class="c-d">·</span><span class="c-s">;</span><span class="c-d">·..</span><span class="c-h">*</span><span class="c-d">.</span><span class="c-l">,</span><span class="c-d">..</span><span class="c-g">o</span><span class="c-d">..</span><span class="c-s">,</span> <span class="c-l">,</span></div><div class="ln">          <span class="c-l">.</span> <span class="c-d">·..</span><span class="c-l">,</span><span class="c-d">..·</span><span class="c-s">:</span><span class="c-d">·..·.</span><span class="c-h">*</span><span class="c-l">&#x27;</span><span class="c-w">|</span><span class="c-d">·..</span><span class="c-h">*</span><span class="c-d">...·</span><span class="c-w">|</span><span class="c-l">&#x27;</span><span class="c-d">.....·</span> <span class="c-d">.</span><span class="c-s">:</span><span class="c-d">..</span> <span class="c-s">,</span><span class="c-l">,</span></div><div class="ln">          <span class="c-l">.</span><span class="c-s">.;</span><span class="c-d">....·.</span><span class="c-s">:</span><span class="c-d">.</span><span class="c-s">;</span><span class="c-d">.</span><span class="c-l">,</span><span class="c-d">..·.</span><span class="c-w">|</span><span class="c-h">*</span><span class="c-d">.</span><span class="c-l">,</span><span class="c-d">·</span><span class="c-l">,</span><span class="c-d">..</span><span class="c-w">|</span><span class="c-d">.....</span><span class="c-l">,</span><span class="c-d">.</span><span class="c-s">:</span><span class="c-d">·..</span><span class="c-l">,</span></div><div class="ln">            <span class="c-s">.</span> <span class="c-d">...</span><span class="c-s">;</span><span class="c-d">.</span><span class="c-h">**</span><span class="c-d">.·</span><span class="c-l">,</span><span class="c-d">.</span><span class="c-s">:</span><span class="c-l">,</span><span class="c-s">:</span><span class="c-w">|</span><span class="c-s">;</span><span class="c-d">.....</span><span class="c-w">|</span><span class="c-d">··..</span><span class="c-s">:</span><span class="c-o">o</span><span class="c-d">..</span><span class="c-s">::</span> <span class="c-s">,</span></div><div class="ln">                <span class="c-d">..</span><span class="c-l">,</span><span class="c-d">·.</span><span class="c-l">,</span><span class="c-d">.</span><span class="c-h">*</span><span class="c-d">·</span> <span class="c-d">..</span><span class="c-w">|</span><span class="c-d">..·</span><span class="c-s">;</span><span class="c-d">..</span><span class="c-w">|</span><span class="c-d">.</span> <span class="c-d">·</span><span class="c-s">:</span><span class="c-d">..</span><span class="c-l">,</span><span class="c-d">.</span><span class="c-s">,,</span></div><div class="ln">                  <span class="c-l">..</span> <span class="c-d">.....</span><span class="c-s">:</span> <span class="c-d">..</span><span class="c-w">|</span><span class="c-d">.</span><span class="c-s">:</span><span class="c-d">.</span><span class="c-w">|</span><span class="c-d">·</span><span class="c-s">:</span><span class="c-d">...·</span> <span class="c-s">,</span></div><div class="ln">                    <span class="c-l">..</span><span class="c-s">.,</span><span class="c-l">,</span><span class="c-b">\</span> <span class="c-s">.</span><span class="c-w">|||</span><span class="c-l">,</span><span class="c-s">,</span> <span class="c-w">|</span><span class="c-s">.</span><span class="c-l">,</span><span class="c-b">//</span> <span class="c-l">,</span> <span class="c-b">/</span></div><div class="ln">                      <span class="c-b">---</span> <span class="c-b">\</span><span class="c-w">|||</span>  <span class="c-w">||</span> <span class="c-b">//</span>  <span class="c-b">//</span></div><div class="ln">                          <span class="c-b">--</span><span class="c-w">|||</span>  <span class="c-w">|</span><span class="c-b">//</span>   <span class="c-b">//</span></div><div class="ln">                           <span class="c-w">||||</span> <span class="c-w">||</span><span class="c-b">/</span>  <span class="c-b">//</span></div><div class="ln">                           <span class="c-w">||||</span> <span class="c-w">||</span> <span class="c-b">///</span></div><div class="ln">                            <span class="c-w">|||</span> <span class="c-w">||</span><span class="c-b">//</span></div><div class="ln">                            <span class="c-w">|||||</span><span class="c-b">/</span></div><div class="ln">                            <span class="c-w">||||||</span></div><div class="ln">                            <span class="c-w">|||||</span></div><div class="ln">                            <span class="c-w">|||||</span></div><div class="ln">                            <span class="c-w">|||||</span></div><div class="ln">                             <span class="c-w">||</span></div></div>
+<div class="ascii-tree ascii-tree--second" aria-hidden="true"><div class="ln"></div><div class="ln"></div><div class="ln"></div><div class="ln">         <span class="c-s">`</span><span class="c-l">`</span><span class="c-d">.....</span> <span class="c-s">&#x27;&#x27;</span></div><div class="ln">       <span class="c-l">`</span><span class="c-s">;</span><span class="c-l">&#x27;</span><span class="c-s">;</span><span class="c-d">.</span><span class="c-h">*</span><span class="c-d">..</span> <span class="c-d">·.</span><span class="c-l">&#x27;&#x27;</span></div><div class="ln">     <span class="c-l">`</span> <span class="c-d">·.</span><span class="c-s">;</span><span class="c-d">...</span><span class="c-l">&#x27;</span><span class="c-d">......</span><span class="c-s">&#x27;&#x27;</span></div><div class="ln">    <span class="c-s">`</span><span class="c-o">o</span><span class="c-l">&#x27;</span><span class="c-d">...</span><span class="c-s">;</span><span class="c-d">.</span><span class="c-l">&#x27;</span><span class="c-d">..</span><span class="c-s">:</span><span class="c-d">...</span><span class="c-l">&#x27;</span><span class="c-d">.</span><span class="c-l">&#x27;</span><span class="c-s">&#x27;</span></div><div class="ln">   <span class="c-l">`</span><span class="c-d">..</span><span class="c-s">;;</span><span class="c-d">...</span><span class="c-l">,</span><span class="c-d">..</span><span class="c-l">,</span><span class="c-d">..</span><span class="c-l">,</span><span class="c-d">.</span><span class="c-s">:</span><span class="c-l">&#x27;</span><span class="c-s">:</span><span class="c-d">·</span></div><div class="ln">  <span class="c-l">`</span><span class="c-d">·...·</span><span class="c-s">:</span><span class="c-d">··</span><span class="c-s">;</span><span class="c-d">.</span><span class="c-s">:</span><span class="c-d">..</span><span class="c-l">,</span><span class="c-s">:</span><span class="c-d">.</span><span class="c-s">:</span><span class="c-d">..</span><span class="c-l">&#x27;</span><span class="c-d">.</span><span class="c-s">&#x27;</span></div><div class="ln">  <span class="c-s">.</span><span class="c-d">..</span><span class="c-s">;;</span><span class="c-d">..</span><span class="c-s">:</span><span class="c-d">..</span><span class="c-s">;</span><span class="c-d">.</span><span class="c-h">*</span><span class="c-d">.·</span><span class="c-l">,</span><span class="c-d">·.</span><span class="c-l">,</span><span class="c-d">...</span></div><div class="ln">   <span class="c-d">...</span><span class="c-l">,</span><span class="c-d">...</span><span class="c-l">,</span><span class="c-d">..</span><span class="c-h">*</span><span class="c-l">,</span><span class="c-d">...·..</span><span class="c-l">,</span><span class="c-d">..</span></div><div class="ln">  <span class="c-s">.</span><span class="c-l">.,,</span><span class="c-d">..·.·....</span><span class="c-o">o</span><span class="c-d">..</span><span class="c-s">;</span><span class="c-d">·...</span><span class="c-s">,</span></div><div class="ln">      <span class="c-s">.</span> <span class="c-s">,,</span><span class="c-l">,</span> <span class="c-w">||</span>   <span class="c-l">.</span><span class="c-d">..</span><span class="c-l">,</span><span class="c-s">,</span></div><div class="ln">            <span class="c-w">||</span>  <span class="c-w">|</span></div><div class="ln">            <span class="c-w">||</span> <span class="c-w">||</span></div><div class="ln">            <span class="c-w">||</span> <span class="c-w">||</span></div><div class="ln">            <span class="c-w">||</span> <span class="c-w">|</span></div><div class="ln">            <span class="c-w">||||</span></div><div class="ln">            <span class="c-w">||||</span></div><div class="ln">            <span class="c-w">|||</span></div></div>
+<div class="ascii-tree ascii-tree--mobile" aria-hidden="true"><div class="ln"></div><div class="ln"></div><div class="ln"></div><div class="ln"></div><div class="ln"></div><div class="ln"></div><div class="ln"></div><div class="ln"></div><div class="ln">              <span class="c-l">`</span><span class="c-s">`&#x27;</span>  <span class="c-s">&#x27;</span> <span class="c-s">&#x27;</span></div><div class="ln">       <span class="c-s">``</span>   <span class="c-s">;</span><span class="c-d">.</span><span class="c-h">*</span> <span class="c-d">·</span><span class="c-l">&#x27;</span><span class="c-d">·.</span><span class="c-l">&#x27;</span><span class="c-d">..</span><span class="c-s">&#x27;</span></div><div class="ln">     <span class="c-s">```</span><span class="c-d">.</span> <span class="c-l">&#x27;</span><span class="c-d">..</span><span class="c-h">*</span><span class="c-l">&#x27;</span><span class="c-d">...·..</span><span class="c-l">&#x27;</span><span class="c-d">..</span>  <span class="c-l">&#x27;</span><span class="c-s">&#x27;</span></div><div class="ln">    <span class="c-l">`</span><span class="c-s">``</span><span class="c-d">.·.·....</span><span class="c-o">o</span><span class="c-d">..</span><span class="c-s">:</span><span class="c-d">·......</span><span class="c-l">&#x27;</span> <span class="c-l">&#x27;</span></div><div class="ln">   <span class="c-s">`</span>  <span class="c-d">...</span><span class="c-l">&#x27;</span><span class="c-d">...</span><span class="c-h">**</span><span class="c-d">.</span><span class="c-s">:</span><span class="c-h">*</span><span class="c-d">.........</span></div><div class="ln">   <span class="c-l">`</span> <span class="c-s">`</span><span class="c-d">.</span><span class="c-h">*</span><span class="c-d">...···.</span><span class="c-l">&#x27;&#x27;</span><span class="c-d">.·........</span><span class="c-h">*</span> <span class="c-s">&#x27;</span></div><div class="ln">   <span class="c-s">.</span>  <span class="c-d">.</span><span class="c-l">,</span><span class="c-d">.</span><span class="c-l">,</span><span class="c-d">..</span><span class="c-s">;</span><span class="c-d">..</span><span class="c-s">;</span><span class="c-g">o</span><span class="c-s">:</span><span class="c-d">...··</span><span class="c-l">,</span><span class="c-d">....</span><span class="c-l">,</span><span class="c-s">,</span></div><div class="ln">   <span class="c-s">.</span><span class="c-l">.</span> <span class="c-d">.</span> <span class="c-d">·.</span><span class="c-l">,</span><span class="c-d">..</span><span class="c-s">;;</span><span class="c-d">..</span><span class="c-s">:</span><span class="c-d">.</span><span class="c-s">:</span><span class="c-d">.</span><span class="c-l">,</span><span class="c-s">:</span><span class="c-l">,</span><span class="c-s">:</span><span class="c-d">·.</span><span class="c-l">,</span><span class="c-s">,,</span></div><div class="ln">    <span class="c-s">.</span> <span class="c-l">,</span><span class="c-d">.·.</span><span class="c-s">;</span><span class="c-d">....</span><span class="c-l">,</span><span class="c-d">.</span><span class="c-s">:</span><span class="c-d">..</span><span class="c-h">**</span><span class="c-d">..</span><span class="c-s">:</span><span class="c-l">,</span><span class="c-h">*</span><span class="c-l">&#x27;</span><span class="c-o">o</span><span class="c-d">·</span><span class="c-l">&#x27;</span></div><div class="ln">     <span class="c-d">..</span><span class="c-s">;</span><span class="c-l">,</span><span class="c-d">·</span><span class="c-g">o</span><span class="c-s">;</span><span class="c-l">,,</span> <span class="c-d">....</span><span class="c-l">,</span><span class="c-d">...</span><span class="c-l">,</span><span class="c-s">:</span><span class="c-d">..</span><span class="c-l">&#x27;&#x27;</span><span class="c-d">..·</span> <span class="c-s">&#x27;</span></div><div class="ln">  <span class="c-l">`</span><span class="c-d">.</span> <span class="c-h">*</span><span class="c-s">::</span><span class="c-d">....</span><span class="c-l">,</span><span class="c-d">.·.·..</span><span class="c-l">,</span><span class="c-d">.</span><span class="c-h">*</span><span class="c-d">.....·.....</span></div><div class="ln"> <span class="c-s">`</span><span class="c-d">..</span><span class="c-s">;;</span><span class="c-l">&#x27;</span><span class="c-s">:</span><span class="c-l">&#x27;</span><span class="c-d">.·</span> <span class="c-d">......</span> <span class="c-l">,</span><span class="c-d">..</span><span class="c-h">*</span><span class="c-d">...</span><span class="c-s">;</span><span class="c-d">·</span><span class="c-s">:</span><span class="c-d">...</span><span class="c-s">:</span><span class="c-d">.</span></div><div class="ln"> <span class="c-d">...</span><span class="c-h">*</span><span class="c-d">.</span><span class="c-s">:</span><span class="c-l">,</span><span class="c-d">.</span><span class="c-l">,</span><span class="c-d">.</span><span class="c-s">:</span> <span class="c-w">||</span><span class="c-s">.</span><span class="c-l">,,</span>  <span class="c-d">·.</span><span class="c-l">,</span><span class="c-d">·</span><span class="c-l">,</span><span class="c-s">;</span><span class="c-l">,,</span><span class="c-d">..</span><span class="c-h">*</span><span class="c-d">.</span><span class="c-l">,</span><span class="c-s">,</span></div><div class="ln"><span class="c-s">.</span><span class="c-d">..</span><span class="c-s">;</span><span class="c-d">...</span><span class="c-l">,</span><span class="c-s">:</span><span class="c-d">.</span><span class="c-h">*</span><span class="c-s">,</span> <span class="c-w">||</span><span class="c-b">||</span>    <span class="c-s">.</span> <span class="c-d">.·.·.</span> <span class="c-d">.</span><span class="c-s">::</span> <span class="c-l">,</span></div><div class="ln"> <span class="c-s">.</span><span class="c-d">...</span><span class="c-l">,</span><span class="c-d">.</span><span class="c-l">,</span><span class="c-d">·.</span> <span class="c-l">,</span> <span class="c-w">||</span><span class="c-b">||</span>      <span class="c-l">.</span>  <span class="c-s">.,,</span></div><div class="ln">  <span class="c-l">.</span><span class="c-s">.</span><span class="c-l">.</span>  <span class="c-s">,,</span> <span class="c-l">,</span>   <span class="c-w">|</span><span class="c-b">|</span>              <span class="c-b">|</span></div><div class="ln">       <span class="c-b">||</span>     <span class="c-w">|</span><span class="c-b">|</span>             <span class="c-b">||</span></div><div class="ln">        <span class="c-b">|</span>     <span class="c-w">||</span>             <span class="c-b">|</span></div><div class="ln">        <span class="c-b">||</span>    <span class="c-w">|||</span>           <span class="c-b">||</span></div><div class="ln">         <span class="c-b">|</span>    <span class="c-w">|||</span>           <span class="c-b">|</span></div><div class="ln">          <span class="c-b">|</span>   <span class="c-w">||</span>       <span class="c-w">|</span>   <span class="c-b">||</span></div><div class="ln">           <span class="c-b">|</span>  <span class="c-w">||</span>       <span class="c-w">|</span>   <span class="c-b">|</span></div><div class="ln">            <span class="c-b">|</span> <span class="c-w">||</span>      <span class="c-w">||</span>  <span class="c-b">|</span></div><div class="ln">             <span class="c-b">|</span><span class="c-w">||</span>      <span class="c-w">||</span> <span class="c-b">|</span></div><div class="ln">              <span class="c-w">||</span>      <span class="c-w">||</span><span class="c-b">|</span></div><div class="ln">             <span class="c-w">|||</span>      <span class="c-w">|</span><span class="c-b">|</span></div><div class="ln">             <span class="c-w">||||</span>     <span class="c-w">|</span></div><div class="ln">              <span class="c-w">|||</span>    <span class="c-w">||</span></div><div class="ln">              <span class="c-w">|||</span>    <span class="c-w">||</span></div><div class="ln">              <span class="c-w">||||</span>   <span class="c-w">|</span></div><div class="ln">               <span class="c-w">|||</span>  <span class="c-w">||</span></div><div class="ln">               <span class="c-w">|||</span>  <span class="c-w">||</span></div><div class="ln">               <span class="c-w">|||</span> <span class="c-w">||</span></div><div class="ln">               <span class="c-w">|||</span> <span class="c-w">||</span></div><div class="ln">               <span class="c-w">|||</span> <span class="c-w">||</span></div><div class="ln">               <span class="c-w">||||||</span></div><div class="ln">               <span class="c-w">|||||</span></div><div class="ln">                <span class="c-w">||||</span></div><div class="ln">                <span class="c-w">||||</span></div><div class="ln"></div></div>
+
+    <div class="hero__glyphs" aria-hidden="true"><pre>· ' , · ` '
+  ' · , · ·
+· ` , ' · '</pre></div>
+    <span class="hero__label" aria-hidden="true">OLEA / 01</span>
+    <div class="hero__glyphs" aria-hidden="true"><pre>· ' , · ` '
+  ' · , · ·
+· ` , ' · '</pre></div>
+    <span class="hero__label" aria-hidden="true">OLEA / 01</span>
+    <div class="hero__scrim" aria-hidden="true"></div>
+    <div class="container hero__inner">
+      <p class="mono hero__meta">OLIVE / INTELLIGENT FINANCE</p>
+      <h1 class="display-l hero__h1">The future of DeFi<br>is <span class="signal wave" data-wave>intelligent.</span></h1>
+      <p class="body-l hero__lede">Olive combines Connected DeFi, Quantitative Investments, Agentic Trading, and Asset and Portfolio Management in one platform, built around a native wallet.</p>
+      <div class="hero__ctas">
+        <a class="btn btn--primary" href="#system"><span>Explore Olive</span><svg class="btn__arrow" width="16" height="16" aria-hidden="true"><use href="#arr"/></svg></a>
+        <a class="btn btn--secondary" href="#how-it-works"><span>Discover our approach</span><svg class="btn__arrow" width="16" height="16" aria-hidden="true"><use href="#arr"/></svg></a>
+      </div>
+      <div class="hero__ticker">
+        <span>Native wallet</span>
+        <span>Four pillars</span>
+        <span>One platform</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 PROBLEM -->
+  <section class="section" id="problem">
+    <div class="container">
+      <div class="sec-head" data-reveal>
+        <p class="mono sec-index">02 / The problem</p>
+        <h2 class="h2 sec-title">DeFi has expanded. The experience remains fragmented.</h2>
+        <p class="body-l sec-lede">Digital assets and decentralised finance have opened up new ways to access, invest, and manage capital. But the tools needed to do so are often spread across different networks, protocols, and applications.</p>
+      </div>
+      <div class="split split--problem" data-reveal>
+        <div class="problem__copy">
+          <p class="body-l">Research happens in one place, trading in another, and portfolio management somewhere else. Connecting these activities can be complex and time-consuming.</p>
+          <p class="body-l">Olive is designed to make these activities easier to access and manage.</p>
+        </div>
+        <div class="frag" aria-label="The fragmented workflow today">
+          <div class="frag__row"><span class="mono">Research</span><span class="body-m">One place</span></div>
+          <div class="frag__row"><span class="mono">Trading</span><span class="body-m">Another</span></div>
+          <div class="frag__row"><span class="mono">Portfolio</span><span class="body-m">Somewhere else</span></div>
+          <div class="frag__join"><span class="mono signal">Olive / connected</span><span class="frag__line" aria-hidden="true"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 FOUR PILLARS — THE ECOSYSTEM -->
+  <section class="section section--surface narrative-section" id="system" aria-labelledby="system-title">
+    <div class="container">
+      <div class="sec-head" data-reveal>
+        <p class="mono sec-index">03 / The four pillars</p>
+        <h2 class="h2 sec-title" id="system-title">One system. Four connected capabilities.</h2>
+        <p class="body-l sec-lede">Access, intelligence, execution and oversight are designed to work as one path, with the Olive Wallet as the foundation.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="pillar-index" data-pillar-list>
+        <div class="pillar-index__head">
+          <p class="mono">Explore each pillar</p>
+          <p class="body-m">Open for context, or go straight to its page.</p>
+        </div>
+
+        <details class="pillar-item" open>
+          <summary class="pillar-item__summary">
+            <span class="mono pillar-item__num">01</span>
+            <span class="pillar-item__label">
+              <span class="mono pillar-item__role">Access</span>
+              <span class="pillar-item__name">Connected DeFi</span>
+            </span>
+            <span class="pillar-item__toggle" aria-hidden="true"></span>
+          </summary>
+          <div class="pillar-item__body">
+            <div>
+              <p>One coherent way into supported blockchain networks, protocols, digital assets and financial opportunities — designed to reduce the need to move between disconnected applications.</p>
+              <a class="tlink" href="features/connected-defi/"><span>Explore Connected DeFi</span><svg width="14" height="14" aria-hidden="true"><use href="#arr"/></svg></a>
+            </div>
+            <ul class="pillar-item__tags" aria-label="Connected DeFi covers">
+              <li class="mono">Multichain</li>
+              <li class="mono">Swaps</li>
+              <li class="mono">Lending &amp; yield</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="pillar-item">
+          <summary class="pillar-item__summary">
+            <span class="mono pillar-item__num">02</span>
+            <span class="pillar-item__label">
+              <span class="mono pillar-item__role">Intelligence</span>
+              <span class="pillar-item__name">Quantitative Investments</span>
+            </span>
+            <span class="pillar-item__toggle" aria-hidden="true"></span>
+          </summary>
+          <div class="pillar-item__body">
+            <div>
+              <p>Market and on-chain data, quantitative models and asset research brought together to support strategy design, comparison and investment understanding.</p>
+              <a class="tlink" href="features/quantitative-investments/"><span>Explore Quantitative Investments</span><svg width="14" height="14" aria-hidden="true"><use href="#arr"/></svg></a>
+            </div>
+            <ul class="pillar-item__tags" aria-label="Quantitative Investments covers">
+              <li class="mono">Market data</li>
+              <li class="mono">Backtesting</li>
+              <li class="mono">RWA evaluation</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="pillar-item">
+          <summary class="pillar-item__summary">
+            <span class="mono pillar-item__num">03</span>
+            <span class="pillar-item__label">
+              <span class="mono pillar-item__role">Execution</span>
+              <span class="pillar-item__name">Agentic Trading</span>
+            </span>
+            <span class="pillar-item__toggle" aria-hidden="true"></span>
+          </summary>
+          <div class="pillar-item__body">
+            <div>
+              <p>Agents designed to analyse conditions and carry out authorised activity within the strategy, risk limits and permissions assigned by the user.</p>
+              <a class="tlink" href="features/agentic-trading/"><span>Explore Agentic Trading</span><svg width="14" height="14" aria-hidden="true"><use href="#arr"/></svg></a>
+            </div>
+            <ul class="pillar-item__tags" aria-label="Agentic Trading covers">
+              <li class="mono">Agent setup</li>
+              <li class="mono">Limits</li>
+              <li class="mono">Oversight</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="pillar-item">
+          <summary class="pillar-item__summary">
+            <span class="mono pillar-item__num">04</span>
+            <span class="pillar-item__label">
+              <span class="mono pillar-item__role">Oversight</span>
+              <span class="pillar-item__name">Asset &amp; Portfolio Management</span>
+            </span>
+            <span class="pillar-item__toggle" aria-hidden="true"></span>
+          </summary>
+          <div class="pillar-item__body">
+            <div>
+              <p>One view of supported digital assets, tokenized RWA investments, positions, performance, income and lifecycle events, with the position explained rather than only displayed.</p>
+              <a class="tlink" href="features/asset-portfolio-management/"><span>Explore Asset &amp; Portfolio Management</span><svg width="14" height="14" aria-hidden="true"><use href="#arr"/></svg></a>
+            </div>
+            <ul class="pillar-item__tags" aria-label="Asset and Portfolio Management covers">
+              <li class="mono">Portfolio</li>
+              <li class="mono">Allocation</li>
+              <li class="mono">Monitoring</li>
+            </ul>
+          </div>
+        </details>
+
+        <a class="pillar-index__foundation" href="#wallet">
+          <span class="mono">Foundation / Olive Wallet</span>
+          <span>The account, asset-access and authorization layer beneath all four.</span>
+          <svg width="16" height="16" aria-hidden="true"><use href="#arr"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="container narrative__lead-in">
+      <p class="mono">How the four connect</p>
+      <p class="body-m">Follow the system from the wallet through access, intelligence, execution and oversight.</p>
+    </div>
+
+    <div class="container narrative" data-narrative>
+      <div class="narrative__grid">
+        <div class="narrative__copy">
+          <section class="narrative__chapter" data-chapter="0" id="system-intro">
+            <p class="mono narrative__kicker">00 / Foundation</p>
+            <h3 class="narrative__title">The wallet is the foundation.</h3>
+            <p class="narrative__lede">Olive Wallet is the account, asset-access and transaction-authorization layer that every capability runs through. It is the starting point, not a fifth pillar.</p>
+            <p>Connected DeFi, Quantitative Investments, Agentic Trading, and Asset and Portfolio Management each do a different job. Together they form one path: access the market, understand the opportunity, execute within your limits, and oversee the result.</p>
+            <ul class="narrative__list">
+              <li><span class="mono">Access</span><span>Supported networks, assets and protocols.</span></li>
+              <li><span class="mono">Intelligence</span><span>Research, models and investment analysis.</span></li>
+              <li><span class="mono">Execution</span><span>Authorized agents acting within limits.</span></li>
+              <li><span class="mono">Oversight</span><span>Portfolio visibility, exposure and control.</span></li>
+            </ul>
+            <aside class="narrative__rwa">
+              <p class="mono">RWA marketplace</p>
+              <p>Real-world assets are an investment category accessed through the four pillars, not a separate pillar. Olive's intended model is a third-party marketplace: external issuers remain responsible for their products, specialist partners may provide tokenization, custody, administration, verification, payment and settlement, and Olive provides the marketplace, wallet connectivity, research and portfolio interface. Olive does not initially position itself as the originator, issuer, custodian or operator of a proprietary secondary exchange.</p>
+            </aside>
+            <p class="narrative__note mono">Illustrative architecture. Olive is in development.</p>
+          </section>
+
+          <section class="narrative__chapter" data-chapter="1" id="connected-defi">
+            <p class="mono narrative__kicker">01 / Access</p>
+            <h3 class="narrative__title">Connected DeFi</h3>
+            <p class="narrative__lede">One coherent way into decentralised finance.</p>
+            <p>Connected DeFi is Olive's access layer to supported blockchain networks, protocols, digital assets and financial opportunities. It is designed to reduce the need to move between disconnected applications and interfaces.</p>
+            <p>Users can reach supported networks and assets through the wallet, explore token swaps and decentralised trading where liquidity and infrastructure allow, and access DeFi services such as exchanges, staking, lending, borrowing and yield.</p>
+            <ul class="narrative__list">
+              <li><span class="mono">Multichain</span><span>Supported networks and assets in one interface.</span></li>
+              <li><span class="mono">Cross-chain</span><span>Connect otherwise separate blockchain environments.</span></li>
+              <li><span class="mono">Swaps</span><span>Trading access subject to supported liquidity and protocols.</span></li>
+              <li><span class="mono">Protocols</span><span>DEX, staking, lending, borrowing and yield access.</span></li>
+              <li><span class="mono">Discovery</span><span>Explore supported tokens, protocols and opportunities.</span></li>
+            </ul>
+            <aside class="narrative__rwa">
+              <p class="mono">RWA access</p>
+              <p>Connected DeFi is also the access point for tokenized real-world asset products available through Olive's intended marketplace. Transferability, trading, liquidity, collateral use, distributions and redemption depend on the product's legal structure, issuer terms and infrastructure.</p>
+            </aside>
+            <a class="tlink narrative__more" href="features/connected-defi/"><span>Explore Connected DeFi</span><svg width="14" height="14" aria-hidden="true"><use href="#arr"/></svg></a>
+          </section>
+
+          <section class="narrative__chapter" data-chapter="2" id="quantitative">
+            <p class="mono narrative__kicker">02 / Intelligence</p>
+            <h3 class="narrative__title">Quantitative Investments</h3>
+            <p class="narrative__lede">Turn market and asset information into investment understanding.</p>
+            <p>Quantitative Investments is Olive's research, analytical and investment-intelligence layer. It is designed to help users understand markets, evaluate opportunities, assess assets and develop systematic strategies.</p>
+            <p>Market and on-chain data, quantitative models, statistical analysis and backtesting where reliable historical data exists come together to support strategy design, risk and return analysis, and asset or protocol research.</p>
+            <ul class="narrative__list">
+              <li><span class="mono">Markets</span><span>Prices, performance, trends, history and on-chain data.</span></li>
+              <li><span class="mono">Research</span><span>Models, statistics, comparisons and measurable opportunities.</span></li>
+              <li><span class="mono">Strategies</span><span>Design, backtesting, evaluation and refinement.</span></li>
+              <li><span class="mono">Assets</span><span>Market structure, liquidity and protocol risk.</span></li>
+              <li><span class="mono">RWA</span><span>Issuer, underlying, structure, income, valuation, liquidity and risk.</span></li>
+            </ul>
+            <aside class="narrative__rwa">
+              <p class="mono">RWA evaluation</p>
+              <p>For RWA products, the analytical layer helps compare issuers, underlying assets, legal structures, income mechanics, pricing context, liquidity, redemption terms and risk. A token may represent a legal interest, debt claim, beneficial interest, asset-backed claim or synthetic exposure — not necessarily direct ownership. Projected income, historical performance and estimated valuations are not guarantees.</p>
+              <p class="mono narrative__rwa-foot">Potential categories — not confirmed at launch: government securities, real estate, commodities, private credit, tokenized funds and eligible equity.</p>
+            </aside>
+            <a class="tlink narrative__more" href="features/quantitative-investments/"><span>Explore Quantitative Investments</span><svg width="14" height="14" aria-hidden="true"><use href="#arr"/></svg></a>
+          </section>
+
+          <section class="narrative__chapter" data-chapter="3" id="agentic">
+            <p class="mono narrative__kicker">03 / Execution</p>
+            <h3 class="narrative__title">Agentic Trading</h3>
+            <p class="narrative__lede">Authorised strategies, carried out within your limits.</p>
+            <p>Agentic Trading is Olive's intelligent execution layer. Agents are designed to analyse conditions, identify opportunities that fit an assigned strategy, and execute authorised activity within user-defined objectives, limits and permissions.</p>
+            <p>Users can discover and configure agents, assign a strategy, set risk preferences, capital limits and operating conditions, and monitor activity, positions and performance. Authority stays with the user.</p>
+            <ul class="narrative__list">
+              <li><span class="mono">Discovery</span><span>Purpose, markets, strategies and operating characteristics.</span></li>
+              <li><span class="mono">Configuration</span><span>Objectives, assets, strategy, risk, limits and permissions.</span></li>
+              <li><span class="mono">Assignment</span><span>Define the conditions under which an agent may operate.</span></li>
+              <li><span class="mono">Monitoring</span><span>Market conditions, prices, liquidity and signals.</span></li>
+              <li><span class="mono">Execution</span><span>Permitted actions within granted limits.</span></li>
+            </ul>
+            <aside class="narrative__rwa">
+              <p class="mono">Conditional RWA execution</p>
+              <p>For supported RWA products, agents may monitor opportunities, track availability and conditions, alert users, compare products and suggest allocations. Execution is conditional on the issuer, marketplace, payment and settlement infrastructure. RWA products do not all trade continuously or settle instantly; an agent must not treat them as if they do.</p>
+            </aside>
+            <a class="tlink narrative__more" href="features/agentic-trading/"><span>Explore Agentic Trading</span><svg width="14" height="14" aria-hidden="true"><use href="#arr"/></svg></a>
+          </section>
+
+          <section class="narrative__chapter" data-chapter="4" id="portfolio">
+            <p class="mono narrative__kicker">04 / Oversight</p>
+            <h3 class="narrative__title">Asset and Portfolio Management</h3>
+            <p class="narrative__lede">Understand your assets. Manage your capital.</p>
+            <p>Asset and Portfolio Management is Olive's unified financial oversight and capital-management layer. It brings supported digital assets, tokenized RWA investments, positions and financial activity into one view.</p>
+            <p>The portfolio is designed to explain the position, not just display a dashboard: what is held, how it is changing, what income or events are occurring, and how capital is distributed across supported networks and products.</p>
+            <ul class="narrative__list">
+              <li><span class="mono">Portfolio</span><span>Digital assets, tokenized RWA investments, positions and consolidated visibility.</span></li>
+              <li><span class="mono">Capital</span><span>Allocation, exposure, position management, rebalancing and optimisation.</span></li>
+              <li><span class="mono">Performance</span><span>History, P&amp;L where reliable data exists, asset-level and allocation analysis.</span></li>
+              <li><span class="mono">Activity</span><span>Transactions, deposits, withdrawals, distributions and income events.</span></li>
+              <li><span class="mono">Monitoring</span><span>Alerts, changes, maturity notifications, redemption status and issuer updates.</span></li>
+              <li><span class="mono">RWA lifecycle</span><span>Product, issuer, rights, valuation and date, fees, maturity, redemption and disclosures.</span></li>
+            </ul>
+            <aside class="narrative__rwa">
+              <p class="mono">Product-specific terms</p>
+              <p>RWA holdings appear alongside other supported assets. For each investment, users can inspect the product and issuer, underlying asset, legal or economic rights, amount, current reported valuation and date, income, fees, maturity, redemption conditions and status, transfer restrictions and relevant disclosures.</p>
+              <p class="mono narrative__rwa-foot">Valuation frequency, liquidity, income structures and redemption processes differ by product. No instant liquidation or automatic rebalancing is implied.</p>
+            </aside>
+            <a class="tlink narrative__more" href="features/asset-portfolio-management/"><span>Explore Asset &amp; Portfolio Management</span><svg width="14" height="14" aria-hidden="true"><use href="#arr"/></svg></a>
+          </section>
+
+          <section class="narrative__chapter narrative__chapter--finale" data-chapter="5" id="integrated-system">
+            <p class="mono narrative__kicker">05 / One system</p>
+            <h3 class="narrative__title">Four capabilities. One intelligent financial platform.</h3>
+            <p class="narrative__lede">A more connected way to engage with finance.</p>
+            <p>Olive brings connected DeFi, quantitative investment intelligence, agentic execution and asset management together in one integrated experience, connecting digital assets and tokenized real-world investment opportunities through the Olive Wallet.</p>
+            <p>Real-world assets remain an investment category carried across the system, not a fifth pillar. Third-party issuers and specialist partners remain responsible for the products and services they provide.</p>
+            <div class="narrative__ctas">
+              <a class="btn btn--primary" href="#closing"><span>Explore Olive</span><svg class="btn__arrow" width="16" height="16" aria-hidden="true"><use href="#arr"/></svg></a>
+              <a class="btn btn--secondary" href="#how-it-works"><span>See how it works</span></a>
+            </div>
+            <p class="narrative__note mono">Olive is in development. Nothing on this website constitutes financial advice or a promise of returns.</p>
+          </section>
+        </div>
+
+        <div class="narrative__visual">
+          <div class="narrative__sticky" data-stage data-act="0">
+            <div class="narrative__chrome">
+              <span class="mono narrative__chrome-label">THE OLIVE SYSTEM</span>
+              <span class="mono narrative__chapter-label" data-stage-label>00 / FOUNDATION</span>
+              <span class="narrative__phase-dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+              <span class="mono narrative__tag">ILLUSTRATIVE / IN DEVELOPMENT</span>
+            </div>
+            <div class="narrative__progress-bar" aria-hidden="true"><span data-progress></span></div>
+            <div class="narrative__canvas">
+              <svg class="system" viewBox="0 0 900 860" role="img" aria-labelledby="system-scene-title system-scene-desc" preserveAspectRatio="xMidYMid meet">
+                <title id="system-scene-title">The Olive system</title>
+                <desc id="system-scene-desc">Illustrative architecture: the Olive Wallet foundation, four connected pillars and an RWA marketplace lane.</desc>
+
+                <g class="sys-rail" aria-hidden="true">
+                  <line class="sys-rail-line" x1="34" y1="150" x2="34" y2="626" />
+                  <g class="sys-chip" data-chip="1">
+                    <rect class="sys-chip-box" x="48" y="150" width="214" height="86" rx="6" />
+                    <rect class="sys-chip-bar" x="48" y="150" width="3" height="86" />
+                    <text class="sys-chip-num" x="68" y="178">01</text>
+                    <text class="sys-chip-name" x="68" y="201">Connected DeFi</text>
+                    <text class="sys-chip-tag" x="68" y="221">ACCESS</text>
+                  </g>
+                  <g class="sys-chip" data-chip="2">
+                    <rect class="sys-chip-box" x="48" y="280" width="214" height="86" rx="6" />
+                    <rect class="sys-chip-bar" x="48" y="280" width="3" height="86" />
+                    <text class="sys-chip-num" x="68" y="308">02</text>
+                    <text class="sys-chip-name" x="68" y="331">Quantitative Investments</text>
+                    <text class="sys-chip-tag" x="68" y="351">INTELLIGENCE</text>
+                  </g>
+                  <g class="sys-chip" data-chip="3">
+                    <rect class="sys-chip-box" x="48" y="410" width="214" height="86" rx="6" />
+                    <rect class="sys-chip-bar" x="48" y="410" width="3" height="86" />
+                    <text class="sys-chip-num" x="68" y="438">03</text>
+                    <text class="sys-chip-name" x="68" y="461">Agentic Trading</text>
+                    <text class="sys-chip-tag" x="68" y="481">EXECUTION</text>
+                  </g>
+                  <g class="sys-chip" data-chip="4">
+                    <rect class="sys-chip-box" x="48" y="540" width="214" height="86" rx="6" />
+                    <rect class="sys-chip-bar" x="48" y="540" width="3" height="86" />
+                    <text class="sys-chip-num" x="68" y="566">04</text>
+                    <text class="sys-chip-name" x="68" y="584">Asset &amp; Portfolio</text>
+                    <text class="sys-chip-name" x="68" y="600">Management</text>
+                    <text class="sys-chip-tag" x="68" y="616">OVERSIGHT</text>
+                  </g>
+                </g>
+
+                <g class="sys-rwa" aria-hidden="true">
+                  <line class="sys-rwa-line" x1="290" y1="694" x2="860" y2="694" />
+                  <circle class="sys-rwa-dot" cx="300" cy="694" r="3" />
+                  <text class="sys-label-green" x="290" y="682">RWA MARKETPLACE / THIRD-PARTY PRODUCTS</text>
+                  <g class="sys-rwa-product">
+                    <rect x="620" y="674" width="88" height="34" rx="4" />
+                    <text class="sys-label-muted" x="630" y="689">RWA PRODUCT</text>
+                    <text class="sys-label-faint" x="630" y="701">THIRD-PARTY</text>
+                  </g>
+                  <g class="sys-rwa-product">
+                    <rect x="714" y="674" width="88" height="34" rx="4" />
+                    <text class="sys-label-muted" x="724" y="689">RWA PRODUCT</text>
+                    <text class="sys-label-faint" x="724" y="701">THIRD-PARTY</text>
+                  </g>
+                </g>
+
+                <g class="sys-wallet" aria-hidden="true">
+                  <line class="sys-spine" x1="575" y1="670" x2="575" y2="744" />
+                  <g class="sys-spine-dot"><circle cx="575" cy="700" r="3" /></g>
+                  <rect class="sys-wallet-box" x="455" y="744" width="240" height="72" rx="6" />
+                  <rect class="sys-wallet-bar" x="455" y="744" width="4" height="72" />
+                  <use class="sys-mark-ink" href="#olive-mark" x="476" y="769" width="22" height="22" />
+                  <text class="sys-wallet-name" x="510" y="776">OLIVE WALLET</text>
+                  <text class="sys-wallet-sub" x="510" y="794">FOUNDATION LAYER</text>
+                </g>
+
+                <g class="sys-main" aria-hidden="true">
+                  <rect class="sys-panel" x="290" y="110" width="570" height="560" rx="8" />
+                  <clipPath id="sys-clip"><rect x="290" y="110" width="570" height="560" rx="8" /></clipPath>
+                  <g clip-path="url(#sys-clip)">
+
+                    <g class="sys-act" data-act-group="0">
+                      <text class="sys-kicker" x="320" y="150">THE SYSTEM</text>
+                      <text class="sys-h1" x="320" y="182">Four capabilities. One wallet.</text>
+                      <text class="sys-sub" x="320" y="204">Each pillar does a different job. Together they form one path.</text>
+
+                      <text class="sys-label-green" x="320" y="246">ONE PATH / ONE FOUNDATION</text>
+                      <path class="sys-line-soft" d="M360 380 H810" />
+                      <path class="sys-line-soft" d="M575 380 V670" opacity=".45" />
+
+                      <g class="sys-station">
+                        <circle cx="390" cy="380" r="18" />
+                        <circle class="sys-station-dot" cx="390" cy="380" r="4" />
+                        <text class="sys-station-num" x="390" y="416" text-anchor="middle">01</text>
+                        <text class="sys-station-title" x="390" y="330" text-anchor="middle">Connected DeFi</text>
+                        <text class="sys-station-role" x="390" y="450" text-anchor="middle">ACCESS</text>
+                      </g>
+                      <g class="sys-station">
+                        <circle cx="520" cy="380" r="18" />
+                        <circle class="sys-station-dot" cx="520" cy="380" r="4" />
+                        <text class="sys-station-num" x="520" y="416" text-anchor="middle">02</text>
+                        <text class="sys-station-title" x="520" y="318" text-anchor="middle">Quantitative</text>
+                        <text class="sys-station-title" x="520" y="338" text-anchor="middle">Investments</text>
+                        <text class="sys-station-role" x="520" y="450" text-anchor="middle">INTELLIGENCE</text>
+                      </g>
+                      <g class="sys-station">
+                        <circle cx="650" cy="380" r="18" />
+                        <circle class="sys-station-dot" cx="650" cy="380" r="4" />
+                        <text class="sys-station-num" x="650" y="416" text-anchor="middle">03</text>
+                        <text class="sys-station-title" x="650" y="330" text-anchor="middle">Agentic Trading</text>
+                        <text class="sys-station-role" x="650" y="450" text-anchor="middle">EXECUTION</text>
+                      </g>
+                      <g class="sys-station">
+                        <circle cx="780" cy="380" r="18" />
+                        <circle class="sys-station-dot" cx="780" cy="380" r="4" />
+                        <text class="sys-station-num" x="780" y="416" text-anchor="middle">04</text>
+                        <text class="sys-station-title" x="780" y="318" text-anchor="middle">Asset &amp; Portfolio</text>
+                        <text class="sys-station-title" x="780" y="338" text-anchor="middle">Management</text>
+                        <text class="sys-station-role" x="780" y="450" text-anchor="middle">OVERSIGHT</text>
+                      </g>
+
+                      <text class="sys-label-faint" x="320" y="654">RWA IS AN INVESTMENT CATEGORY, NOT A FIFTH PILLAR</text>
+                    </g>
+
+                    <g class="sys-act" data-act-group="1">
+                      <text class="sys-kicker" x="320" y="150">01 / ACCESS</text>
+                      <text class="sys-h1" x="320" y="182">Connected DeFi</text>
+                      <text class="sys-sub" x="320" y="204">Supported networks, protocols and assets in one interface.</text>
+
+                      <rect class="sys-boundary" x="320" y="226" width="510" height="330" rx="8" />
+                      <text class="sys-label-faint" x="336" y="246">EXTERNAL INFRASTRUCTURE</text>
+
+                      <path class="sys-line-soft" d="M533 360 H500 V310 H420 M617 360 H650 V310 H690 M533 360 H500 V490 H420 M617 360 H650 V490 H690" />
+                      <path class="sys-draw" pathLength="1" d="M533 360 H500 V310 H420 M617 360 H650 V310 H690 M533 360 H500 V490 H420 M617 360 H650 V490 H690" />
+
+                      <g class="sys-frag sys-frag--a">
+                        <text class="sys-label-muted" x="400" y="266" text-anchor="middle">SUPPORTED NETWORK</text>
+                        <path class="sys-net-line" d="M380 290 H420 V330 H380 Z" />
+                        <circle class="sys-net-dot" cx="380" cy="290" r="4" />
+                        <circle class="sys-net-dot" cx="420" cy="290" r="4" />
+                        <circle class="sys-net-dot" cx="420" cy="330" r="4" />
+                        <circle class="sys-net-dot" cx="380" cy="330" r="4" />
+                      </g>
+                      <g class="sys-frag sys-frag--b">
+                        <text class="sys-label-muted" x="710" y="266" text-anchor="middle">SUPPORTED NETWORK</text>
+                        <path class="sys-net-line" d="M690 290 H730 V330 H690 Z" />
+                        <circle class="sys-net-dot" cx="690" cy="290" r="4" />
+                        <circle class="sys-net-dot" cx="730" cy="290" r="4" />
+                        <circle class="sys-net-dot" cx="730" cy="330" r="4" />
+                        <circle class="sys-net-dot" cx="690" cy="330" r="4" />
+                      </g>
+                      <g class="sys-frag sys-frag--c">
+                        <text class="sys-label-muted" x="400" y="446" text-anchor="middle">SUPPORTED NETWORK</text>
+                        <path class="sys-net-line" d="M380 470 H420 V510 H380 Z" />
+                        <circle class="sys-net-dot" cx="380" cy="470" r="4" />
+                        <circle class="sys-net-dot" cx="420" cy="470" r="4" />
+                        <circle class="sys-net-dot" cx="420" cy="510" r="4" />
+                        <circle class="sys-net-dot" cx="380" cy="510" r="4" />
+                      </g>
+                      <g class="sys-frag sys-frag--d">
+                        <text class="sys-label-muted" x="710" y="446" text-anchor="middle">SUPPORTED NETWORK</text>
+                        <path class="sys-net-line" d="M690 470 H730 V510 H690 Z" />
+                        <circle class="sys-net-dot" cx="690" cy="470" r="4" />
+                        <circle class="sys-net-dot" cx="730" cy="470" r="4" />
+                        <circle class="sys-net-dot" cx="730" cy="510" r="4" />
+                        <circle class="sys-net-dot" cx="690" cy="510" r="4" />
+                      </g>
+
+                      <circle class="sys-hub" cx="575" cy="360" r="42" />
+                      <use class="sys-mark-ink" href="#olive-mark" x="561" y="346" width="28" height="28" />
+                      <text class="sys-label-green" x="575" y="418" text-anchor="middle">OLIVE ACCESS</text>
+
+                      <g class="sys-protocols">
+                        <rect x="380" y="524" width="70" height="22" rx="4" /><text x="415" y="539" text-anchor="middle">DEX</text>
+                        <rect x="460" y="524" width="70" height="22" rx="4" /><text x="495" y="539" text-anchor="middle">STAKING</text>
+                        <rect x="540" y="524" width="70" height="22" rx="4" /><text x="575" y="539" text-anchor="middle">LENDING</text>
+                        <rect x="620" y="524" width="70" height="22" rx="4" /><text x="655" y="539" text-anchor="middle">BORROWING</text>
+                        <rect x="700" y="524" width="70" height="22" rx="4" /><text x="735" y="539" text-anchor="middle">YIELD</text>
+                      </g>
+
+                      <g class="sys-rwa-inline">
+                        <rect x="425" y="570" width="140" height="52" rx="5" />
+                        <text class="sys-label-green" x="439" y="590">RWA PRODUCT</text>
+                        <text class="sys-label-faint" x="439" y="606">THIRD-PARTY / PRODUCT-SPECIFIC</text>
+                        <rect x="585" y="570" width="140" height="52" rx="5" />
+                        <text class="sys-label-green" x="599" y="590">RWA PRODUCT</text>
+                        <text class="sys-label-faint" x="599" y="606">THIRD-PARTY / PRODUCT-SPECIFIC</text>
+                        <path class="sys-dash" d="M495 622 V670 M655 622 V670" />
+                      </g>
+
+                      <text class="sys-label-faint" x="320" y="654">ACCESS DEPENDS ON SUPPORTED NETWORKS, LIQUIDITY AND PRODUCT TERMS</text>
+                    </g>
+
+                    <g class="sys-act" data-act-group="2">
+                      <text class="sys-kicker" x="320" y="150">02 / INTELLIGENCE</text>
+                      <text class="sys-h1" x="320" y="182">Quantitative Investments</text>
+                      <text class="sys-sub" x="320" y="204">From raw information to structured investment understanding.</text>
+
+                      <text class="sys-label-muted" x="320" y="252">MARKET DATA</text>
+                      <text class="sys-label-muted" x="320" y="292">ON-CHAIN DATA</text>
+                      <text class="sys-label-muted" x="320" y="332">ASSET DATA</text>
+                      <path class="sys-dash" d="M420 248 H480 M420 288 H480 M420 328 H480" />
+                      <path class="sys-draw" pathLength="1" d="M480 248 H490 M480 288 H490 M480 328 H490" />
+
+                      <g class="sys-engine">
+                        <rect x="490" y="226" width="170" height="200" rx="6" />
+                        <text class="sys-label-green" x="506" y="250">QUANT ENGINE</text>
+                        <line class="sys-line-soft" x1="506" y1="266" x2="644" y2="266" />
+                        <text class="sys-label-muted" x="506" y="292">DATA</text>
+                        <text class="sys-label-muted" x="506" y="326">MODELS</text>
+                        <text class="sys-label-muted" x="506" y="360">STRATEGY</text>
+                        <path class="sys-line" d="M575 300 V310 M575 334 V344 M575 368 V378" />
+                        <rect class="sys-soft-box" x="506" y="380" width="138" height="26" rx="3" />
+                        <text class="sys-label-faint" x="516" y="397">EVALUATE / REFINE</text>
+                      </g>
+
+                      <g class="sys-strategy">
+                        <rect x="700" y="246" width="130" height="140" rx="6" />
+                        <text class="sys-label-green" x="714" y="270">STRATEGY</text>
+                        <text class="sys-label-muted" x="714" y="296">RULES</text>
+                        <text class="sys-label-muted" x="714" y="320">UNIVERSE</text>
+                        <text class="sys-label-muted" x="714" y="344">RISK BOUNDS</text>
+                        <path class="sys-line" d="M660 316 H700" />
+                      </g>
+
+                      <g class="sys-dossier">
+                        <rect x="490" y="446" width="340" height="194" rx="6" />
+                        <text class="sys-label-green" x="506" y="470">RWA PRODUCT / EVALUATION</text>
+                        <line class="sys-line-soft" x1="506" y1="480" x2="814" y2="480" />
+                        <g class="sys-row" style="--i:0"><text class="sys-label-muted" x="506" y="500">ISSUER</text><line class="sys-dash" x1="640" y1="496" x2="814" y2="496" /></g>
+                        <g class="sys-row" style="--i:1"><text class="sys-label-muted" x="506" y="520">UNDERLYING ASSET</text><line class="sys-dash" x1="640" y1="516" x2="814" y2="516" /></g>
+                        <g class="sys-row" style="--i:2"><text class="sys-label-muted" x="506" y="540">LEGAL STRUCTURE</text><line class="sys-dash" x1="640" y1="536" x2="814" y2="536" /></g>
+                        <g class="sys-row" style="--i:3"><text class="sys-label-muted" x="506" y="560">INCOME MECHANICS</text><line class="sys-dash" x1="640" y1="556" x2="814" y2="556" /></g>
+                        <g class="sys-row" style="--i:4"><text class="sys-label-muted" x="506" y="580">VALUATION</text><line class="sys-dash" x1="640" y1="576" x2="814" y2="576" /></g>
+                        <g class="sys-row" style="--i:5"><text class="sys-label-muted" x="506" y="600">LIQUIDITY / REDEMPTION</text><line class="sys-dash" x1="640" y1="596" x2="814" y2="596" /></g>
+                        <g class="sys-row" style="--i:6"><text class="sys-label-muted" x="506" y="620">RISK</text><line class="sys-dash" x1="640" y1="616" x2="814" y2="616" /></g>
+                      </g>
+
+                      <text class="sys-label-faint" x="320" y="654">ILLUSTRATIVE ANALYSIS / NO GUARANTEED OUTCOMES</text>
+                    </g>
+
+                    <g class="sys-act" data-act-group="3">
+                      <text class="sys-kicker" x="320" y="150">03 / EXECUTION</text>
+                      <text class="sys-h1" x="320" y="182">Agentic Trading</text>
+                      <text class="sys-sub" x="320" y="204">Authorised strategies, carried out within your limits.</text>
+
+                      <g class="sys-agent">
+                        <rect x="320" y="226" width="230" height="260" rx="6" />
+                        <text class="sys-label-green" x="336" y="250">AGENT / WITHIN LIMITS</text>
+                        <line class="sys-line-soft" x1="336" y1="260" x2="534" y2="260" />
+                        <text class="sys-label-muted" x="336" y="286">OBJECTIVE</text>
+                        <text class="sys-label-muted" x="336" y="318">STRATEGY</text>
+                        <text class="sys-label-muted" x="336" y="350">RISK</text>
+                        <text class="sys-label-muted" x="336" y="382">CAPITAL LIMIT</text>
+                        <text class="sys-label-muted" x="336" y="414">PERMISSIONS</text>
+                        <text class="sys-label-muted" x="336" y="446">CONDITIONS</text>
+                        <g class="sys-field-values">
+                          <rect x="448" y="272" width="86" height="18" rx="3" />
+                          <rect x="448" y="304" width="70" height="18" rx="3" />
+                          <rect x="448" y="336" width="80" height="18" rx="3" />
+                          <rect x="448" y="368" width="62" height="18" rx="3" />
+                          <rect x="448" y="400" width="86" height="18" rx="3" />
+                          <rect x="448" y="432" width="74" height="18" rx="3" />
+                        </g>
+                      </g>
+
+                      <g class="sys-ring">
+                        <circle class="sys-ring-base" cx="660" cy="318" r="76" />
+                        <circle class="sys-ring-arc" cx="660" cy="318" r="76" pathLength="1" />
+                        <text class="sys-label-green" x="660" y="314" text-anchor="middle">USER CONTROL</text>
+                        <text class="sys-label-faint" x="660" y="332" text-anchor="middle">LIMITS / REVOCABLE</text>
+                        <path class="sys-line-soft" d="M550 318 H584" opacity=".5" />
+                      </g>
+
+                      <g class="sys-execution">
+                        <rect x="590" y="446" width="240" height="120" rx="6" />
+                        <text class="sys-label-green" x="606" y="470">AUTHORIZED EXECUTION</text>
+                        <path class="sys-line" d="M606 506 H700" />
+                        <circle class="sys-exec-dot" cx="700" cy="506" r="4" />
+                        <path class="sys-dash" d="M700 506 H790" />
+                        <line class="sys-line-soft" x1="790" y1="486" x2="790" y2="526" />
+                        <text class="sys-label-faint" x="790" y="548" text-anchor="end">RWA GATE</text>
+                        <text class="sys-label-faint" x="790" y="560" text-anchor="end">ISSUER / SETTLEMENT</text>
+                        <text class="sys-label-faint" x="606" y="548">CONDITIONAL BEYOND</text>
+                      </g>
+
+                      <path class="sys-dash" d="M790 566 V670" opacity=".7" />
+                      <text class="sys-label-faint" x="320" y="654">AUTHORITY IS GRANTED BY THE USER AND CAN BE REVOKED</text>
+                    </g>
+
+                    <g class="sys-act" data-act-group="4">
+                      <text class="sys-kicker" x="320" y="150">04 / OVERSIGHT</text>
+                      <text class="sys-h1" x="320" y="182">Asset and Portfolio Management</text>
+                      <text class="sys-sub" x="320" y="204">Understand your assets. Manage your capital.</text>
+
+                      <g class="sys-inputs" aria-hidden="true">
+                        <g class="sys-input" style="--dx:20px;--dy:58px">
+                          <rect x="330" y="240" width="120" height="64" rx="5" />
+                          <text class="sys-label-green" x="344" y="264">ASSETS</text>
+                          <rect class="sys-skeleton" x="344" y="278" width="78" height="6" rx="3" />
+                        </g>
+                        <g class="sys-input" style="--dx:-120px;--dy:58px">
+                          <rect x="470" y="240" width="120" height="64" rx="5" />
+                          <text class="sys-label-green" x="484" y="264">POSITIONS</text>
+                          <rect class="sys-skeleton" x="484" y="278" width="78" height="6" rx="3" />
+                        </g>
+                        <g class="sys-input" style="--dx:20px;--dy:-92px">
+                          <rect x="330" y="390" width="120" height="64" rx="5" />
+                          <text class="sys-label-green" x="344" y="414">ACTIVITY</text>
+                          <rect class="sys-skeleton" x="344" y="428" width="78" height="6" rx="3" />
+                        </g>
+                        <g class="sys-input" style="--dx:-120px;--dy:-92px">
+                          <rect x="470" y="390" width="120" height="64" rx="5" />
+                          <text class="sys-label-green" x="484" y="414">RWA PRODUCT</text>
+                          <rect class="sys-skeleton" x="484" y="428" width="78" height="6" rx="3" />
+                        </g>
+                      </g>
+
+                      <g class="sys-portfolio">
+                        <circle class="sys-ring-base" cx="410" cy="330" r="72" />
+                        <circle class="sys-alloc-arc sys-alloc-arc--a" cx="410" cy="330" r="72" pathLength="1" />
+                        <circle class="sys-alloc-arc sys-alloc-arc--b" cx="410" cy="330" r="72" pathLength="1" />
+                        <circle class="sys-alloc-arc sys-alloc-arc--c" cx="410" cy="330" r="72" pathLength="1" />
+                        <text class="sys-label-green" x="410" y="326" text-anchor="middle">PORTFOLIO</text>
+                        <text class="sys-label-faint" x="410" y="344" text-anchor="middle">ILLUSTRATIVE</text>
+                        <g class="sys-legend">
+                          <rect x="320" y="432" width="8" height="8" /><text class="sys-label-muted" x="338" y="440">ASSETS</text>
+                          <rect x="320" y="456" width="8" height="8" /><text class="sys-label-muted" x="338" y="464">POSITIONS</text>
+                          <rect x="320" y="480" width="8" height="8" /><text class="sys-label-muted" x="338" y="488">RWA</text>
+                        </g>
+                      </g>
+
+                      <g class="sys-activity">
+                        <rect x="320" y="510" width="190" height="128" rx="6" />
+                        <text class="sys-label-green" x="336" y="534">ACTIVITY / MONITORING</text>
+                        <line class="sys-line-soft" x1="336" y1="544" x2="494" y2="544" />
+                        <g class="sys-activity-row" data-row-phase="3"><text class="sys-label-muted" x="336" y="558">TRANSACTIONS</text></g>
+                        <g class="sys-activity-row" data-row-phase="3"><text class="sys-label-muted" x="336" y="576">INCOME / DISTRIBUTIONS</text></g>
+                        <g class="sys-activity-row" data-row-phase="4"><text class="sys-label-muted" x="336" y="594">MATURITY / REDEMPTION</text></g>
+                        <g class="sys-activity-row" data-row-phase="4"><text class="sys-label-muted" x="336" y="612">ALERTS / ACTIONS</text></g>
+                        <g class="sys-activity-row" data-row-phase="4"><text class="sys-label-muted" x="336" y="630">ISSUER / MARKET UPDATES</text></g>
+                      </g>
+
+                      <g class="sys-holdings">
+                        <rect x="530" y="226" width="290" height="220" rx="6" />
+                        <text class="sys-label-green" x="546" y="250">HOLDINGS / EXPOSURE</text>
+                        <line class="sys-line-soft" x1="546" y1="260" x2="804" y2="260" />
+                        <text class="sys-label-muted" x="546" y="286">ASSET</text><rect class="sys-bar" x="660" y="278" width="140" height="8" />
+                        <text class="sys-label-muted" x="546" y="316">POSITION</text><rect class="sys-bar" x="660" y="308" width="100" height="8" />
+                        <text class="sys-label-muted" x="546" y="346">EXPOSURE</text><rect class="sys-bar" x="660" y="338" width="120" height="8" />
+                        <text class="sys-label-muted" x="546" y="376">CONCENTRATION</text><rect class="sys-bar" x="660" y="368" width="80" height="8" />
+                        <g class="sys-performance-row"><text class="sys-label-muted" x="546" y="406">PERFORMANCE</text><path class="sys-spark" d="M660 402 L676 398 L692 400 L708 394 L724 396 L740 390 L756 392 L772 386 L788 388 L804 382" /></g>
+                      </g>
+
+                      <g class="sys-rwa-holdings">
+                        <rect x="530" y="466" width="290" height="174" rx="6" />
+                        <text class="sys-label-green" x="546" y="490">RWA HOLDINGS</text>
+                        <line class="sys-line-soft" x1="546" y1="500" x2="804" y2="500" />
+                        <text class="sys-label-muted" x="546" y="526">MATURITY</text>
+                        <text class="sys-label-faint" x="660" y="526">PRODUCT-SPECIFIC</text>
+                        <text class="sys-label-muted" x="546" y="556">DISTRIBUTION</text>
+                        <text class="sys-label-faint" x="660" y="556">PRODUCT-SPECIFIC</text>
+                        <text class="sys-label-muted" x="546" y="586">REDEMPTION</text>
+                        <text class="sys-label-faint" x="660" y="586">PRODUCT-SPECIFIC</text>
+                        <text class="sys-label-muted" x="546" y="616">VALUATION / DATE</text>
+                        <text class="sys-label-faint" x="660" y="616">REPORTED, NOT LIVE</text>
+                        <text class="sys-label-faint" x="546" y="628">NO ASSUMPTION OF INSTANT LIQUIDITY</text>
+                      </g>
+
+                      <text class="sys-label-faint sys-final-note" x="320" y="654">ILLUSTRATIVE PORTFOLIO / PLACEHOLDER DATA</text>
+                    </g>
+
+                    <g class="sys-act" data-act-group="5">
+                      <text class="sys-kicker" x="320" y="150">05 / ONE SYSTEM</text>
+                      <text class="sys-h1" x="320" y="182">One loop. Four capabilities.</text>
+                      <text class="sys-sub" x="320" y="204">Access, intelligence, execution and oversight, connected through the wallet.</text>
+
+                      <path class="sys-loop-path" pathLength="1" d="M390 250 H760 Q820 250 820 310 V450 Q820 510 760 510 H390 Q330 510 330 450 V310 Q330 250 390 250 Z" />
+                      <path class="sys-rwa-thread" d="M370 280 H780 Q790 280 790 370 V430 Q790 480 740 480 H400 Q350 480 350 430 V370 Q350 280 370 280 Z" />
+                      <text class="sys-label-faint" x="575" y="366" text-anchor="middle">ONE SYSTEM</text>
+                      <text class="sys-label-faint" x="575" y="384" text-anchor="middle">RWA / INVESTMENT CATEGORY</text>
+
+                      <g class="sys-loop-station">
+                        <circle cx="390" cy="250" r="24" />
+                        <circle class="sys-station-dot" cx="380" cy="244" r="2.5" />
+                        <circle class="sys-station-dot" cx="398" cy="242" r="2.5" />
+                        <circle class="sys-station-dot" cx="402" cy="256" r="2.5" />
+                        <circle class="sys-station-dot" cx="382" cy="258" r="2.5" />
+                        <text class="sys-station-title" x="390" y="296" text-anchor="middle">ACCESS</text>
+                        <text class="sys-station-role" x="390" y="312" text-anchor="middle">Connected DeFi</text>
+                      </g>
+                      <g class="sys-loop-station">
+                        <circle cx="760" cy="250" r="24" />
+                        <path class="sys-station-line" d="M750 258 V248 M760 258 V242 M770 258 V252" />
+                        <text class="sys-station-title" x="760" y="296" text-anchor="middle">INTELLIGENCE</text>
+                        <text class="sys-station-role" x="760" y="312" text-anchor="middle">Quantitative</text>
+                      </g>
+                      <g class="sys-loop-station">
+                        <circle cx="760" cy="510" r="24" />
+                        <circle class="sys-station-ring" cx="760" cy="510" r="8" />
+                        <path class="sys-station-line" d="M746 510 H736" />
+                        <text class="sys-station-title" x="760" y="554" text-anchor="middle">EXECUTION</text>
+                        <text class="sys-station-role" x="760" y="574" text-anchor="middle">Agentic Trading</text>
+                      </g>
+                      <g class="sys-loop-station">
+                        <circle cx="390" cy="510" r="24" />
+                        <circle class="sys-station-ring" cx="390" cy="510" r="8" />
+                        <text class="sys-station-title" x="390" y="554" text-anchor="middle">OVERSIGHT</text>
+                        <text class="sys-station-role" x="390" y="574" text-anchor="middle">Portfolio</text>
+                      </g>
+
+                      <path class="sys-line-soft" d="M575 510 V670" opacity=".45" />
+                      <path class="sys-loop-arrow" d="M470 246 l10 4 -10 4 M690 246 l10 4 -10 4 M690 510 l10 -4 -10 -4 M470 510 l10 -4 -10 -4" />
+                      <text class="sys-label-faint" x="320" y="600">ACCESS → INTELLIGENCE → EXECUTION → OVERSIGHT</text>
+                      <text class="sys-label-faint" x="320" y="654">RWA IS CARRIED ACROSS THE SYSTEM, NOT A FIFTH PILLAR</text>
+                    </g>
+
+                  </g>
+                </g>
+
+                <g class="sys-access-bridge" aria-hidden="true">
+                  <path class="sys-dash" d="M495 670 V694 M655 670 V694" />
+                </g>
+                <g class="sys-gate-bridge" aria-hidden="true">
+                  <path class="sys-dash" d="M790 670 V694" />
+                </g>
+              </svg>
+
+              <div class="narrative__mobile" aria-hidden="true">
+                <div class="mobile-act" data-mobile-act="0">
+                  <p class="mono">00 / FOUNDATION</p>
+                  <h4>One system. Four capabilities.</h4>
+                  <div class="mobile-chips"><span>Access</span><span>Intelligence</span><span>Execution</span><span>Oversight</span></div>
+                </div>
+                <div class="mobile-act" data-mobile-act="1">
+                  <p class="mono">01 / ACCESS</p>
+                  <h4>Connected DeFi</h4>
+                  <div class="mobile-hub"><span>Networks</span><span>Protocols</span><span>Assets</span><span>Swaps</span></div>
+                </div>
+                <div class="mobile-act" data-mobile-act="2">
+                  <p class="mono">02 / INTELLIGENCE</p>
+                  <h4>Quantitative Investments</h4>
+                  <div class="mobile-chips"><span>Data</span><span>Models</span><span>Strategy</span><span>RWA evaluation</span></div>
+                </div>
+                <div class="mobile-act" data-mobile-act="3">
+                  <p class="mono">03 / EXECUTION</p>
+                  <h4>Agentic Trading</h4>
+                  <div class="mobile-ring"><span>Within limits</span></div>
+                  <div class="mobile-chips"><span>Permissions</span><span>Monitoring</span><span>Execution</span></div>
+                </div>
+                <div class="mobile-act" data-mobile-act="4">
+                  <p class="mono">04 / OVERSIGHT</p>
+                  <h4>Asset and Portfolio Management</h4>
+                  <div class="mobile-phase" data-mobile-phase="0"><div class="mobile-chips"><span>Assets</span><span>Positions</span><span>Activity</span><span>RWA</span></div></div>
+                  <div class="mobile-phase" data-mobile-phase="1"><div class="mobile-chips"><span>One portfolio</span><span>Consolidated view</span></div></div>
+                  <div class="mobile-phase" data-mobile-phase="2"><div class="mobile-chips"><span>Allocation</span><span>Exposure</span><span>Concentration</span></div></div>
+                  <div class="mobile-phase" data-mobile-phase="3"><div class="mobile-chips"><span>Performance</span><span>Income</span><span>Maturity</span></div></div>
+                  <div class="mobile-phase" data-mobile-phase="4"><div class="mobile-chips"><span>Monitoring</span><span>Actions</span><span>RWA lifecycle</span></div></div>
+                </div>
+                <div class="mobile-act" data-mobile-act="5">
+                  <p class="mono">05 / ONE SYSTEM</p>
+                  <h4>One wallet. Four connected capabilities.</h4>
+                  <div class="mobile-chips"><span>Access</span><span>Intelligence</span><span>Execution</span><span>Oversight</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="narrative__progress" role="group" aria-label="Chapters">
+              <a class="mono" href="#system-intro" data-rail="0"><span>00</span> Foundation</a>
+              <a class="mono" href="#connected-defi" data-rail="1"><span>01</span> Access</a>
+              <a class="mono" href="#quantitative" data-rail="2"><span>02</span> Intelligence</a>
+              <a class="mono" href="#agentic" data-rail="3"><span>03</span> Execution</a>
+              <a class="mono" href="#portfolio" data-rail="4"><span>04</span> Oversight</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 04 WALLET -->
+  <section class="section" id="wallet">
+    <div class="container">
+      <div class="feature" data-reveal>
+        <div class="feature__copy">
+          <p class="mono sec-index">04 / Wallet</p>
+          <h2 class="h2">Your starting point for digital assets.</h2>
+          <p class="body-l">Olive Wallet is built directly into the platform, providing a native way to access and interact with digital assets.</p>
+          <p class="body-l">It serves as the foundation for financial activity across Olive, connecting asset access with the platform's other capabilities.</p>
+          <ul class="cap-list">
+            <li><span class="mono">01</span><span>Wallet and asset overview</span></li>
+            <li><span class="mono">02</span><span>Multichain account access</span></li>
+            <li><span class="mono">03</span><span>Send and receive</span></li>
+            <li><span class="mono">04</span><span>Token swaps</span></li>
+            <li><span class="mono">05</span><span>Transaction history</span></li>
+            <li><span class="mono">06</span><span>Wallet permissions and authorisations</span></li>
+          </ul>
+        </div>
+        <figure class="feature__visual">
+          <div class="phone-stage">
+            <div class="phone-stage__top"><span class="panel__tag mono">Interactive demo</span></div>
+            <div class="phone" data-demo="wallet">
+              <div class="phone__screen">
+                <div class="phone__status"><span class="mono">OLIVE / DEMO</span><span class="mono">01</span></div>
+                <header class="phone__header">
+                  <div class="phone__brand">
+                    <svg class="phone__mark" aria-hidden="true"><use href="#olive-mark"/></svg>
+                    <span class="phone__title">Wallet</span>
+                  </div>
+                  <button class="phone__icon" type="button" data-sheet-open="permissions" aria-label="Open permissions demo">···</button>
+                </header>
+                <div class="phone__body">
+                  <section class="phone__view" data-view="wallet">
+                    <div class="phone__balance">
+                      <span class="mono">Total assets</span>
+                      <strong class="phone__amount">—</strong>
+                      <span class="mono phone__sub">Demo wallet · no live data</span>
+                    </div>
+                    <div class="phone__actions">
+                      <button class="phone__action phone__action--primary" type="button" data-sheet-open="send"><span class="mono">Send</span><span aria-hidden="true">→</span></button>
+                      <button class="phone__action" type="button" data-sheet-open="receive"><span class="mono">Receive</span></button>
+                      <button class="phone__action" type="button" data-sheet-open="swap"><span class="mono">Swap</span></button>
+                    </div>
+                    <div class="phone__list-head"><span class="mono">Assets</span><span class="mono">—</span></div>
+                    <div class="phone__assets">
+                      <button class="phone__asset" type="button" data-sheet-open="detail"><span class="phone__dot" aria-hidden="true"></span><span class="phone__asset-name">Asset</span><span class="ph ph--bar" aria-hidden="true"></span><span class="phone__chev" aria-hidden="true">›</span></button>
+                      <button class="phone__asset" type="button" data-sheet-open="detail"><span class="phone__dot" aria-hidden="true"></span><span class="phone__asset-name">Asset</span><span class="ph ph--bar" aria-hidden="true"></span><span class="phone__chev" aria-hidden="true">›</span></button>
+                      <button class="phone__asset" type="button" data-sheet-open="detail"><span class="phone__dot" aria-hidden="true"></span><span class="phone__asset-name">Asset</span><span class="ph ph--bar" aria-hidden="true"></span><span class="phone__chev" aria-hidden="true">›</span></button>
+                    </div>
+                  </section>
+                  <section class="phone__view" data-view="accounts" hidden>
+                    <div class="phone__list-head"><span class="mono">Accounts</span><span class="mono">Demo</span></div>
+                    <div class="phone__accounts">
+                      <button class="phone__asset" type="button" data-sheet-open="detail"><span class="phone__dot" aria-hidden="true"></span><span class="phone__asset-name">Account 01</span><span class="ph ph--bar" aria-hidden="true"></span><span class="phone__chev" aria-hidden="true">›</span></button>
+                      <button class="phone__asset" type="button" data-sheet-open="detail"><span class="phone__dot" aria-hidden="true"></span><span class="phone__asset-name">Account 02</span><span class="ph ph--bar" aria-hidden="true"></span><span class="phone__chev" aria-hidden="true">›</span></button>
+                    </div>
+                    <p class="phone__empty mono">Account data appears here in a live wallet.</p>
+                  </section>
+                  <section class="phone__view" data-view="activity" hidden>
+                    <div class="phone__list-head"><span class="mono">Activity</span><span class="mono">Demo</span></div>
+                    <div class="phone__empty-state">
+                      <span class="mono">No demo activity</span>
+                      <p>Transaction history will appear here in a live wallet.</p>
+                    </div>
+                  </section>
+                </div>
+                <nav class="phone__nav" aria-label="Wallet demo">
+                  <button class="phone__nav-item is-active" type="button" data-view-target="wallet" aria-pressed="true">
+                    <svg class="phone__nav-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><rect x="2" y="3.5" width="12" height="9" rx="2"/><path d="M10 8h4"/><circle cx="10.4" cy="8" r=".7" fill="currentColor" stroke="none"/></svg>
+                    <span class="mono">Wallet</span>
+                  </button>
+                  <button class="phone__nav-item" type="button" data-view-target="accounts" aria-pressed="false">
+                    <svg class="phone__nav-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><circle cx="8" cy="6" r="2.4"/><path d="M3.2 13.5c.4-2.3 2.2-3.5 4.8-3.5s4.4 1.2 4.8 3.5"/></svg>
+                    <span class="mono">Accounts</span>
+                  </button>
+                  <button class="phone__nav-item" type="button" data-view-target="activity" aria-pressed="false">
+                    <svg class="phone__nav-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><circle cx="8" cy="8" r="5.5"/><path d="M8 5v3.2l2 1.2"/></svg>
+                    <span class="mono">Activity</span>
+                  </button>
+                </nav>
+                <div class="phone__sheet-backdrop" data-sheet-close hidden></div>
+                <div class="phone__sheet" data-sheet="send" role="dialog" aria-modal="true" aria-labelledby="sheet-send-title" hidden>
+                  <div class="phone__grabber" aria-hidden="true"></div>
+                  <div class="phone__sheet-head"><h3 class="mono" id="sheet-send-title">Send</h3><button class="phone__close" type="button" data-sheet-close aria-label="Close send demo">×</button></div>
+                  <div class="phone__sheet-body">
+                    <div class="phone__field"><span class="mono">From</span><span>Wallet</span></div>
+                    <div class="phone__field"><span class="mono">To</span><span class="phone__muted">Select recipient</span></div>
+                    <div class="phone__field"><span class="mono">Asset</span><span class="phone__muted">Select asset</span></div>
+                    <div class="phone__field"><span class="mono">Amount</span><span class="phone__muted">—</span></div>
+                    <button class="phone__review mono" type="button" data-demo-note="Review complete — demo only; no transaction is created.">Review</button>
+                    <p class="phone__note mono" data-note>Demo only — no transaction is created.</p>
+                  </div>
+                </div>
+                <div class="phone__sheet" data-sheet="receive" role="dialog" aria-modal="true" aria-labelledby="sheet-receive-title" hidden>
+                  <div class="phone__grabber" aria-hidden="true"></div>
+                  <div class="phone__sheet-head"><h3 class="mono" id="sheet-receive-title">Receive</h3><button class="phone__close" type="button" data-sheet-close aria-label="Close receive demo">×</button></div>
+                  <div class="phone__sheet-body phone__sheet-body--qr">
+                    <svg class="phone__qr" viewBox="0 0 84 84" aria-hidden="true">
+                      <g fill="#1F2D17"><rect x="0" y="0" width="24" height="24"/><rect x="60" y="0" width="24" height="24"/><rect x="0" y="60" width="24" height="24"/></g>
+                      <g fill="#FFFFFF"><rect x="6" y="6" width="12" height="12"/><rect x="66" y="6" width="12" height="12"/><rect x="6" y="66" width="12" height="12"/></g>
+                      <g fill="#1F2D17"><rect x="9" y="9" width="6" height="6"/><rect x="69" y="9" width="6" height="6"/><rect x="9" y="69" width="6" height="6"/></g>
+                      <g fill="#4E6B2F"><rect x="32" y="8" width="6" height="6"/><rect x="44" y="8" width="6" height="6"/><rect x="32" y="20" width="6" height="6"/><rect x="48" y="20" width="6" height="6"/><rect x="8" y="34" width="6" height="6"/><rect x="20" y="34" width="6" height="6"/><rect x="36" y="32" width="12" height="6"/><rect x="56" y="32" width="6" height="6"/><rect x="68" y="34" width="8" height="6"/><rect x="30" y="44" width="6" height="6"/><rect x="44" y="44" width="12" height="6"/><rect x="64" y="46" width="6" height="6"/><rect x="8" y="56" width="6" height="6"/><rect x="20" y="56" width="12" height="6"/><rect x="38" y="58" width="6" height="6"/><rect x="50" y="56" width="6" height="6"/><rect x="66" y="58" width="12" height="6"/><rect x="32" y="70" width="6" height="6"/><rect x="44" y="70" width="18" height="6"/><rect x="72" y="72" width="6" height="6"/></g>
+                    </svg>
+                    <span class="mono phone__qr-label">Demo QR</span>
+                    <p class="phone__note mono" data-note>Demo only — no address is generated.</p>
+                  </div>
+                </div>
+                <div class="phone__sheet" data-sheet="swap" role="dialog" aria-modal="true" aria-labelledby="sheet-swap-title" hidden>
+                  <div class="phone__grabber" aria-hidden="true"></div>
+                  <div class="phone__sheet-head"><h3 class="mono" id="sheet-swap-title">Swap</h3><button class="phone__close" type="button" data-sheet-close aria-label="Close swap demo">×</button></div>
+                  <div class="phone__sheet-body">
+                    <div class="phone__field"><span class="mono">From</span><span class="phone__muted">Select asset</span></div>
+                    <div class="phone__field"><span class="mono">To</span><span class="phone__muted">Select asset</span></div>
+                    <div class="phone__field"><span class="mono">Network</span><span class="phone__muted">Supported network</span></div>
+                    <button class="phone__review mono" type="button" data-demo-note="Preview complete — demo only; no quote is generated.">Preview</button>
+                    <p class="phone__note mono" data-note>Demo only — no quote is generated.</p>
+                  </div>
+                </div>
+                <div class="phone__sheet" data-sheet="detail" role="dialog" aria-modal="true" aria-labelledby="sheet-detail-title" hidden>
+                  <div class="phone__grabber" aria-hidden="true"></div>
+                  <div class="phone__sheet-head"><h3 class="mono" id="sheet-detail-title">Detail</h3><button class="phone__close" type="button" data-sheet-close aria-label="Close detail demo">×</button></div>
+                  <div class="phone__sheet-body">
+                    <div class="phone__detail-top"><span class="phone__dot phone__dot--lg" aria-hidden="true"></span><span class="mono">Illustrative asset / account</span></div>
+                    <div class="phone__field"><span class="mono">Data</span><span class="phone__muted">Not available in this demo</span></div>
+                    <div class="phone__field"><span class="mono">Activity</span><span class="phone__muted">—</span></div>
+                    <p class="phone__note mono" data-note>Demo only — no live data is shown.</p>
+                  </div>
+                </div>
+                <div class="phone__sheet" data-sheet="permissions" role="dialog" aria-modal="true" aria-labelledby="sheet-permissions-title" hidden>
+                  <div class="phone__grabber" aria-hidden="true"></div>
+                  <div class="phone__sheet-head"><h3 class="mono" id="sheet-permissions-title">Permissions</h3><button class="phone__close" type="button" data-sheet-close aria-label="Close permissions demo">×</button></div>
+                  <div class="phone__sheet-body">
+                    <div class="phone__field"><span class="mono">Access</span><button class="toggle is-on" type="button" data-toggle aria-pressed="true" aria-label="Toggle access permission"></button></div>
+                    <div class="phone__field"><span class="mono">Approvals</span><button class="toggle" type="button" data-toggle aria-pressed="false" aria-label="Toggle approvals permission"></button></div>
+                    <p class="phone__note mono" data-note>Demo only — preferences are not saved.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <figcaption class="figure__cap mono">Illustrative interface — interactive demo, no live data or transactions.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 HOW IT WORKS -->
+  <section class="section section--surface" id="how-it-works">
+    <div class="container">
+      <div class="sec-head" data-reveal>
+        <p class="mono sec-index">05 / How it works</p>
+        <h2 class="h2 sec-title">A clearer path from opportunity to oversight.</h2>
+        <p class="body-l sec-lede">The Olive experience follows the key stages of managing digital assets and investment activity.</p>
+      </div>
+      <div class="steps">
+        <article class="step" data-reveal><span class="mono">01</span><h3 class="h5">Access</h3><p>Start with Olive Wallet and access your digital assets.</p></article>
+        <article class="step" data-reveal><span class="mono">02</span><h3 class="h5">Explore</h3><p>Discover assets, networks, protocols, and DeFi services.</p></article>
+        <article class="step" data-reveal><span class="mono">03</span><h3 class="h5">Evaluate</h3><p>Research opportunities and assess strategies using quantitative analysis.</p></article>
+        <article class="step" data-reveal><span class="mono">04</span><h3 class="h5">Execute</h3><p>Put authorised strategies into action with intelligent agents.</p></article>
+        <article class="step" data-reveal><span class="mono">05</span><h3 class="h5">Manage</h3><p>Monitor your positions, portfolio, and performance.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 06 USER CONTROL -->
+  <section class="section" id="user-control">
+    <div class="container">
+      <div class="sec-head" data-reveal>
+        <p class="mono sec-index">06 / User control</p>
+        <h2 class="h2 sec-title">Delegate activity. Retain authority.</h2>
+        <p class="body-l sec-lede">Intelligent financial tools should expand what users can do without removing their control.</p>
+      </div>
+      <div class="split split--control" data-reveal>
+        <div class="problem__copy">
+          <p class="body-l">Olive is being built around user-defined objectives, permissions, capital limits, and risk parameters. These controls shape what agents are authorised to do, while users retain oversight of their financial activity.</p>
+        </div>
+        <figure class="feature__visual">
+          <div class="panel panel--control" role="group" aria-label="Interactive user control demo">
+            <div class="panel__bar">
+              <span class="mono">User control</span>
+              <span class="panel__tag mono">Interactive demo</span>
+            </div>
+            <div class="panel__body">
+              <div class="control">
+                <div class="control__user"><span class="mono">User authority</span><span class="mono control__state" data-control-state>Active</span></div>
+                <div class="control__link" aria-hidden="true"></div>
+                <div class="control__grid">
+                  <div class="control__item"><span class="mono">Objective</span><span class="ph ph--bar" aria-hidden="true"></span></div>
+                  <div class="control__item"><span class="mono">Permissions</span><button class="toggle is-on" type="button" data-toggle aria-pressed="true" aria-label="Toggle user permissions"></button></div>
+                  <div class="control__item"><span class="mono">Capital limit</span><div class="seg" role="group" aria-label="User capital limit demo"><button class="seg__btn is-on" type="button" data-seg="Low" aria-pressed="true">Low</button><button class="seg__btn" type="button" data-seg="Medium" aria-pressed="false">Medium</button><button class="seg__btn" type="button" data-seg="High" aria-pressed="false">High</button></div></div>
+                  <div class="control__item"><span class="mono">Risk parameters</span><span class="ph ph--bar" aria-hidden="true"></span></div>
+                </div>
+                <div class="control__agent"><span class="mono">Agent authority</span><span class="mono" data-agent-authority>Within limits only</span></div>
+                <div class="control__foot"><span class="mono">Oversight</span><button class="ph-btn mono" type="button" data-control-revoke>Revoke</button></div>
+                <p class="control__status mono" data-note aria-live="polite">Demo only — no authority is changed.</p>
+              </div>
+            </div>
+          </div>
+          <figcaption class="figure__cap mono">Illustrative interface — interactive demo; users retain authority.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 07 VISION -->
+  <section class="section section--surface" id="vision">
+    <div class="container">
+      <div class="vision" data-reveal>
+        <p class="mono sec-index">07 / Vision</p>
+        <h2 class="display-m vision__title">A new way to interact with finance.</h2>
+        <div class="vision__body">
+          <p class="body-l">We believe financial platforms can move beyond providing access to individual tools. They can help people research opportunities, evaluate strategies, coordinate activity, and manage capital with greater intelligence.</p>
+          <p class="body-l">Olive is being built towards that future.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 08 CLOSING -->
+  <section class="section" id="closing">
+    <div class="container">
+      <div class="closing" data-reveal>
+        <div>
+          <p class="mono sec-index">08 / Closing</p>
+          <h2 class="h2">Explore what's taking shape with Olive.</h2>
+          <p class="body-l">Discover a new approach to decentralised finance, investment intelligence, and intelligent trading.</p>
+        </div>
+        <div class="closing__side">
+          <a class="btn btn--primary" href="#system"><span>Explore Olive</span><svg class="btn__arrow" width="16" height="16" aria-hidden="true"><use href="#arr"/></svg></a>
+          <p class="mono closing__status">Product in development</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <a class="footer__word" href="#top" aria-label="OLIVE home"><svg class="footer__wordmark" viewBox="-4 -4 556 128" aria-hidden="true"><use href="#olive-wordmark"/></svg></a>
+      <div class="footer__cols">
+        <div class="footer__col">
+          <h4>Explore</h4>
+          <a href="#system">The four pillars</a>
+          <a href="#wallet">Wallet</a>
+          <a href="features/connected-defi/">Connected DeFi</a>
+          <a href="features/quantitative-investments/">Quantitative Investments</a>
+          <a href="features/agentic-trading/">Agentic Trading</a>
+          <a href="features/asset-portfolio-management/">Asset &amp; Portfolio Management</a>
+        </div>
+        <div class="footer__col">
+          <h4>Product</h4>
+          <a href="#how-it-works">How it works</a>
+          <a href="#user-control">User control</a>
+          <a href="#vision">Vision</a>
+          <a href="#closing">Closing</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__status">
+      <span class="mono">Product in development</span>
+      <p>Olive is in development. Nothing on this website constitutes financial advice or a promise of returns.</p>
+    </div>
+    <div class="footer__bottom">
+      <span class="mono">OLIVE · INTELLIGENT FINANCE</span>
+      <span class="mono">IN DEVELOPMENT</span>
+      <nav aria-label="Footer"><a class="mono" href="#top">Back to top</a></nav>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/landing.js"></script>
+<script src="assets/js/narrative.js"></script>
+<script src="assets/js/demo.js"></script>
+</body>
+</html>

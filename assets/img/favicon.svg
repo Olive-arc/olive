@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Olive app icon</title>
+  <desc id="desc">The Olive logo centered on a soft mint-to-blue gradient rounded-square background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C5F5D9"/>
+      <stop offset="1" stop-color="#91B8F4"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="992" height="992" rx="128" fill="url(#bg)"/>
+  <circle cx="500" cy="500" r="320" fill="#000000"/>
+  <g fill="#86B69B">
+    <ellipse cx="410" cy="410" rx="83" ry="56" transform="rotate(-48 410 410)"/>
+    <ellipse cx="590" cy="410" rx="83" ry="56" transform="rotate(48 590 410)"/>
+    <ellipse cx="410" cy="590" rx="83" ry="56" transform="rotate(48 410 590)"/>
+    <ellipse cx="590" cy="590" rx="83" ry="56" transform="rotate(-48 590 590)"/>
+  </g>
+</svg>
