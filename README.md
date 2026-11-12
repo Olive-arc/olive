@@ -1,6 +1,6 @@
 # OLIVE
 
-Live: https://olive-arc.github.io/olive/
+Live: https://olivefinance.org/
 
 Product site for OLIVE — one wallet, four connected capabilities.
 
