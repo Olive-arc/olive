@@ -495,7 +495,7 @@ section[id] { scroll-margin-top: 72px; }
 }
 
 /* ---------- Footer ---------- */
-.footer { border-top: 1px solid var(--line-strong); background: var(--surface); padding-block: var(--rhythm) 32px; }
+.footer { border-top: 1px solid var(--line-strong); background: #050604; padding-block: var(--rhythm) 32px; }
 .footer__top { display: grid; grid-template-columns: 1fr; gap: 48px; padding-bottom: 48px; }
 .footer__word { display: block; width: min(450px, 44vw); color: var(--cream); }
 .footer__wordmark { display: block; width: 100%; height: auto; }
