@@ -47,6 +47,20 @@
 
 <a class="skip-link" href="#top">Skip to content</a>
 
+<div class="migration-strip" id="migration-strip" role="region" aria-label="CLV migration">
+  <div class="container migration-strip__inner">
+    <p class="migration-strip__copy">
+      <span class="mono migration-strip__label">CLV → OLV</span>
+      <span class="migration-strip__text">Migration is open.</span>
+    </p>
+    <a class="migration-strip__link" href="https://app.olivefinance.org/sign-in?next=/migrate">
+      Open migration
+      <svg class="migration-strip__arrow" width="14" height="14" aria-hidden="true"><use href="#arr"/></svg>
+    </a>
+    <button class="migration-strip__close" type="button" aria-label="Dismiss migration notice">×</button>
+  </div>
+</div>
+
 <header class="nav js-nav" id="nav">
   <div class="nav__inner">
     <a class="brand" href="#top" aria-label="OLIVE home">
@@ -108,7 +122,7 @@
         </div>
       </div>
     </div>
-    <a class="btn btn--primary btn--sm nav__cta" href="#system"><span>Explore Olive</span><svg class="btn__arrow" width="14" height="14" aria-hidden="true"><use href="#arr"/></svg></a>
+    <a class="btn btn--primary btn--sm nav__cta" href="https://app.olivefinance.org/sign-in?next=/wallet"><span>Launch app</span><svg class="btn__arrow" width="14" height="14" aria-hidden="true"><use href="#arr"/></svg></a>
     <button class="nav__burger" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
       <span class="mono nav__burger-label">Menu</span>
       <span class="nav__burger-icon" aria-hidden="true"><span></span><span></span></span>
@@ -135,7 +149,7 @@
       <a class="mono" href="#vision">Vision</a>
     </nav>
     <div class="container nav__menu-foot">
-      <a class="btn btn--primary" href="#system"><span>Explore Olive</span><svg class="btn__arrow" width="16" height="16" aria-hidden="true"><use href="#arr"/></svg></a>
+      <a class="btn btn--primary" href="https://app.olivefinance.org/sign-in?next=/wallet"><span>Launch app</span><svg class="btn__arrow" width="16" height="16" aria-hidden="true"><use href="#arr"/></svg></a>
     </div>
   </div>
 </header>
@@ -162,13 +176,28 @@
       <h1 class="display-l hero__h1">The future of DeFi<br>is <span class="signal wave" data-wave>intelligent.</span></h1>
       <p class="body-l hero__lede">Olive combines Connected DeFi, Quantitative Investments, Agentic Trading, and Asset and Portfolio Management in one platform, built around a native wallet.</p>
       <div class="hero__ctas">
-        <a class="btn btn--primary" href="#system"><span>Explore Olive</span><svg class="btn__arrow" width="16" height="16" aria-hidden="true"><use href="#arr"/></svg></a>
+        <a class="btn btn--primary" href="https://app.olivefinance.org/sign-in?next=/wallet"><span>Launch app</span><svg class="btn__arrow" width="16" height="16" aria-hidden="true"><use href="#arr"/></svg></a>
         <a class="btn btn--secondary" href="#how-it-works"><span>Discover our approach</span><svg class="btn__arrow" width="16" height="16" aria-hidden="true"><use href="#arr"/></svg></a>
       </div>
       <div class="hero__ticker">
         <span>Native wallet</span>
         <span>Four pillars</span>
         <span>One platform</span>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- MIGRATION -->
+  <section class="section section--surface migration-callout" id="migration" aria-labelledby="migration-title">
+    <div class="container migration-callout__inner">
+      <div class="migration-callout__lead">
+        <p class="mono sec-index">CLV / OLV</p>
+        <h2 class="display-m" id="migration-title">Migration is open.</h2>
+      </div>
+      <div class="migration-callout__body">
+        <p class="body-l">Move from CLV to OLV in the Olive app. Review the current ratio, minimum, and shared address before sending.</p>
+        <a class="btn btn--primary" href="https://app.olivefinance.org/sign-in?next=/migrate"><span>Open migration</span><svg class="btn__arrow" width="16" height="16" aria-hidden="true"><use href="#arr"/></svg></a>
       </div>
     </div>
   </section>
@@ -1137,7 +1166,7 @@
           <p class="body-l">Discover a new approach to decentralised finance, investment intelligence, and intelligent trading.</p>
         </div>
         <div class="closing__side">
-          <a class="btn btn--primary" href="#system"><span>Explore Olive</span><svg class="btn__arrow" width="16" height="16" aria-hidden="true"><use href="#arr"/></svg></a>
+          <a class="btn btn--primary" href="https://app.olivefinance.org/sign-in?next=/wallet"><span>Launch app</span><svg class="btn__arrow" width="16" height="16" aria-hidden="true"><use href="#arr"/></svg></a>
           <p class="mono closing__status">Product in development</p>
         </div>
       </div>
@@ -1165,6 +1194,8 @@
           <a href="#how-it-works">How it works</a>
           <a href="#user-control">User control</a>
           <a href="#vision">Vision</a>
+          <a href="#migration">Migration</a>
+          <a href="https://app.olivefinance.org/sign-in?next=/wallet">Launch app</a>
           <a href="#closing">Closing</a>
         </div>
         <div class="footer__col footer__social">

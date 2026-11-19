@@ -1,6 +1,19 @@
 (function () {
   "use strict";
 
+  var migrationStrip = document.getElementById("migration-strip");
+  if (migrationStrip) {
+    var migrationClose = migrationStrip.querySelector(".migration-strip__close");
+    if (migrationClose) {
+      migrationClose.addEventListener("click", function () {
+        migrationStrip.remove();
+        document.documentElement.classList.add("migration-strip-hidden");
+        var brand = document.querySelector(".brand");
+        if (brand) brand.focus();
+      });
+    }
+  }
+
   var nav = document.querySelector(".js-nav");
   var burger = document.querySelector(".nav__burger");
   var burgerLabel = document.querySelector(".nav__burger-label");
