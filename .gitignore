@@ -9,3 +9,7 @@ assets/js/specimen.js
 
 # Local/system noise
 .DS_Store
+
+# Python build cache
+__pycache__/
+*.pyc

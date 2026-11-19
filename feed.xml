@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+  <title>Olive blog</title>
+  <link>https://olivefinance.org/blog/</link>
+  <description>Guides and explainers on Olive, connected DeFi and the CLV to OLV migration.</description>
+  <language>en</language>
+    <item>
+      <title>What is Olive? The successor to Clover, explained</title>
+      <link>https://olivefinance.org/blog/what-is-olive/</link>
+      <guid isPermaLink="true">https://olivefinance.org/blog/what-is-olive/</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Olive is the successor to Clover Finance and Lucent Network, built around a wallet and four connected capabilities. Here is what it offers and who it is for.</description>
+    </item>
+    <item>
+      <title>What is connected DeFi? Access, swaps and risk</title>
+      <link>https://olivefinance.org/blog/what-is-connected-defi/</link>
+      <guid isPermaLink="true">https://olivefinance.org/blog/what-is-connected-defi/</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Connected DeFi is one access layer for supported networks, protocols and opportunities, built on a wallet. Here is what it covers and where the risk sits.</description>
+    </item>
+    <item>
+      <title>What is agentic trading? Authorised agents explained</title>
+      <link>https://olivefinance.org/blog/what-is-agentic-trading/</link>
+      <guid isPermaLink="true">https://olivefinance.org/blog/what-is-agentic-trading/</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Agentic trading means authorised agents act on a strategy within limits you set. Here is what you configure, what they can do, and who keeps authority.</description>
+    </item>
+    <item>
+      <title>LUX to OLV migration: for holders who already swapped</title>
+      <link>https://olivefinance.org/blog/lux-to-olv-migration/</link>
+      <guid isPermaLink="true">https://olivefinance.org/blog/lux-to-olv-migration/</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Lucent Network moved CLV holders to LUX in 2025. Olive now accepts LUX too, with no deadline set. Here is how the next step works for LUX holders.</description>
+    </item>
+    <item>
+      <title>Lucent Network status: LUX, the swap and what now</title>
+      <link>https://olivefinance.org/blog/lucent-network-status/</link>
+      <guid isPermaLink="true">https://olivefinance.org/blog/lucent-network-status/</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Lucent Network is the 2025 direction for CLV, with LUX on Solana and a swap window ending 17 July 2027. Here is where holders stand and what comes next.</description>
+    </item>
+    <item>
+      <title>CLV to OLV migration: what holders need to know</title>
+      <link>https://olivefinance.org/blog/clv-to-olv-migration/</link>
+      <guid isPermaLink="true">https://olivefinance.org/blog/clv-to-olv-migration/</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Olive is the successor to Clover Finance. All CLV holders can migrate to OLV, with no deadline set. Here is what the migration covers and how to start.</description>
+    </item>
+    <item>
+      <title>CLV migration status: open, no deadline, all holders</title>
+      <link>https://olivefinance.org/blog/clv-migration-status/</link>
+      <guid isPermaLink="true">https://olivefinance.org/blog/clv-migration-status/</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description>The Olive migration is open for CLV and LUX holders, with no deadline set as of 19 November 2026. Here is the current status and what to verify.</description>
+    </item>
+    <item>
+      <title>CLV migration scams: official links and red flags</title>
+      <link>https://olivefinance.org/blog/clv-migration-scams/</link>
+      <guid isPermaLink="true">https://olivefinance.org/blog/clv-migration-scams/</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Migrations attract impersonators. Here are the tactics used against CLV and LUX holders, the official Olive links, and what to do if something goes wrong.</description>
+    </item>
+    <item>
+      <title>CLV to Olive official links: verify before you send</title>
+      <link>https://olivefinance.org/blog/clv-migration-official-links/</link>
+      <guid isPermaLink="true">https://olivefinance.org/blog/clv-migration-official-links/</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description>The only official Olive links for the CLV and LUX migration, what each one is for, and how to spot a lookalike before you connect your wallet.</description>
+    </item>
+    <item>
+      <title>CLV migration: every path to Olive, explained</title>
+      <link>https://olivefinance.org/blog/clv-migration-guide/</link>
+      <guid isPermaLink="true">https://olivefinance.org/blog/clv-migration-guide/</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description>One page for the CLV and LUX migration to Olive. The paths, the assets, the eligibility, the official links, and the two migrations people confuse.</description>
+    </item>
+    <item>
+      <title>CLV migration eligibility: who can migrate to OLV</title>
+      <link>https://olivefinance.org/blog/clv-migration-eligibility/</link>
+      <guid isPermaLink="true">https://olivefinance.org/blog/clv-migration-eligibility/</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description>All CLV and LUX holders are eligible for the Olive migration, with no snapshot and no deadline set. Here is who it covers and what to prepare.</description>
+    </item>
+    <item>
+      <title>How to migrate CLV to Olive: a safe checklist</title>
+      <link>https://olivefinance.org/blog/clv-migration-checklist/</link>
+      <guid isPermaLink="true">https://olivefinance.org/blog/clv-migration-checklist/</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description>A step by step checklist for the CLV to OLV migration, from checking the official link to recording the transaction and confirming your OLV balance.</description>
+    </item>
+    <item>
+      <title>Clover Finance history: 2021 to the Olive era</title>
+      <link>https://olivefinance.org/blog/clover-finance-history/</link>
+      <guid isPermaLink="true">https://olivefinance.org/blog/clover-finance-history/</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Clover Finance launched in 2021, rebranded to CLV in 2022, and moved to Lucent Network in 2025. Here is the timeline and where holders stand today.</description>
+    </item>
+</channel></rss>
