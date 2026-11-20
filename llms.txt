@@ -17,16 +17,16 @@ Olive is the successor to Clover Finance and Lucent Network, adopted by a new te
 - [Roadmap](https://olivefinance.org/docs/roadmap/)
 
 ## Articles
+- [What is the CLV token? Clover's token, explained](https://olivefinance.org/blog/what-is-the-clv-token/): CLV is the token behind Clover Finance and the CLV chain. Here is its role, the networks it lives on, and how it connects to LUX and OLV today.
 - [What is Olive? The successor to Clover, explained](https://olivefinance.org/blog/what-is-olive/): Olive is the successor to Clover Finance and Lucent Network, built around a wallet and four connected capabilities. Here is what it offers and who it is for.
 - [What is connected DeFi? Access, swaps and risk](https://olivefinance.org/blog/what-is-connected-defi/): Connected DeFi is one access layer for supported networks, protocols and opportunities, built on a wallet. Here is what it covers and where the risk sits.
 - [What is agentic trading? Authorised agents explained](https://olivefinance.org/blog/what-is-agentic-trading/): Agentic trading means authorised agents act on a strategy within limits you set. Here is what you configure, what they can do, and who keeps authority.
+- [RWA tokenization and portfolio oversight, explained](https://olivefinance.org/blog/rwa-tokenization-portfolio/): Tokenized real-world assets come with product-specific terms. Here is what access means, how oversight works, and why access is not ownership.
+- [Quantitative investing in DeFi: data, models and risk](https://olivefinance.org/blog/quantitative-investing-defi/): Quantitative investing uses data and models to evaluate opportunities. Here is what it means in DeFi, what the Olive product describes, and where limits are.
+- [Olive successor to Clover: what it means for holders](https://olivefinance.org/blog/olive-successor-clover/): Olive is the successor to Clover and Lucent, adopted by a new team. Here is what that word means, what changes, and what stays the same for holders.
 - [LUX to OLV migration: for holders who already swapped](https://olivefinance.org/blog/lux-to-olv-migration/): Lucent Network moved CLV holders to LUX in 2025. Olive now accepts LUX too, with no deadline set. Here is how the next step works for LUX holders.
 - [Lucent Network status: LUX, the swap and what now](https://olivefinance.org/blog/lucent-network-status/): Lucent Network is the 2025 direction for CLV, with LUX on Solana and a swap window ending 17 July 2027. Here is where holders stand and what comes next.
-- [CLV to OLV migration: what holders need to know](https://olivefinance.org/blog/clv-to-olv-migration/): Olive is the successor to Clover Finance. All CLV holders can migrate to OLV, with no deadline set. Here is what the migration covers and how to start.
-- [CLV migration status: open, no deadline, all holders](https://olivefinance.org/blog/clv-migration-status/): The Olive migration is open for CLV and LUX holders, with no deadline set as of 19 November 2026. Here is the current status and what to verify.
-- [CLV migration scams: official links and red flags](https://olivefinance.org/blog/clv-migration-scams/): Migrations attract impersonators. Here are the tactics used against CLV and LUX holders, the official Olive links, and what to do if something goes wrong.
-- [CLV to Olive official links: verify before you send](https://olivefinance.org/blog/clv-migration-official-links/): The only official Olive links for the CLV and LUX migration, what each one is for, and how to spot a lookalike before you connect your wallet.
-- [CLV migration: every path to Olive, explained](https://olivefinance.org/blog/clv-migration-guide/): One page for the CLV and LUX migration to Olive. The paths, the assets, the eligibility, the official links, and the two migrations people confuse.
+- [Lucent Network mainnet: what launched in 2025](https://olivefinance.org/blog/lucent-mainnet/): Lucent launched its mainnet in July 2025 on the Solana Virtual Machine, with LUX as its token. Here is what launched and what it meant for CLV holders.
 
 ## Notes
 - Olive is in development. Nothing on this site is financial advice or a promise of returns.

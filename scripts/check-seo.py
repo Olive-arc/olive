@@ -159,6 +159,26 @@ def check_article(article: lib.Article) -> None:
         fail(slug, "more than one h1")
 
 
+def shingles(text: str, n: int = 5) -> set[tuple[str, ...]]:
+    words = re.findall(r"[a-z0-9]+", text.lower())
+    return {tuple(words[i : i + n]) for i in range(max(0, len(words) - n + 1))}
+
+
+def check_similarity(articles: list[lib.Article]) -> None:
+    grams = {a.slug: shingles(a.body_md) for a in articles}
+    slugs = list(grams)
+    for i, left in enumerate(slugs):
+        for right in slugs[i + 1 :]:
+            a, b = grams[left], grams[right]
+            if not a or not b:
+                continue
+            score = len(a & b) / len(a | b)
+            if score > 0.18:
+                fail(left, f"near duplicate of {right} (overlap {score:.2f})")
+            elif score > 0.12:
+                warn(left, f"high overlap with {right} ({score:.2f})")
+
+
 def check_duplicates(articles: list[lib.Article]) -> None:
     for field in ("title", "description", "target_query", "slug"):
         counts = Counter(getattr(a, field).lower() for a in articles)
@@ -199,6 +219,7 @@ def main() -> int:
     for article in articles:
         check_article(article)
     check_duplicates(articles)
+    check_similarity(articles)
     check_site(articles)
 
     for line in warnings:
