@@ -40,7 +40,7 @@ If any of those is unclear, stop before you send anything.
 3. Read the asset and network shown in the app.
 4. Follow the in-app steps from your BNB Chain wallet.
 5. Keep the transaction hash and the amount.
-6. Check that your OLV balance appears after the migration completes.
+6. Check that your OCLV balance appears after the migration completes.
 
 The app carries the live terms. This page does not publish a rate.
 
@@ -61,7 +61,7 @@ The app carries the live terms. This page does not publish a rate.
 | Standard | BEP20 | ERC20 |
 | Fee token | BNB | ETH |
 | Wallet network | BNB Chain | Ethereum |
-| Destination | OLV | OLV |
+| Destination | OCLV | OCLV |
 
 The destination is the same. The route is not. Use the one that matches where your CLV sits.
 

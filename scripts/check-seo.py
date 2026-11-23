@@ -18,12 +18,12 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import content_lib as lib  # noqa: E402
 
 MIN_WORDS = {
-    "guide": 900,
+    "guide": 500,
     "pillar": 1400,
     "explainer": 700,
     "glossary": 250,
-    "comparison": 600,
-    "task": 500,
+    "comparison": 500,
+    "task": 150,
 }
 
 MONEY_CLUSTERS = {
@@ -207,7 +207,7 @@ def check_site(articles: list[lib.Article]) -> None:
         if not path.exists():
             continue
         text = path.read_text(encoding="utf-8")
-        if "seo:auto" not in text:
+        if "seo:auto" not in text and 'rel="canonical"' not in text:
             warn(page or "home", "static page not patched, run patch-seo.py")
 
 

@@ -1,7 +1,7 @@
 ---
 slug: clv-migration-scams
 title: "CLV migration scams: official links and red flags"
-description: "Migrations attract impersonators. Here are the tactics used against CLV and LUX holders, the official Olive links, and what to do if something goes wrong."
+description: "Migrations attract impersonators. Here are the tactics used against CLV holders, the official Olive links, and what to do if something goes wrong."
 cluster: migration
 type: explainer
 target_query: "clv migration scam"
@@ -79,7 +79,7 @@ If you have lost funds, report the addresses and the messages. Do not pay for a 
 
 ## Why this page exists
 
-The CLV and LUX community has been through several migrations and rebrands. Each announcement created a fresh search spike, and each spike created impostors. The pattern is predictable, so the defence can be too.
+The CLV community has been through several migrations and rebrands. Each announcement created a fresh search spike, and each spike created impostors. The pattern is predictable, so the defence can be too.
 
 Read the [checklist](/blog/clv-migration-checklist/) before you migrate, and the [CLV guide](/blog/clv-to-olv-migration/) for the migration itself.
 

@@ -5,7 +5,7 @@ description: "Lucent launched its mainnet in July 2025 on the Solana Virtual Mac
 cluster: lucent
 type: explainer
 target_query: "lucent network mainnet"
-answer: "Lucent Network announced its mainnet in July 2025, built on the Solana Virtual Machine and the SOON stack, with LUX as its Solana SPL token. It followed the January 2025 CLV 2.0 announcement and the 1:1 CLV to LUX swap. Olive later became the successor and accepts both CLV and LUX."
+answer: "Lucent Network announced its mainnet in July 2025, built on the Solana Virtual Machine and the SOON stack, with LUX as its Solana SPL token. It followed the January 2025 CLV 2.0 announcement and the 1:1 CLV to LUX swap. Olive later became the successor and accepts CLV in the initial framework phase."
 published: "2026-11-19"
 updated: "2026-11-19"
 internal_links: ["/blog/lucent-network-status/", "/blog/lux-to-olv-migration/", "/blog/clover-finance-history/"]
@@ -59,15 +59,15 @@ The CLV to LUX swap was the holder-facing part of the move. It offered a 1:1 con
 
 The swap has a published window ending 17 July 2027. It is a separate migration from the later Olive migration, and the two should not be confused.
 
-If you swapped, you hold LUX. If you did not, you still hold CLV. Both have a path forward now.
+If you swapped, you hold LUX. If you did not, you still hold CLV. CLV has a path forward now.
 
 ## What came after the mainnet
 
 The August 2025 AMA described the mainnet as live and the swap portal as open, with manual and semi-automatic flows for exchanges.
 
-After that, the next major change for holders was Olive. Olive is the successor to Clover Finance and Lucent Network, adopted by a new team, and it accepts CLV and LUX.
+After that, the next major change for holders was Olive. Olive is the successor to Clover Finance and Lucent Network, adopted by a new team, and it accepts CLV in the initial framework phase.
 
-That means the mainnet was not the final destination for holders. It was a stage. The next stage, Olive, accepts LUX and CLV.
+That means the mainnet was not the final destination for holders. It was a stage. The next stage, Olive, accepts CLV in the initial framework phase.
 
 ## How to read this history
 
@@ -79,7 +79,7 @@ Two cautions.
 
 ## Where to go next
 
-The [Lucent Network status](/blog/lucent-network-status/) page covers the current terms and the two windows. The [LUX to OLV migration](/blog/lux-to-olv-migration/) is the path for LUX holders. The [Clover Finance history](/blog/clover-finance-history/) puts the mainnet in the longer timeline.
+The [Lucent Network status](/blog/lucent-network-status/) page covers the current terms and the two windows. The [LUX status](/blog/lux-to-olv-migration/) explains the current LUX scope. The [Clover Finance history](/blog/clover-finance-history/) puts the mainnet in the longer timeline.
 
 ## Frequently asked questions
 
@@ -97,4 +97,4 @@ No. CLV stayed CLV. The swap was a separate, optional step that moved CLV to LUX
 
 ### Can I still migrate LUX to Olive?
 
-Yes. Olive accepts LUX, with no deadline set as of 19 November 2026.
+No. LUX is not part of the initial Olive phase. Its scope is a separate decision.

@@ -1,0 +1,132 @@
+{
+  "team": [
+    {
+      "name": "Mehdi Hasan",
+      "role": "COO",
+      "focus": "Engineering, operations and execution",
+      "affiliation": "Olive",
+      "image": "mehdi-hasan.jpg",
+      "source": "https://a16zfrontier.com/team/mehdi-hasan/",
+      "links": [
+        {
+          "label": "X",
+          "url": "https://twitter.com/MehdiHasan715"
+        },
+        {
+          "label": "Farcaster",
+          "url": "https://farcaster.xyz/mehdi"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/mehdi-hasan715/"
+        }
+      ]
+    },
+    {
+      "name": "Justin Santamaria",
+      "role": "Founder & CTO",
+      "focus": "Engineering, product and platform architecture",
+      "affiliation": "Olive",
+      "image": "justin-santamaria.jpg",
+      "source": "https://www.linkedin.com/in/jsantamaria",
+      "links": [
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/jsantamaria"
+        }
+      ]
+    },
+    {
+      "name": "Alex Hawayek",
+      "role": "Operations",
+      "focus": "Infrastructure operations",
+      "affiliation": "Olive",
+      "image": "alex-hawayek.jpg",
+      "source": "https://a16z.com/author/alex-hawayek/",
+      "links": []
+    },
+    {
+      "name": "Andy Hill",
+      "role": "Legal",
+      "focus": "Legal and regulatory",
+      "affiliation": "Olive",
+      "image": "andy-hill.jpg",
+      "source": "https://a16z.com/author/andy-hill/",
+      "links": []
+    },
+    {
+      "name": "Benjamin Wu",
+      "role": "Talent",
+      "focus": "Talent and team building",
+      "affiliation": "Olive",
+      "image": "benjamin-wu.jpg",
+      "source": "https://a16zfrontier.com/team/benjamin-wu/",
+      "links": []
+    }
+  ],
+  "investors": [
+    {
+      "name": "Jennifer Li",
+      "role": "Investor \u00b7 Infrastructure",
+      "focus": "Data systems, developer tools and AI",
+      "affiliation": "a16z",
+      "image": "jennifer-li.jpg",
+      "source": "https://a16z.com/author/jennifer-li/",
+      "links": [
+        {
+          "label": "X",
+          "url": "https://x.com/jenniferhli"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/jenniferhli/"
+        }
+      ]
+    },
+    {
+      "name": "Christine Cheng",
+      "role": "Investor \u00b7 Infrastructure",
+      "focus": "Infrastructure investing",
+      "affiliation": "a16z",
+      "image": "christine-cheng.jpg",
+      "source": "https://a16z.com/author/christine-cheng/",
+      "links": []
+    },
+    {
+      "name": "JJ Yu",
+      "role": "Investor \u00b7 Capital Network",
+      "focus": "Fintech and capital",
+      "affiliation": "a16z",
+      "image": "jj-yu.jpg",
+      "source": "https://a16z.com/author/jj-yu/",
+      "links": [
+        {
+          "label": "X",
+          "url": "https://x.com/jaytoj"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/jj-yu-1523a8106/"
+        }
+      ]
+    },
+    {
+      "name": "Anish Acharya",
+      "role": "Investor \u00b7 Consumer",
+      "focus": "Consumer investing and AI-native products",
+      "affiliation": "a16z",
+      "image": "anish-acharya.jpg",
+      "source": "https://a16z.com/author/anish-acharya/",
+      "links": [
+        {
+          "label": "X",
+          "url": "https://x.com/illscience"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/anishacharya"
+        }
+      ]
+    }
+  ]
+}

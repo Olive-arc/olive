@@ -1,33 +1,44 @@
 # Olive
 
-> Olive is the intelligent DeFi platform at olivefinance.org. It combines connected DeFi, quantitative investments, agentic trading, and asset and portfolio management on one wallet foundation, with omnibus platform custody and an internal ledger.
+> Olive is an asset-agnostic token adoption, security and interoperability framework at olivefinance.org. OLV is Olive's native platform token. External assets are adopted under integration-specific custody and representation terms.
 
 Canonical: https://olivefinance.org/
 App: https://wallet.olivefinance.org
 Whitepaper: https://olive-whitepaper.census-explorer.workers.dev/
-Network: Base Sepolia testnet. Nothing in the current build holds real funds.
 
 Olive is the successor to Clover Finance and Lucent Network, adopted by a new team. It is not affiliated with oliveapp.finance, Olive Capital, or Olive Foundation Nepal.
+
+## Framework
+- [Framework](https://olivefinance.org/framework/): the asset-agnostic model.
+- [OLV and asset roles](https://olivefinance.org/token/): native token and integration roles.
+- [Adoption](https://olivefinance.org/adoption/): how an external asset enters the framework.
+- [Integration case](https://olivefinance.org/adoption/clv/): the first adopted asset.
+- [Security and custody](https://olivefinance.org/security/): controls and risks.
+- [Interoperability](https://olivefinance.org/interoperability/): current scope and later direction.
+- [Docs](https://olivefinance.org/docs/): framework reference.
+- [Architecture](https://olivefinance.org/docs/architecture/): reference stack and execution path.
+- [Team](https://olivefinance.org/team/): operators, advisors and investors.
+- [Roadmap](https://olivefinance.org/docs/roadmap/)
 
 ## Product
 - [Connected DeFi](https://olivefinance.org/features/connected-defi/): one route into supported networks and protocols.
 - [Quantitative Investments](https://olivefinance.org/features/quantitative-investments/): research, models and analysis.
 - [Agentic Trading](https://olivefinance.org/features/agentic-trading/): authorised agents acting within user limits.
 - [Asset and Portfolio Management](https://olivefinance.org/features/asset-portfolio-management/): one view of positions and events.
-- [Roadmap](https://olivefinance.org/docs/roadmap/)
 
 ## Articles
-- [What is the CLV token? Clover's token, explained](https://olivefinance.org/blog/what-is-the-clv-token/): CLV is the token behind Clover Finance and the CLV chain. Here is its role, the networks it lives on, and how it connects to LUX and OLV today.
+- [What is the CLV token? Clover's token, explained](https://olivefinance.org/blog/what-is-the-clv-token/): CLV is the token behind Clover Finance and the CLV chain. Here is its role, the networks it lives on, and how it connects to LUX and OCLV today.
 - [What is Olive? The successor to Clover, explained](https://olivefinance.org/blog/what-is-olive/): Olive is the successor to Clover Finance and Lucent Network, built around a wallet and four connected capabilities. Here is what it offers and who it is for.
 - [What is connected DeFi? Access, swaps and risk](https://olivefinance.org/blog/what-is-connected-defi/): Connected DeFi is one access layer for supported networks, protocols and opportunities, built on a wallet. Here is what it covers and where the risk sits.
 - [What is agentic trading? Authorised agents explained](https://olivefinance.org/blog/what-is-agentic-trading/): Agentic trading means authorised agents act on a strategy within limits you set. Here is what you configure, what they can do, and who keeps authority.
 - [RWA tokenization and portfolio oversight, explained](https://olivefinance.org/blog/rwa-tokenization-portfolio/): Tokenized real-world assets come with product-specific terms. Here is what access means, how oversight works, and why access is not ownership.
 - [Quantitative investing in DeFi: data, models and risk](https://olivefinance.org/blog/quantitative-investing-defi/): Quantitative investing uses data and models to evaluate opportunities. Here is what it means in DeFi, what the Olive product describes, and where limits are.
 - [Olive successor to Clover: what it means for holders](https://olivefinance.org/blog/olive-successor-clover/): Olive is the successor to Clover and Lucent, adopted by a new team. Here is what that word means, what changes, and what stays the same for holders.
-- [LUX to OLV migration: for holders who already swapped](https://olivefinance.org/blog/lux-to-olv-migration/): Lucent Network moved CLV holders to LUX in 2025. Olive now accepts LUX too, with no deadline set. Here is how the next step works for LUX holders.
+- [LUX migration status: not in the initial CLV phase](https://olivefinance.org/blog/lux-to-olv-migration/): LUX was introduced by Lucent Network in 2025. Olive's initial framework phase targets CLV adoption into OCLV, not LUX. Here is the current status and scope.
 - [Lucent Network status: LUX, the swap and what now](https://olivefinance.org/blog/lucent-network-status/): Lucent Network is the 2025 direction for CLV, with LUX on Solana and a swap window ending 17 July 2027. Here is where holders stand and what comes next.
 - [Lucent Network mainnet: what launched in 2025](https://olivefinance.org/blog/lucent-mainnet/): Lucent launched its mainnet in July 2025 on the Solana Virtual Machine, with LUX as its token. Here is what launched and what it meant for CLV holders.
 
 ## Notes
 - Olive is in development. Nothing on this site is financial advice or a promise of returns.
+- Integration-specific assembly, custody and representation terms live in the integration case study.
 - The migration program ratio, limits and address are shown inside the app after sign-in.

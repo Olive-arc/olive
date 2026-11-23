@@ -1,11 +1,11 @@
 ---
 slug: what-is-the-clv-token
 title: "What is the CLV token? Clover's token, explained"
-description: "CLV is the token behind Clover Finance and the CLV chain. Here is its role, the networks it lives on, and how it connects to LUX and OLV today."
+description: "CLV is the token behind Clover Finance and the CLV chain. Here is its role, the networks it lives on, and how it connects to LUX and OCLV today."
 cluster: clover
 type: explainer
 target_query: "what is the clv token"
-answer: "CLV is the native token of Clover Finance, the project that rebranded to CLV in 2022. It was used for governance, network fees and staking, and it exists on Ethereum and BNB Smart Chain. In 2025 the project moved toward Lucent Network and LUX, and in 2026 Olive became the successor, accepting CLV and LUX."
+answer: "CLV is the native token of Clover Finance, the project that rebranded to CLV in 2022. It was used for governance, network fees and staking, and it exists on Ethereum and BNB Smart Chain. In 2025 the project moved toward Lucent Network and LUX, and in 2026 Olive became the successor, accepting CLV."
 published: "2026-11-19"
 updated: "2026-11-19"
 internal_links: ["/blog/clover-finance-history/", "/blog/clv-migration-guide/", "/blog/clv-vs-lux-vs-olv/"]
@@ -63,17 +63,17 @@ The token's story follows the project's.
 
 **2025.** CLV 2.0 moves the project toward Lucent Network, built around the Solana Virtual Machine. A new token, LUX, is introduced, and CLV holders are offered a 1:1 swap.
 
-**2026.** Olive becomes the successor, adopted by a new team. The migration accepts both CLV and LUX.
+**2026.** Olive becomes the successor, adopted by a new team. The migration accepts CLV in the initial framework phase.
 
 The full sequence is on the [Clover Finance history](/blog/clover-finance-history/) page.
 
-## CLV, LUX and OLV are not the same token
+## CLV, LUX and OCLV are not the same token
 
 This is the most common confusion, so it is worth stating plainly.
 
 - **CLV** is the original token, on Ethereum and BNB Smart Chain.
 - **LUX** is the Lucent Network token, on Solana.
-- **OLV** is the Olive token, the destination of the current migration.
+- **OCLV** is Olive's representation of CLV. OLV is the native platform token.
 
 They belong to different stages. Holding one does not mean you hold another. The [three token comparison](/blog/clv-vs-lux-vs-olv/) sets out the differences side by side.
 
@@ -99,10 +99,10 @@ Clover Finance is the project. CLV is its token, and the name the project adopte
 
 Yes. CLV on Ethereum and BNB Smart Chain is accepted by the Olive migration.
 
-### Is CLV the same as LUX or OLV?
+### Is CLV the same as LUX or OCLV?
 
-No. LUX is the Lucent Network token on Solana. OLV is the Olive token. They are different stages.
+No. LUX is the Lucent Network token on Solana. OCLV represents CLV, and OLV is the native platform token.
 
-### Can I migrate CLV to OLV?
+### Can I migrate CLV to OCLV?
 
 Yes. All CLV holders are eligible, with no deadline set.

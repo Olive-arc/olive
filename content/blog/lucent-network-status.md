@@ -5,7 +5,7 @@ description: "Lucent Network is the 2025 direction for CLV, with LUX on Solana a
 cluster: lucent
 type: guide
 target_query: "lucent network status"
-answer: "Lucent Network is the 2025 direction for the Clover project, built around the Solana Virtual Machine with a new token, LUX. The CLV to LUX swap has a published window ending 17 July 2027. Olive is the successor and accepts LUX, with no deadline set as of 19 November 2026."
+answer: "Lucent Network is the 2025 direction for the Clover project, built around the Solana Virtual Machine with a new token, LUX. The CLV to LUX swap has a published window ending 17 July 2027. Olive is the successor. Its initial framework phase covers CLV, not LUX. Check the app for current CLV terms."
 published: "2026-11-19"
 updated: "2026-11-19"
 internal_links: ["/blog/lux-to-olv-migration/", "/blog/clover-finance-history/", "/blog/clv-migration-official-links/"]
@@ -39,26 +39,26 @@ The GitBook and the Coinbase migration page are the current public references fo
 
 There are three groups, and each has a clear path.
 
-**Holders who never swapped.** Your CLV is still accepted by Olive. Use the [CLV to OLV migration](/blog/clv-to-olv-migration/) guide.
+**Holders who never swapped.** Your CLV is still accepted by Olive. Use the [CLV to OCLV migration](/blog/clv-to-olv-migration/) guide.
 
-**Holders who swapped to LUX.** Your LUX is accepted by Olive. Use the [LUX to OLV migration](/blog/lux-to-olv-migration/) guide.
+**Holders who swapped to LUX.** LUX is not part of the initial Olive phase. Keep your Lucent records and follow the [LUX status](/blog/lux-to-olv-migration/) page.
 
-**Holders deciding between the two.** Lucent's swap and Olive's migration are different moves. The swap takes CLV to LUX. The migration takes CLV or LUX to OLV. Do not treat them as the same step.
+**Holders deciding between the two.** Lucent's swap and Olive's migration are different moves. The swap takes CLV to LUX. The migration takes CLV to OCLV. Do not treat them as the same step.
 
 ## Two windows, two destinations
 
 | Migration | From | To | Window |
 | --- | --- | --- | --- |
 | Lucent swap | CLV | LUX | Published end 17 July 2027 |
-| Olive migration | CLV or LUX | OLV | No deadline set |
+| Olive migration | CLV | OCLV | No deadline set |
 
-The Olive migration accepts LUX, so a holder who swapped in 2025 is not left behind. That is the main practical point of this page.
+LUX is not part of the initial Olive phase. A holder who swapped in 2025 should keep their records and wait for an official LUX decision.
 
 ## How to check the current network status
 
 Lucent's own documentation and channels are the place to check network status, infrastructure and any change to the swap. This page does not speak for Lucent, and it does not claim to.
 
-What this page can state is the Olive side. Olive is the successor to Clover Finance and Lucent Network, adopted by a new team. It accepts CLV and LUX. All holders are eligible. No deadline is set as of the date above.
+What this page can state is the Olive side. Olive is the successor to Clover Finance and Lucent Network, adopted by a new team. Its initial framework phase covers CLV. LUX is a separate scope decision.
 
 ## What Lucent said it was building
 
@@ -74,13 +74,13 @@ Network status changes. A status page written today can be wrong next month, so 
 
 For Lucent itself, check the project's documentation and official channels. For the swap, check the GitBook and the Coinbase migration page, which restate the published window.
 
-For Olive, the status is simpler. The migration is open, it accepts CLV and LUX, all holders are eligible, and no deadline is set as of 19 November 2026.
+For Olive, the status is simpler. The initial framework phase covers CLV. Check the app for current terms.
 
 ## What holders should verify
 
 Before you move any asset, confirm four things.
 
-1. Which token you hold, CLV or LUX.
+1. Which token you hold, CLV.
 2. Which network it is on.
 3. Which migration you are using, Lucent's swap or Olive's migration.
 4. Which official link you are following.
@@ -96,9 +96,9 @@ Olive's migration has no deadline set. A holder who misses or skips the Lucent s
 
 ## If you are deciding now
 
-If you still hold CLV and have not swapped, you have two options. You can use the Lucent swap to move to LUX, or you can use the Olive migration with CLV directly.
+If you still hold CLV and have not swapped, you can use the Olive migration with CLV directly. The Lucent swap is a separate event and is not required for Olive.
 
-Olive accepts both assets, so access does not force the decision. Compare the terms in each place, including the window and the destination, and use the app to see the Olive terms that apply today.
+Olive does not accept LUX in the initial phase. Compare the terms in each place and use the app for the current CLV terms.
 
 ## Where to verify
 
@@ -116,7 +116,7 @@ The published window ends 17 July 2027. Check the Lucent GitBook and the Coinbas
 
 ### Does Olive accept LUX?
 
-Yes. LUX holders are eligible for the Olive migration, with no deadline set as of 19 November 2026.
+No. LUX is not part of the initial Olive phase. Its scope is a separate decision.
 
 ### What if I never swapped CLV to LUX?
 
@@ -124,4 +124,4 @@ You do not need to. Olive accepts CLV directly.
 
 ### Is Lucent the same as Olive?
 
-No. Lucent is the 2025 direction for the Clover project. Olive is the successor, adopted by a new team, and it accepts both CLV and LUX.
+No. Lucent is the 2025 direction for the Clover project. Olive is the successor, adopted by a new team, and it accepts CLV in the initial framework phase.

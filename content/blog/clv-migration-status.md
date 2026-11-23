@@ -1,90 +1,71 @@
 ---
 slug: clv-migration-status
-title: "CLV migration status: open, no deadline, all holders"
-description: "The Olive migration is open for CLV and LUX holders, with no deadline set as of 19 November 2026. Here is the current status and what to verify."
+title: "CLV to OCLV migration status: what is current"
+description: "The Olive migration target is OCLV, not OLV. Here is the current CLV migration status, what to verify before acting, and what is in the initial phase."
 cluster: migration
 type: task
 target_query: "clv migration status"
-answer: "As of 19 November 2026, the CLV to OLV migration is open. It accepts CLV on Ethereum or BNB Smart Chain and LUX on Solana. All holders are eligible. No deadline is set. The app shows the current rate and the steps, and it remains the authority if terms change."
+answer: "The current Olive migration target is OCLV, Olive's representation of CLV. CLV on Ethereum and BNB Smart Chain is the initial framework case. LUX is not part of the initial phase. Check the app for live availability and terms."
 published: "2026-11-19"
-updated: "2026-11-19"
-internal_links: ["/blog/clv-to-olv-migration/", "/blog/lux-to-olv-migration/", "/blog/clv-migration-official-links/", "/blog/clv-migration-guide/"]
-sources: ["https://wallet.olivefinance.org/", "https://olive-whitepaper.census-explorer.workers.dev/"]
+updated: "2026-11-23"
+internal_links: ["/blog/clv-to-olv-migration/", "/blog/clv-migration-guide/", "/blog/clv-migration-official-links/"]
+sources: ["https://docs.clv.org/", "https://olivefinance.org/"]
 disclaimer: financial
 ---
 
-Status pages go stale. This one carries a date, and the date is the point. If you are reading it later, check the app before you act.
+Status checked 23 November 2026.
 
-Status checked 19 November 2026.
+This CLV migration status page tracks the current Olive direction. The app is the authority on live availability and terms.
 
-## CLV migration status
+The old OLV destination language was retired. OLV is the native platform token. OCLV is the representation of CLV. The migration page in the app carries the current terms, including the route and the conversion shown for your selected asset.
 
-| Item | Status |
-| --- | --- |
-| Olive migration | Open |
-| Assets accepted | CLV (ERC20, BEP20) and LUX (Solana SPL) |
-| Eligibility | All holders |
-| Deadline | None set |
-| Rate | Shown in the app |
-| Official support | Telegram t.me/olive_eng |
+## Current target
 
-## What "open" means
+The migration target is **OCLV**, Olive's representation of CLV.
 
-It means a holder can start a migration in the app today. It does not mean a specific rate is locked, or that terms cannot change. It also does not mean every asset is supported on every network. Check the network for the asset you hold.
+OLV is Olive's native platform token. It is not the migration destination.
 
-The app is the authority for the rate and the steps. This page is the authority for nothing except the date it was checked.
+## Assets in the initial phase
 
-## The other migration
+| Asset | Networks | Status |
+| --- | --- | --- |
+| CLV | Ethereum, BNB Smart Chain | Initial framework case |
+| LUX | Solana | Not part of the initial phase |
 
-Lucent's CLV to LUX swap is a separate migration with a published window ending 17 July 2027. Do not confuse the two.
+## What to verify
 
-- Lucent swap: CLV to LUX.
-- Olive migration: CLV or LUX to OLV.
+- the asset and network in the app
+- the current terms shown in the app
+- the official links page
+- the scam warning
 
-If you already hold LUX, the [LUX guide](/blog/lux-to-olv-migration/) is the right path. If you hold CLV, use the [CLV guide](/blog/clv-to-olv-migration/).
+## What not to rely on
 
-## What the app shows
+- a rate from a screenshot or post
+- a link from a direct message
+- an old page that says the destination is OLV
+- any claim that LUX is accepted in the initial phase
 
-The app is where the live terms sit. When you open the migration page, it shows the asset, the network, the current rate and the steps for your case.
+## Related pages
 
-That is deliberate. A public page cannot hold a live rate without going stale, and a stale rate is worse than no rate. The app can show the term that applies to the migration you are about to start.
-
-## Why there is no deadline
-
-A deadline creates pressure, and pressure is what impersonators exploit. With no deadline, a holder can verify the project, read the terms, and ask a question without racing a clock.
-
-No deadline is a statement about today. If that changes, the app and the official channels will say so, and this page will be updated.
-
-
-## How to check for yourself
-
-1. Open [wallet.olivefinance.org](https://wallet.olivefinance.org) from a bookmark or typed address.
-2. Sign in and open the migration page.
-3. Read the asset, network, rate and steps shown there.
-4. Compare the domain against the [official links page](/blog/clv-migration-official-links/).
-
-If the app shows something different from this page, the app wins.
-
-## What would change this page
-
-Three things: a deadline being announced, an asset being added or removed, or the migration closing. Each would be a material change and this page would be updated on the day it is announced.
-
-Until then, the status above stands.
+- [CLV to OCLV guide](/blog/clv-to-olv-migration/)
+- [Migration map](/blog/clv-migration-guide/)
+- [Official links](/blog/clv-migration-official-links/)
 
 ## Frequently asked questions
 
-### Is the CLV migration still open?
+### Is the migration target OLV?
 
-Yes, as of 19 November 2026. Check the app for the current status.
-
-### Is there a deadline for CLV holders?
-
-No deadline is set as of 19 November 2026.
+No. OLV is Olive's native platform token. The target is OCLV.
 
 ### Does the migration accept LUX?
 
-Yes. LUX on Solana is accepted alongside CLV on Ethereum and BNB Smart Chain.
+Not in the initial phase. LUX is a separate scope decision.
 
-### Where is the rate published?
+### What should I check before I send?
 
-In the app. This page does not publish a rate, because terms can change and the app is the authority.
+Check the asset, the network, the route, the current terms and the official links page. If anything differs from the app, stop.
+
+### Where are the current terms?
+
+In the app. This page does not publish a rate.

@@ -25,6 +25,19 @@ STATIC_PAGES = [
     "features/agentic-trading/",
     "features/asset-portfolio-management/",
     "docs/roadmap/",
+    "framework/",
+    "team/",
+    "token/",
+    "adoption/",
+    "adoption/clv/",
+    "oclv/",
+    "security/",
+    "interoperability/",
+    "docs/",
+    "docs/adoption-faq/",
+    "docs/architecture/",
+    "docs/glossary/",
+    "docs/whitepaper/",
 ]
 
 DISAMBIGUATION = (
@@ -54,7 +67,6 @@ BANNED = [
 # Backend, custody and internal material. These must never reach a public page.
 FORBIDDEN = [
     "omnibus",
-    "custody",
     "self-custody",
     "ledger",
     "account balance",

@@ -1,94 +1,85 @@
 ---
 slug: clv-to-olv-migration
-title: "CLV to OLV migration: what holders need to know"
-description: "Olive is the successor to Clover Finance. All CLV holders can migrate to OLV, with no deadline set. Here is what the migration covers and how to start."
+title: "CLV to OCLV migration: what holders need to know"
+description: "Olive's initial framework phase targets CLV adoption into OCLV, not OLV. Here is what the CLV migration covers, which networks it supports, and how to start."
 cluster: migration
 type: guide
-target_query: "clv to olv migration"
-answer: "The CLV to OLV migration moves Clover Finance holders into Olive, the successor project adopted by a new team. All CLV holders are eligible, and no deadline is set as of 19 November 2026. The app shows the current rate and the steps. CLV on Ethereum or BNB Smart Chain is supported."
+target_query: "clv to oclv migration"
+answer: "This CLV to OCLV migration guide starts with the current target. OCLV is Olive's representation of CLV. CLV is the first adopted asset. OLV is Olive's native platform token, not the migration destination. The app shows the current rate and steps."
 published: "2026-11-19"
-updated: "2026-11-19"
-internal_links: ["/blog/clv-migration-eligibility/", "/blog/lux-to-olv-migration/", "/blog/clv-migration-official-links/", "/blog/clv-migration-guide/"]
-sources: ["https://olive-whitepaper.census-explorer.workers.dev/", "https://docs.clv.org/"]
+updated: "2026-11-23"
+internal_links: ["/blog/clv-migration-eligibility/", "/blog/clv-migration-official-links/", "/blog/clv-migration-guide/", "/blog/clv-lux-olv-glossary/"]
+sources: ["https://docs.clv.org/", "https://olivefinance.org/"]
 disclaimer: financial
 ---
 
 Clover Finance holders have watched the project change shape more than once. It launched in 2021, rebranded to CLV in 2022, moved toward Lucent Network in 2025, and now has a successor in Olive.
 
-The CLV to OLV migration is how holders move into that next stage. This guide explains who it covers, which assets it accepts, and how to start without relying on a message from a stranger.
+Status checked 23 November 2026.
 
-Status checked 19 November 2026.
+The current Olive migration target is OCLV, Olive's representation of CLV. It is not OLV.
 
 ## What the migration is
 
-Olive is the successor to Clover Finance and Lucent Network, adopted by a new team. The migration is the path from the old token to the new one.
+Olive is a token adoption, security and interoperability framework. OLV is Olive's native platform token. CLV is the first adopted underlying asset. OCLV is Olive's representation of CLV.
 
-That framing matters. This is not a claim that the earlier project delivered everything it promised. It is a statement about who continues the work now, and how existing holders can join it.
+Under the initial model, Olive controls the underlying CLV through its designated custody arrangement. The framework records the selected network, route and asset so the deposit can be reviewed against the terms shown in the app.
 
-The migration accepts CLV and LUX. It is open to all holders. No deadline is set as of the date at the top of this page.
+## What OCLV is not
+
+OCLV is not OLV.
+
+OCLV is not cross-chain in the initial implementation.
+
+OCLV is not a renamed CLV or a claim that the earlier project delivered everything it promised.
 
 ## Who it covers
 
-All CLV holders are eligible. There is no snapshot cut-off and no holder-size limit in the public terms.
+The initial phase covers CLV on Ethereum and BNB Smart Chain.
 
-CLV exists on more than one network. The migration accepts CLV on Ethereum as an ERC20 token and on BNB Smart Chain as a BEP20 token. If your CLV sits somewhere else, check the app before you act.
-
-Holders who already moved to LUX are covered too. See the [LUX to OLV migration guide](/blog/lux-to-olv-migration/).
+LUX is not part of the initial phase. Do not send LUX based on an old page or a message.
 
 ## What you need before you start
-
-Four things.
 
 1. **An Olive account.** Sign in or create one at [wallet.olivefinance.org](https://wallet.olivefinance.org).
 2. **Control of the wallet that holds your CLV.** The migration starts from your wallet, so an exchange withdrawal address is not the same as a wallet you control.
 3. **The right network.** Ethereum for ERC20 CLV, BNB Smart Chain for BEP20 CLV. The app states what it supports.
-4. **A record of what you send.** Keep the transaction hash and the amount. It is the fastest way to resolve a question.
+4. **A record of what you send.** Keep the transaction hash and the amount.
 
 The app shows the current rate and the exact steps. Do not rely on a rate from this page, a post, or a screenshot.
 
 ## How to start
 
-The public flow is deliberately simple.
-
 1. Sign in to the Olive app.
 2. Open the migration page.
 3. Read the terms shown in the app, including the current rate and the supported asset.
-4. Follow the in-app steps for your asset.
+4. Follow the in-app steps for CLV.
 5. Keep your transaction record.
-6. Check that your OLV balance appears in the app after the migration completes.
+6. Check the balance shown in the app after the migration completes.
 
 If a step is unclear, stop and ask in the official channel before you send anything.
 
 ## How this differs from the Lucent swap
 
-There are two migrations in this story, and mixing them up causes confusion.
+There are two different events in this history.
 
 **Lucent's CLV to LUX swap** moved CLV holders to LUX, the Solana token of Lucent Network. Its published window ends 17 July 2027.
 
-**Olive's CLV to OLV migration** moves CLV holders to OLV. It has no deadline set. It also accepts LUX, so holders who already swapped are not stranded.
+**Olive's CLV adoption migration** targets OCLV. LUX is not part of the initial phase.
 
-If you already hold LUX, use the [LUX guide](/blog/lux-to-olv-migration/). If you still hold CLV, this page is the one.
+Do not treat one window as the other.
 
 ## If you hold CLV on more than one network
 
-CLV can sit on Ethereum and on BNB Smart Chain. If you hold both, treat them as two migrations.
+CLV can sit on Ethereum and on BNB Smart Chain. If you hold both, treat them as two routes.
 
-Keep a separate record for each one, and check the network in the app before you start. A single record for two transfers is harder to resolve if a question comes up.
-
-You do not need to consolidate first. Start each migration from the wallet that holds the CLV, on the network where it sits.
-
+Keep a separate record for each one, and check the network in the app before you start.
 
 ## The rate
 
 The app shows the current rate. That is the only rate that applies to a migration you start today.
 
-Terms can change. A rate you saw last week is not a promise about this week. Read the app before you confirm.
-
-## Why there is no deadline
-
-A deadline converts a difficult decision into a pressured one. Olive has not set one, so holders can verify the project, read the terms, and move when they are ready.
-
-No deadline is a statement about today, not a guarantee about every future date. The app and the official channels carry the current terms. If that changes, this page is updated.
+Terms can change. A rate you saw last week is not a promise about this week.
 
 ## Where to verify everything
 
@@ -98,13 +89,17 @@ A migration announcement is a magnet for impersonators. No real support person w
 
 ## Frequently asked questions
 
-### What is the CLV to OLV migration?
+### What is the CLV to OCLV migration?
 
-It is the path for Clover Finance holders to move into Olive, the successor project. It accepts CLV and LUX, and all holders are eligible.
+It is the path for CLV holders to bring CLV into Olive under the current framework terms. The destination representation is OCLV.
 
-### Is there a deadline?
+### Is OLV the migration destination?
 
-No deadline is set as of 19 November 2026. Check the app and official channels for the current terms.
+No. OLV is Olive's native platform token. OCLV is the representation of CLV.
+
+### Is LUX part of the initial phase?
+
+No. LUX scope is a separate decision.
 
 ### What rate applies?
 
@@ -112,8 +107,4 @@ The rate shown in the app when you start. This page does not publish a number.
 
 ### Can I migrate CLV from an exchange?
 
-Start from a wallet you control. If your CLV sits on an exchange, check whether the exchange supports the migration, and withdraw to your own wallet if it does not.
-
-### Does migrating mean I accept the earlier project's record?
-
-No. The migration is about continuing the work under a new team. Read the terms and decide for yourself.
+Start from a wallet you control. If your CLV sits on an exchange, check whether the exchange supports the process, and withdraw to your own wallet if it does not.

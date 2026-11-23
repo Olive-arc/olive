@@ -1,7 +1,7 @@
 ---
 slug: clv-migration-official-links
 title: "CLV to Olive official links: verify before you send"
-description: "The only official Olive links for the CLV and LUX migration, what each one is for, and how to spot a lookalike before you connect your wallet."
+description: "The only official Olive links for the CLV migration, what each one is for, and how to spot a lookalike before you connect your wallet or send an asset."
 cluster: migration
 type: task
 target_query: "clv to olive official links"
@@ -72,7 +72,7 @@ Read them to understand how the project reached this point. Use the Olive app to
 
 ## Where to go next
 
-If you are ready, read the [CLV to OLV guide](/blog/clv-to-olv-migration/) or check the [current status](/blog/clv-migration-status/). If a link looks wrong, read the [scam warning](/blog/clv-migration-scams/) before you do anything else.
+If you are ready, read the [CLV to OCLV guide](/blog/clv-to-olv-migration/) or check the [current status](/blog/clv-migration-status/). If a link looks wrong, read the [scam warning](/blog/clv-migration-scams/) before you do anything else.
 
 ## Frequently asked questions
 

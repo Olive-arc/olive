@@ -193,6 +193,8 @@ def render_post(article: lib.Article, articles: list[lib.Article], defs: str, he
 
 
 def render_index(articles: list[lib.Article], defs: str, header: str, footer: str) -> str:
+    header = header.replace("../../", "../")
+    footer = footer.replace("../../", "../")
     groups: dict[str, list[lib.Article]] = {}
     for article in articles:
         groups.setdefault(article.cluster, []).append(article)
@@ -227,7 +229,7 @@ def render_index(articles: list[lib.Article], defs: str, header: str, footer: st
         "@type": "Blog",
         "name": "Olive blog",
         "url": f"{lib.SITE_URL}/blog/",
-        "description": "Guides and explainers on the Olive platform, connected DeFi, agentic trading, and the CLV to OLV migration.",
+        "description": "Guides and explainers on the Olive platform, connected DeFi, agentic trading, and the CLV to OCLV migration.",
         "publisher": {"@type": "Organization", "name": lib.SITE_NAME, "url": lib.SITE_URL},
     }
     import json
@@ -238,12 +240,12 @@ def render_index(articles: list[lib.Article], defs: str, header: str, footer: st
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Olive blog: guides and explainers</title>
-  <meta name="description" content="Guides and explainers on the Olive platform, connected DeFi, agentic trading, quantitative investing, and the CLV to OLV migration.">
+  <meta name="description" content="Guides and explainers on the Olive platform, connected DeFi, agentic trading, quantitative investing, and the CLV to OCLV migration.">
   <link rel="canonical" href="{lib.SITE_URL}/blog/">
   <meta property="og:site_name" content="{lib.SITE_NAME}">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Olive blog: guides and explainers">
-  <meta property="og:description" content="Guides and explainers on the Olive platform, connected DeFi, agentic trading, quantitative investing, and the CLV to OLV migration.">
+  <meta property="og:description" content="Guides and explainers on the Olive platform, connected DeFi, agentic trading, quantitative investing, and the CLV to OCLV migration.">
   <meta property="og:url" content="{lib.SITE_URL}/blog/">
   <meta property="og:image" content="{lib.SITE_URL}/assets/img/og.png">
   <meta name="twitter:card" content="summary_large_image">
@@ -272,7 +274,7 @@ def render_index(articles: list[lib.Article], defs: str, header: str, footer: st
     <header class="blog-index__head">
       <p class="mono blog-kicker">Olive / Blog</p>
       <h1>Guides and explainers</h1>
-      <p class="blog-index__lede">How the Olive platform works, how the CLV to OLV migration runs, and what connected DeFi and agentic trading actually mean.</p>
+      <p class="blog-index__lede">How the Olive platform works, how the CLV to OCLV migration runs, and what connected DeFi and agentic trading actually mean.</p>
     </header>
 {chr(10).join(sections) if sections else '    <p class="blog-index__lede">No articles yet.</p>'}
   </div>
@@ -317,21 +319,31 @@ def write_llms(articles: list[lib.Article]) -> None:
     lines = [
         "# Olive",
         "",
-        "> Olive is the intelligent DeFi platform at olivefinance.org. It combines connected DeFi, quantitative investments, agentic trading, and asset and portfolio management on one wallet foundation, with omnibus platform custody and an internal ledger.",
+        "> Olive is an asset-agnostic token adoption, security and interoperability framework at olivefinance.org. OLV is Olive's native platform token. External assets are adopted under integration-specific custody and representation terms.",
         "",
         f"Canonical: {lib.SITE_URL}/",
         f"App: {lib.SITE_URL.replace('https://', 'https://wallet.')}",
         "Whitepaper: https://olive-whitepaper.census-explorer.workers.dev/",
-        "Network: Base Sepolia testnet. Nothing in the current build holds real funds.",
         "",
         lib.DISAMBIGUATION,
+        "",
+        "## Framework",
+        f"- [Framework]({lib.SITE_URL}/framework/): the asset-agnostic model.",
+        f"- [OLV and asset roles]({lib.SITE_URL}/token/): native token and integration roles.",
+        f"- [Adoption]({lib.SITE_URL}/adoption/): how an external asset enters the framework.",
+        f"- [Integration case]({lib.SITE_URL}/adoption/clv/): the first adopted asset.",
+        f"- [Security and custody]({lib.SITE_URL}/security/): controls and risks.",
+        f"- [Interoperability]({lib.SITE_URL}/interoperability/): current scope and later direction.",
+        f"- [Docs]({lib.SITE_URL}/docs/): framework reference.",
+        f"- [Architecture]({lib.SITE_URL}/docs/architecture/): reference stack and execution path.",
+        f"- [Team]({lib.SITE_URL}/team/): operators, advisors and investors.",
+        f"- [Roadmap]({lib.SITE_URL}/docs/roadmap/)",
         "",
         "## Product",
         f"- [Connected DeFi]({lib.SITE_URL}/features/connected-defi/): one route into supported networks and protocols.",
         f"- [Quantitative Investments]({lib.SITE_URL}/features/quantitative-investments/): research, models and analysis.",
         f"- [Agentic Trading]({lib.SITE_URL}/features/agentic-trading/): authorised agents acting within user limits.",
         f"- [Asset and Portfolio Management]({lib.SITE_URL}/features/asset-portfolio-management/): one view of positions and events.",
-        f"- [Roadmap]({lib.SITE_URL}/docs/roadmap/)",
         "",
         "## Articles",
     ]
@@ -341,6 +353,7 @@ def write_llms(articles: list[lib.Article]) -> None:
         "",
         "## Notes",
         "- Olive is in development. Nothing on this site is financial advice or a promise of returns.",
+        "- Integration-specific assembly, custody and representation terms live in the integration case study.",
         "- The migration program ratio, limits and address are shown inside the app after sign-in.",
         "",
     ]
@@ -365,7 +378,7 @@ def write_feed(articles: list[lib.Article]) -> None:
         '<rss version="2.0"><channel>\n'
         "  <title>Olive blog</title>\n"
         f"  <link>{lib.SITE_URL}/blog/</link>\n"
-        "  <description>Guides and explainers on Olive, connected DeFi and the CLV to OLV migration.</description>\n"
+        "  <description>Guides and explainers on Olive, connected DeFi and the CLV to OCLV migration.</description>\n"
         "  <language>en</language>\n"
         + "\n".join(items)
         + "\n</channel></rss>\n"

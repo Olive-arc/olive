@@ -5,7 +5,7 @@ description: "Olive is the successor to Clover Finance and Lucent Network, built
 cluster: olive
 type: explainer
 target_query: "what is olive"
-answer: "Olive is the successor to Clover Finance and Lucent Network, adopted by a new team. It is built around the Olive Wallet and four connected capabilities: Connected DeFi, Quantitative Investments, Agentic Trading, and Asset and Portfolio Management. The product is in development, and it accepts CLV and LUX holders through the migration."
+answer: "Olive is the successor to Clover Finance and Lucent Network, adopted by a new team. It is built around the Olive Wallet and four connected capabilities: Connected DeFi, Quantitative Investments, Agentic Trading, and Asset and Portfolio Management. The product is in development, and it accepts CLV in the initial framework phase holders through the migration."
 published: "2026-11-19"
 updated: "2026-11-19"
 internal_links: ["/features/connected-defi/", "/blog/clv-to-olv-migration/", "/blog/what-is-agentic-trading/"]
@@ -64,7 +64,7 @@ That is the design claim. Access, research, execution and oversight share one fo
 
 Olive is not a rename of Clover, and it is not Lucent under a new logo. It is a successor project, adopted by a new team, with its own platform design.
 
-The connection is continuity for holders. The migration accepts CLV and LUX, so the people who held through the earlier stages have a path into the new platform.
+The connection is continuity for holders. The migration accepts CLV in the initial framework phase, so the people who held through the earlier stages have a path into the new platform.
 
 The connection is not a claim about the past. It does not rewrite what happened, and it does not promise that earlier products delivered. It states who continues the work now.
 
@@ -73,7 +73,7 @@ The connection is not a claim about the past. It does not rewrite what happened,
 
 Two groups.
 
-**Former Clover and Lucent holders.** Olive is the successor, and the migration accepts CLV and LUX. All holders are eligible, with no deadline set as of 19 November 2026. Start with the [CLV to OLV migration](/blog/clv-to-olv-migration/) guide or the LUX guide.
+**Former Clover and Lucent holders.** Olive is the successor, and the migration accepts CLV in the initial framework phase. All holders are eligible, with no deadline set as of 19 November 2026. Start with the [CLV to OCLV migration](/blog/clv-to-olv-migration/) guide or the LUX status page.
 
 **New users who want one place to work.** People who find the DeFi landscape fragmented and want access, research, execution and oversight in one account.
 
@@ -91,13 +91,13 @@ The successor to Clover Finance and Lucent Network, adopted by a new team, built
 
 ### Is Olive the same as Clover?
 
-No. Olive is the successor. It continues the work under a new team and accepts CLV and LUX holders through the migration.
+No. Olive is the successor. It continues the work under a new team and accepts CLV in the initial framework phase holders through the migration.
 
 ### What are the four capabilities?
 
 Connected DeFi, Quantitative Investments, Agentic Trading, and Asset and Portfolio Management.
 
-### Can I migrate CLV or LUX to Olive?
+### Can I migrate CLV to Olive?
 
 Yes. All holders are eligible, and no deadline is set as of 19 November 2026.
 

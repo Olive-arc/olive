@@ -5,7 +5,7 @@ description: "Clover Finance launched in 2021, rebranded to CLV in 2022, and mov
 cluster: clover
 type: guide
 target_query: "clover finance history"
-answer: "Clover Finance launched in 2021 as a Polkadot parachain project, rebranded to CLV in March 2022, and announced CLV 2.0 and Lucent Network in January 2025. Olive is the successor, adopted by a new team, and it accepts both CLV and LUX. The history explains why holders now have more than one migration path."
+answer: "Clover Finance launched in 2021 as a Polkadot parachain project, rebranded to CLV in March 2022, and announced CLV 2.0 and Lucent Network in January 2025. Olive is the successor, adopted by a new team, and it accepts CLV in the initial framework phase. The history explains why holders now have more than one migration path."
 published: "2026-11-19"
 updated: "2026-11-19"
 internal_links: ["/blog/lucent-network-status/", "/blog/clv-to-olv-migration/", "/blog/what-is-olive/"]
@@ -19,7 +19,7 @@ This is a short, factual timeline. The point is not to relitigate the past. It i
 
 ## The short version
 
-Clover Finance launched in 2021, rebranded to CLV in 2022, and moved toward Lucent Network in 2025. Olive is the successor, adopted by a new team, and it accepts both CLV and LUX.
+Clover Finance launched in 2021, rebranded to CLV in 2022, and moved toward Lucent Network in 2025. Olive is the successor, adopted by a new team, and it accepts CLV in the initial framework phase.
 
 ## Clover Finance history at a glance
 
@@ -73,8 +73,8 @@ The 2026 change is different again. Olive is a successor project, adopted by a n
 
 There are two valid paths, depending on what you hold.
 
-- If you hold CLV, the [CLV to OLV migration](/blog/clv-to-olv-migration/) is your route.
-- If you hold LUX, the [LUX to OLV migration](/blog/lux-to-olv-migration/) is your route.
+- If you hold CLV, the [CLV to OCLV migration](/blog/clv-to-olv-migration/) is your route.
+- If you hold LUX, the [LUX status](/blog/lux-to-olv-migration/) is your route.
 
 Both are open to all holders, and no deadline is set as of 19 November 2026.
 
@@ -92,7 +92,7 @@ Olive describes four capabilities on one wallet foundation. Connected DeFi handl
 
 You can read the summary on the [What is Olive](/blog/what-is-olive/) page. The product is in development, and the roadmap sets out the phases.
 
-The reason to know the history is simple. Holders who followed every stage should not have to guess which one applies to them now. The migration answer is that both CLV and LUX are accepted.
+The reason to know the history is simple. Holders who followed every stage should not have to guess which one applies to them now. The migration answer is that both CLV are accepted.
 
 ## Frequently asked questions
 
@@ -114,4 +114,4 @@ Olive is the successor to Clover Finance and Lucent Network, adopted by a new te
 
 ### Does the history affect eligibility?
 
-No. All CLV and LUX holders are eligible, with no snapshot and no deadline set.
+No. CLV holders are eligible in the initial framework phase, with no snapshot and no deadline set.
