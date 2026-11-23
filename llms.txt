@@ -4,7 +4,7 @@
 
 Canonical: https://olivefinance.org/
 App: https://wallet.olivefinance.org
-Whitepaper: https://olive-whitepaper.census-explorer.workers.dev/
+Whitepaper: https://olivefinance.org/olive-whitepaper.pdf
 
 Olive is the successor to Clover Finance and Lucent Network, adopted by a new team. It is not affiliated with oliveapp.finance, Olive Capital, or Olive Foundation Nepal.
 

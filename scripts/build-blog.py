@@ -325,7 +325,7 @@ def write_llms(articles: list[lib.Article]) -> None:
         "",
         f"Canonical: {lib.SITE_URL}/",
         f"App: {lib.SITE_URL.replace('https://', 'https://wallet.')}",
-        "Whitepaper: https://olive-whitepaper.census-explorer.workers.dev/",
+        "Whitepaper: https://olivefinance.org/olive-whitepaper.pdf",
         "",
         lib.DISAMBIGUATION,
         "",

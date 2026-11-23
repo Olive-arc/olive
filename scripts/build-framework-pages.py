@@ -194,6 +194,7 @@ docs_body = '''
 <div><span class="mono">06</span><h3><a href="architecture/">Architecture</a></h3><p>Layers, interfaces and execution path.</p></div>
 <div><span class="mono">07</span><h3><a href="adoption-faq/">Adoption FAQ</a></h3><p>Framework questions.</p></div>
 <div><span class="mono">08</span><h3><a href="glossary/">Glossary</a></h3><p>Framework terminology.</p></div>
+<div><span class="mono">09</span><h3><a href="whitepaper/">Whitepaper</a></h3><p>Framework and product paper, version 2.0.</p></div>
 </div></section>
 <section class="docs-section"><h2>Integration case study</h2>
 <p><a href="../adoption/clv/">View the integration case study</a> for the first adopted asset.</p></section>
@@ -237,13 +238,13 @@ glossary_body = '''
 '''
 
 whitepaper_body = '''
-<section class="docs-section"><h2>Framework whitepaper status</h2>
-<p>The existing published whitepaper describes the product-suite vision. It predates the asset-agnostic framework and does not yet cover adoption, custody, representation or interoperability boundaries.</p>
-<p>A revised framework whitepaper is in preparation. Until it is published, use the framework pages as the current summary.</p></section>
-<section class="docs-section"><h2>What the revision will cover</h2>
-<ul class="docs-list"><li>Olive's framework identity and why it exists</li><li>OLV native-token role</li><li>External asset and representation roles</li><li>Adoption, custody and verification</li><li>Representation, accounting and reconciliation</li><li>Security responsibilities and residual risk</li><li>Existing product pillars</li><li>Initial and later interoperability</li></ul></section>
+<section class="docs-section"><h2>Olive Framework and Product Whitepaper</h2>
+<p><strong>Version 2.0 · 23 November 2026.</strong> This paper supersedes the 11 November 2026 product-suite whitepaper. It covers the framework, the initial CLV integration, the CLV → OCLV bridge, the OCLV → OLV swap, custody and verification, platform architecture, the product ecosystem, security and the roadmap.</p>
+<div class="docs-cta"><a class="btn btn--primary" href="/olive-whitepaper.pdf"><span>Download the PDF</span><svg class="btn__arrow" width="16" height="16" aria-hidden="true"><use href="#arr"/></svg></a></div></section>
+<section class="docs-section"><h2>What it covers</h2>
+<ul class="docs-list"><li>Olive's framework identity and why it exists</li><li>OLV native-token role and current trade controls</li><li>Adopted assets, representations and role separation</li><li>CLV → OCLV bridge terms and network addresses</li><li>OCLV → OLV swap terms and fee</li><li>Custody, verification, accounting and reconciliation</li><li>Security responsibilities and residual risk</li><li>Existing product pillars and RWA boundaries</li><li>Current status, open decisions and later interoperability</li></ul></section>
 <section class="docs-section"><h2>What remains integration-specific</h2>
-<p>Asset identity, networks, contracts, custody arrangements, ratios, fees, backing and redemption terms belong in the relevant integration document.</p></section>
+<p>Asset identity, networks, contracts, custody arrangements, ratios, fees, backing and redemption terms remain in the relevant integration document and the app. The white paper states the framework and current CLV model; it does not replace live app terms.</p></section>
 '''
 
 architecture_body = '''
@@ -301,5 +302,5 @@ page("framework", "Olive framework overview", "Olive's asset-agnostic framework 
 page("docs", "Olive framework documentation", "The current Olive framework pages: framework model, adoption, asset roles, security, interoperability, architecture, roadmap and FAQ.", "Docs", "The current framework reference.", docs_body, "../", "DOCS")
 page("docs/adoption-faq", "Adoption FAQ: framework terms", "Answers to common questions about Olive adoption, assets, representations, custody and interoperability.", "Adoption FAQ", "The short answers.", faq_body, "../../", "DOCS / ADOPTION FAQ")
 page("docs/glossary", "Olive glossary: framework terms", "Plain-language definitions for the Olive Framework, asset roles, custody, issuance and interoperability.", "Glossary", "The words that carry the model.", glossary_body, "../../", "DOCS / GLOSSARY")
-page("docs/whitepaper", "Olive framework whitepaper: status", "The existing whitepaper predates the framework. A revised framework whitepaper is in preparation.", "Whitepaper", "What the current paper covers, and what the revision adds.", whitepaper_body, "../../", "DOCS / WHITEPAPER")
+page("docs/whitepaper", "Olive Framework and Product Whitepaper", "Olive Framework and Product Whitepaper, version 2.0. Covers the bridge, swap, custody, architecture, products, security and roadmap.", "Whitepaper", "The current framework and product paper.", whitepaper_body, "../../", "DOCS / WHITEPAPER")
 page("docs/architecture", "Olive framework architecture", "The layers and execution path behind Olive: permissions, custody, verification, representation, accounting, product access and controls.", "Architecture", "The layers and execution path behind the framework.", architecture_body, "../../", "DOCS / ARCHITECTURE")
