@@ -2,7 +2,7 @@
 <rss version="2.0"><channel>
   <title>Olive blog</title>
   <link>https://olivefinance.org/blog/</link>
-  <description>Guides and explainers on Olive, connected DeFi and the CLV to OCLV migration.</description>
+  <description>Guides and explainers on Olive, connected DeFi, the CLV bridge and the OCLV swap.</description>
   <language>en</language>
     <item>
       <title>What is the CLV token? Clover&#x27;s token, explained</title>
@@ -89,18 +89,18 @@
       <description>CLV, LUX, OLV and OCLV belong to different stages and roles. Compare the four names, what each one represents, and where CLV adoption leads.</description>
     </item>
     <item>
-      <title>CLV to OCLV migration: what holders need to know</title>
+      <title>CLV to OCLV bridge and OLV swap: what holders need</title>
       <link>https://olivefinance.org/blog/clv-to-olv-migration/</link>
       <guid isPermaLink="true">https://olivefinance.org/blog/clv-to-olv-migration/</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
-      <description>Olive&#x27;s initial framework phase targets CLV adoption into OCLV, not OLV. Here is what the CLV migration covers, which networks it supports, and how to start.</description>
+      <description>Olive bridges CLV into OCLV at 1:1. Here is how the bridge works, the network-specific addresses, and how OCLV can later be swapped to OLV with a fee.</description>
     </item>
     <item>
-      <title>CLV to OCLV migration status: what is current</title>
+      <title>CLV bridge status: OCLV and the OLV swap explained</title>
       <link>https://olivefinance.org/blog/clv-migration-status/</link>
       <guid isPermaLink="true">https://olivefinance.org/blog/clv-migration-status/</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
-      <description>The Olive migration target is OCLV, not OLV. Here is the current CLV migration status, what to verify before acting, and what is in the initial phase.</description>
+      <description>Olive bridges CLV into OCLV at 1:1, then offers an OCLV to OLV swap with a fee. Here is the current status and what to verify before acting.</description>
     </item>
     <item>
       <title>CLV migration scams: official links and red flags</title>

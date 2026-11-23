@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Olive blog: guides and explainers</title>
-  <meta name="description" content="Guides and explainers on the Olive platform, connected DeFi, agentic trading, quantitative investing, and the CLV to OCLV migration.">
+  <meta name="description" content="Guides and explainers on the Olive platform, connected DeFi, agentic trading, quantitative investing, and the CLV bridge / OCLV swap model.">
   <link rel="canonical" href="https://olivefinance.org/blog/">
   <meta property="og:site_name" content="Olive">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Olive blog: guides and explainers">
-  <meta property="og:description" content="Guides and explainers on the Olive platform, connected DeFi, agentic trading, quantitative investing, and the CLV to OCLV migration.">
+  <meta property="og:description" content="Guides and explainers on the Olive platform, connected DeFi, agentic trading, quantitative investing, and the CLV bridge / OCLV swap model.">
   <meta property="og:url" content="https://olivefinance.org/blog/">
   <meta property="og:image" content="https://olivefinance.org/assets/img/og.png">
   <meta name="twitter:card" content="summary_large_image">
@@ -29,7 +29,7 @@
   "@type": "Blog",
   "name": "Olive blog",
   "url": "https://olivefinance.org/blog/",
-  "description": "Guides and explainers on the Olive platform, connected DeFi, agentic trading, and the CLV to OCLV migration.",
+  "description": "Guides and explainers on the Olive platform, connected DeFi, agentic trading, and the CLV bridge / OCLV swap model.",
   "publisher": {
     "@type": "Organization",
     "name": "Olive",
@@ -168,10 +168,10 @@
     <header class="blog-index__head">
       <p class="mono blog-kicker">Olive / Blog</p>
       <h1>Guides and explainers</h1>
-      <p class="blog-index__lede">How the Olive platform works, how the CLV to OCLV migration runs, and what connected DeFi and agentic trading actually mean.</p>
+      <p class="blog-index__lede">How the Olive platform works, how the CLV → OCLV bridge and OCLV → OLV swap work, and what connected DeFi and agentic trading mean.</p>
     </header>
       <section class="blog-group">
-        <h2>Migration</h2>
+        <h2>Bridge &amp; swap</h2>
         <ul class="post-list">
         <li class="post-card">
           <a href="lux-to-olv-migration/">
@@ -182,16 +182,16 @@
         </li>
         <li class="post-card">
           <a href="clv-to-olv-migration/">
-            <span class="mono post-card__meta">2026-11-19 &middot; 682 words</span>
-            <span class="post-card__title">CLV to OCLV migration: what holders need to know</span>
-            <span class="post-card__desc">Olive&#x27;s initial framework phase targets CLV adoption into OCLV, not OLV. Here is what the CLV migration covers, which networks it supports, and how to start.</span>
+            <span class="mono post-card__meta">2026-11-19 &middot; 757 words</span>
+            <span class="post-card__title">CLV to OCLV bridge and OLV swap: what holders need</span>
+            <span class="post-card__desc">Olive bridges CLV into OCLV at 1:1. Here is how the bridge works, the network-specific addresses, and how OCLV can later be swapped to OLV with a fee.</span>
           </a>
         </li>
         <li class="post-card">
           <a href="clv-migration-status/">
-            <span class="mono post-card__meta">2026-11-19 &middot; 259 words</span>
-            <span class="post-card__title">CLV to OCLV migration status: what is current</span>
-            <span class="post-card__desc">The Olive migration target is OCLV, not OLV. Here is the current CLV migration status, what to verify before acting, and what is in the initial phase.</span>
+            <span class="mono post-card__meta">2026-11-19 &middot; 285 words</span>
+            <span class="post-card__title">CLV bridge status: OCLV and the OLV swap explained</span>
+            <span class="post-card__desc">Olive bridges CLV into OCLV at 1:1, then offers an OCLV to OLV swap with a fee. Here is the current status and what to verify before acting.</span>
           </a>
         </li>
         <li class="post-card">
@@ -382,40 +382,37 @@
 <footer class="footer">
   <div class="container">
     <div class="footer__top">
-      <a class="footer__word" href="../index.html" aria-label="OLIVE home"><svg class="footer__wordmark" viewBox="-4 -4 556 128" aria-hidden="true"><use href="#olive-wordmark"/></svg></a>
+      <a class="footer__word" href="/" aria-label="OLIVE home"><svg class="footer__wordmark" viewBox="-4 -4 556 128" aria-hidden="true"><use href="#olive-wordmark"/></svg></a>
       <div class="footer__cols">
         <div class="footer__col">
           <h4>Explore</h4>
-          <a href="../index.html#system">The four pillars</a>
-          <a href="../index.html#wallet">Wallet</a>
-          <a href="../features/connected-defi/">Connected DeFi</a>
-          <a href="../features/quantitative-investments/">Quantitative Investments</a>
-          <a href="../features/agentic-trading/">Agentic Trading</a>
-          <a href="../features/asset-portfolio-management/">Asset &amp; Portfolio Management</a>
+          <a href="/#system">The four pillars</a>
+          <a href="/#wallet">Wallet</a>
+          <a href="/features/connected-defi/">Connected DeFi</a>
+          <a href="/features/quantitative-investments/">Quantitative Investments</a>
+          <a href="/features/agentic-trading/">Agentic Trading</a>
+          <a href="/features/asset-portfolio-management/">Asset &amp; Portfolio Management</a>
         </div>
         <div class="footer__col">
           <h4>Framework</h4>
-          <a href="../framework/">Framework overview</a>
-          <a href="../adoption/">Adoption</a>
-          <a href="../token/">OLV and asset roles</a>
-          <a href="../adoption/clv/">Integration case</a>
-          <a href="../oclv/">Representation case</a>
-          <a href="../security/">Security &amp; custody</a>
-          <a href="../interoperability/">Interoperability</a>
-          <a href="../docs/">Docs</a>
-          <a href="../docs/architecture/">Architecture</a>
-          <a href="../docs/adoption-faq/">Adoption FAQ</a>
-          <a href="../team/">Team</a>
+          <a href="/framework/">Framework overview</a>
+          <a href="/adoption/">Adoption</a>
+          <a href="/token/">OLV and asset roles</a>
+          <a href="/adoption/clv/">Integration case</a>
+          <a href="/oclv/">Representation case</a>
+          <a href="/security/">Security &amp; custody</a>
+          <a href="/interoperability/">Interoperability</a>
+          <a href="/docs/">Docs</a>
+          <a href="/docs/architecture/">Architecture</a>
+          <a href="/docs/adoption-faq/">Adoption FAQ</a>
+          <a href="/team/">Team</a>
         </div>
         <div class="footer__col">
           <h4>Product</h4>
-          <a href="../features/connected-defi/">Connected DeFi</a>
-          <a href="../features/quantitative-investments/">Quantitative Investments</a>
-          <a href="../features/agentic-trading/">Agentic Trading</a>
-          <a href="../features/asset-portfolio-management/">Asset &amp; Portfolio Management</a>
-          <a href="../index.html#migration">Migration</a>
-          <a href="../docs/roadmap/">Roadmap</a>
-          <a href="../blog/">Blog</a>
+          <a href="https://wallet.olivefinance.org/sign-in?next=/bridge">Bridge</a>
+          <a href="https://wallet.olivefinance.org/sign-in?next=/swap">Swap</a>
+          <a href="/docs/roadmap/">Roadmap</a>
+          <a href="/blog/">Blog</a>
           <a href="https://wallet.olivefinance.org/sign-in?next=/wallet">Launch app</a>
         </div>
         <div class="footer__col footer__social">

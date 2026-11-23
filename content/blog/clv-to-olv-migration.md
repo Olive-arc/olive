@@ -1,11 +1,11 @@
 ---
 slug: clv-to-olv-migration
-title: "CLV to OCLV migration: what holders need to know"
-description: "Olive's initial framework phase targets CLV adoption into OCLV, not OLV. Here is what the CLV migration covers, which networks it supports, and how to start."
+title: "CLV to OCLV bridge and OLV swap: what holders need"
+description: "Olive bridges CLV into OCLV at 1:1. Here is how the bridge works, the network-specific addresses, and how OCLV can later be swapped to OLV with a fee."
 cluster: migration
 type: guide
-target_query: "clv to oclv migration"
-answer: "This CLV to OCLV migration guide starts with the current target. OCLV is Olive's representation of CLV. CLV is the first adopted asset. OLV is Olive's native platform token, not the migration destination. The app shows the current rate and steps."
+target_query: "clv to oclv bridge"
+answer: "Olive bridges CLV into OCLV at 1:1. CLV is the first adopted asset, and OCLV is its representation. OLV is the separate native token. OCLV is not tradeable and is not listed on Trade; it can only be swapped to OLV through the approved swap, which charges a fee shown before confirmation."
 published: "2026-11-19"
 updated: "2026-11-23"
 internal_links: ["/blog/clv-migration-eligibility/", "/blog/clv-migration-official-links/", "/blog/clv-migration-guide/", "/blog/clv-lux-olv-glossary/"]
@@ -17,7 +17,9 @@ Clover Finance holders have watched the project change shape more than once. It 
 
 Status checked 23 November 2026.
 
-The current Olive migration target is OCLV, Olive's representation of CLV. It is not OLV.
+This CLV to OCLV bridge guide covers the current path. The bridge is free and fixes the old migration framing.
+
+The current Olive bridge target is OCLV, Olive's representation of CLV. It is not OLV.
 
 ## What the migration is
 
@@ -46,7 +48,7 @@ LUX is not part of the initial phase. Do not send LUX based on an old page or a 
 3. **The right network.** Ethereum for ERC20 CLV, BNB Smart Chain for BEP20 CLV. The app states what it supports.
 4. **A record of what you send.** Keep the transaction hash and the amount.
 
-The app shows the current rate and the exact steps. Do not rely on a rate from this page, a post, or a screenshot.
+The bridge is 1 CLV to 1 OCLV and is free. Network fees may still apply. Do not rely on an address from a post, a screenshot or a direct message.
 
 ## How to start
 
@@ -75,9 +77,13 @@ CLV can sit on Ethereum and on BNB Smart Chain. If you hold both, treat them as 
 
 Keep a separate record for each one, and check the network in the app before you start.
 
-## The rate
+## After OCLV
 
-The app shows the current rate. That is the only rate that applies to a migration you start today.
+OCLV is not listed on Trade. It can only be swapped to OLV through the approved OCLV → OLV swap. The swap is fixed at 1:1 and charges a 1% fee in OCLV, shown before confirmation. The bridge itself is free.
+
+## The bridge address
+
+The app shows the network-specific CLV bridge address. Ethereum and BNB Smart Chain use different addresses; always check the network before sending.
 
 Terms can change. A rate you saw last week is not a promise about this week.
 

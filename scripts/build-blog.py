@@ -202,6 +202,8 @@ def render_index(articles: list[lib.Article], defs: str, header: str, footer: st
     def order(cluster: str) -> int:
         return CLUSTER_ORDER.index(cluster) if cluster in CLUSTER_ORDER else 99
 
+    labels = {"migration": "Bridge & swap"}
+
     sections = []
     for cluster in sorted(groups, key=order):
         cards = "\n".join(
@@ -214,7 +216,7 @@ def render_index(articles: list[lib.Article], defs: str, header: str, footer: st
         </li>"""
             for a in sorted(groups[cluster], key=lambda x: x.published, reverse=True)
         )
-        label = cluster.replace("-", " ").title()
+        label = labels.get(cluster, cluster.replace("-", " ").title())
         sections.append(
             f"""      <section class="blog-group">
         <h2>{html.escape(label)}</h2>
@@ -229,7 +231,7 @@ def render_index(articles: list[lib.Article], defs: str, header: str, footer: st
         "@type": "Blog",
         "name": "Olive blog",
         "url": f"{lib.SITE_URL}/blog/",
-        "description": "Guides and explainers on the Olive platform, connected DeFi, agentic trading, and the CLV to OCLV migration.",
+        "description": "Guides and explainers on the Olive platform, connected DeFi, agentic trading, and the CLV bridge / OCLV swap model.",
         "publisher": {"@type": "Organization", "name": lib.SITE_NAME, "url": lib.SITE_URL},
     }
     import json
@@ -240,12 +242,12 @@ def render_index(articles: list[lib.Article], defs: str, header: str, footer: st
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Olive blog: guides and explainers</title>
-  <meta name="description" content="Guides and explainers on the Olive platform, connected DeFi, agentic trading, quantitative investing, and the CLV to OCLV migration.">
+  <meta name="description" content="Guides and explainers on the Olive platform, connected DeFi, agentic trading, quantitative investing, and the CLV bridge / OCLV swap model.">
   <link rel="canonical" href="{lib.SITE_URL}/blog/">
   <meta property="og:site_name" content="{lib.SITE_NAME}">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Olive blog: guides and explainers">
-  <meta property="og:description" content="Guides and explainers on the Olive platform, connected DeFi, agentic trading, quantitative investing, and the CLV to OCLV migration.">
+  <meta property="og:description" content="Guides and explainers on the Olive platform, connected DeFi, agentic trading, quantitative investing, and the CLV bridge / OCLV swap model.">
   <meta property="og:url" content="{lib.SITE_URL}/blog/">
   <meta property="og:image" content="{lib.SITE_URL}/assets/img/og.png">
   <meta name="twitter:card" content="summary_large_image">
@@ -274,7 +276,7 @@ def render_index(articles: list[lib.Article], defs: str, header: str, footer: st
     <header class="blog-index__head">
       <p class="mono blog-kicker">Olive / Blog</p>
       <h1>Guides and explainers</h1>
-      <p class="blog-index__lede">How the Olive platform works, how the CLV to OCLV migration runs, and what connected DeFi and agentic trading actually mean.</p>
+      <p class="blog-index__lede">How the Olive platform works, how the CLV → OCLV bridge and OCLV → OLV swap work, and what connected DeFi and agentic trading mean.</p>
     </header>
 {chr(10).join(sections) if sections else '    <p class="blog-index__lede">No articles yet.</p>'}
   </div>
@@ -327,6 +329,8 @@ def write_llms(articles: list[lib.Article]) -> None:
         "",
         lib.DISAMBIGUATION,
         "",
+        "Current model: CLV → OCLV is a free 1:1 asset bridge. OCLV is not tradeable and is not listed on Trade. OCLV → OLV is a fixed 1:1 swap with a 1% fee in OCLV, shown before confirmation. OLV is tradeable only when Olive enables Trade. There is no user-facing migration flow.",
+        "",
         "## Framework",
         f"- [Framework]({lib.SITE_URL}/framework/): the asset-agnostic model.",
         f"- [OLV and asset roles]({lib.SITE_URL}/token/): native token and integration roles.",
@@ -354,7 +358,7 @@ def write_llms(articles: list[lib.Article]) -> None:
         "## Notes",
         "- Olive is in development. Nothing on this site is financial advice or a promise of returns.",
         "- Integration-specific assembly, custody and representation terms live in the integration case study.",
-        "- The migration program ratio, limits and address are shown inside the app after sign-in.",
+        "- The bridge address, swap fee and limits are shown inside the app after sign-in.",
         "",
     ]
     (lib.ROOT / "llms.txt").write_text("\n".join(lines), encoding="utf-8")
@@ -378,7 +382,7 @@ def write_feed(articles: list[lib.Article]) -> None:
         '<rss version="2.0"><channel>\n'
         "  <title>Olive blog</title>\n"
         f"  <link>{lib.SITE_URL}/blog/</link>\n"
-        "  <description>Guides and explainers on Olive, connected DeFi and the CLV to OCLV migration.</description>\n"
+        "  <description>Guides and explainers on Olive, connected DeFi, the CLV bridge and the OCLV swap.</description>\n"
         "  <language>en</language>\n"
         + "\n".join(items)
         + "\n</channel></rss>\n"

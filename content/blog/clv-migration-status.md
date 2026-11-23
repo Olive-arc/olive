@@ -1,11 +1,11 @@
 ---
 slug: clv-migration-status
-title: "CLV to OCLV migration status: what is current"
-description: "The Olive migration target is OCLV, not OLV. Here is the current CLV migration status, what to verify before acting, and what is in the initial phase."
+title: "CLV bridge status: OCLV and the OLV swap explained"
+description: "Olive bridges CLV into OCLV at 1:1, then offers an OCLV to OLV swap with a fee. Here is the current status and what to verify before acting."
 cluster: migration
 type: task
-target_query: "clv migration status"
-answer: "The current Olive migration target is OCLV, Olive's representation of CLV. CLV on Ethereum and BNB Smart Chain is the initial framework case. LUX is not part of the initial phase. Check the app for live availability and terms."
+target_query: "clv bridge status"
+answer: "Olive bridges CLV into OCLV at 1:1 on Ethereum and BNB Smart Chain. OCLV is not tradeable and is not listed on Trade. It can be swapped to OLV through the approved swap at a fixed 1:1 rate with a 1% fee. OLV is tradeable only when Olive enables Trade."
 published: "2026-11-19"
 updated: "2026-11-23"
 internal_links: ["/blog/clv-to-olv-migration/", "/blog/clv-migration-guide/", "/blog/clv-migration-official-links/"]
@@ -15,15 +15,17 @@ disclaimer: financial
 
 Status checked 23 November 2026.
 
-This CLV migration status page tracks the current Olive direction. The app is the authority on live availability and terms.
+This CLV bridge status page explains the CLV to OCLV bridge and the OCLV to OLV swap.
 
-The old OLV destination language was retired. OLV is the native platform token. OCLV is the representation of CLV. The migration page in the app carries the current terms, including the route and the conversion shown for your selected asset.
+This page tracks the current Olive bridge and swap direction. The app is the authority on live availability and terms.
+
+CLV → OCLV is a free 1:1 bridge. OCLV → OLV is a fee-bearing 1:1 swap. OLV is the native platform token, and OCLV is not listed on Trade.
 
 ## Current target
 
-The migration target is **OCLV**, Olive's representation of CLV.
+The bridge target is **OCLV**, Olive's representation of CLV.
 
-OLV is Olive's native platform token. It is not the migration destination.
+OLV is Olive's native platform token. It is the output of the OCLV → OLV swap, not the bridge destination.
 
 ## Assets in the initial phase
 
@@ -48,24 +50,24 @@ OLV is Olive's native platform token. It is not the migration destination.
 
 ## Related pages
 
-- [CLV to OCLV guide](/blog/clv-to-olv-migration/)
+- [CLV to OCLV bridge guide](/blog/clv-to-olv-migration/)
 - [Migration map](/blog/clv-migration-guide/)
 - [Official links](/blog/clv-migration-official-links/)
 
 ## Frequently asked questions
 
-### Is the migration target OLV?
+### Is OCLV tradeable?
 
-No. OLV is Olive's native platform token. The target is OCLV.
+No. OCLV is not listed on Trade. It can only be swapped to OLV through the approved swap.
 
-### Does the migration accept LUX?
+### Does the bridge accept LUX?
 
 Not in the initial phase. LUX is a separate scope decision.
 
 ### What should I check before I send?
 
-Check the asset, the network, the route, the current terms and the official links page. If anything differs from the app, stop.
+Check the asset, the network, the bridge address, the swap fee and the official links page. If anything differs from the app, stop.
 
 ### Where are the current terms?
 
-In the app. This page does not publish a rate.
+In the app. The app shows the bridge address and the swap fee before confirmation.
