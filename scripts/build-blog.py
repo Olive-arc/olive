@@ -329,7 +329,7 @@ def write_llms(articles: list[lib.Article]) -> None:
         "",
         lib.DISAMBIGUATION,
         "",
-        "Current model: CLV → OCLV is a free 1:1 asset bridge. OCLV is not tradeable and is not listed on Trade. OCLV → OLV is a fixed 1:1 swap with a 1% fee in OCLV, shown before confirmation. OLV is tradeable only when Olive enables Trade. There is no user-facing migration flow.",
+        "Current model: CLV → OCLV is a 1:1 asset bridge. OCLV is not tradeable and is not listed on Trade. OCLV → OLV is a fixed 1:1 swap. OLV is tradeable only when Olive enables Trade. There is no user-facing migration flow.",
         "",
         "## Framework",
         f"- [Framework]({lib.SITE_URL}/framework/): the asset-agnostic model.",
@@ -358,7 +358,7 @@ def write_llms(articles: list[lib.Article]) -> None:
         "## Notes",
         "- Olive is in development. Nothing on this site is financial advice or a promise of returns.",
         "- Integration-specific assembly, custody and representation terms live in the integration case study.",
-        "- The bridge address, swap fee and limits are shown inside the app after sign-in.",
+        "- The bridge address, swap terms and limits are shown inside the app after sign-in.",
         "",
     ]
     (lib.ROOT / "llms.txt").write_text("\n".join(lines), encoding="utf-8")

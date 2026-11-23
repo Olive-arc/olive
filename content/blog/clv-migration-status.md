@@ -1,11 +1,11 @@
 ---
 slug: clv-migration-status
 title: "CLV bridge status: OCLV and the OLV swap explained"
-description: "Olive bridges CLV into OCLV at 1:1, then offers an OCLV to OLV swap with a fee. Here is the current status and what to verify before acting."
+description: "Olive bridges CLV into OCLV at 1:1, then offers an OCLV to OLV swap. Here is the current status and what holders should verify before acting."
 cluster: migration
 type: task
 target_query: "clv bridge status"
-answer: "Olive bridges CLV into OCLV at 1:1 on Ethereum and BNB Smart Chain. OCLV is not tradeable and is not listed on Trade. It can be swapped to OLV through the approved swap at a fixed 1:1 rate with a 1% fee. OLV is tradeable only when Olive enables Trade."
+answer: "Olive bridges CLV into OCLV at 1:1 on Ethereum and BNB Smart Chain. OCLV is not tradeable and is not listed on Trade. It can be swapped to OLV through the approved swap at a fixed 1:1 rate. OLV is tradeable only when Olive enables Trade. Current swap terms are shown in the app."
 published: "2026-11-19"
 updated: "2026-11-23"
 internal_links: ["/blog/clv-to-olv-migration/", "/blog/clv-migration-guide/", "/blog/clv-migration-official-links/"]
@@ -19,7 +19,7 @@ This CLV bridge status page explains the CLV to OCLV bridge and the OCLV to OLV 
 
 This page tracks the current Olive bridge and swap direction. The app is the authority on live availability and terms.
 
-CLV → OCLV is a free 1:1 bridge. OCLV → OLV is a fee-bearing 1:1 swap. OLV is the native platform token, and OCLV is not listed on Trade.
+CLV → OCLV is a 1:1 bridge. OCLV → OLV is a 1:1 swap. OLV is the native platform token, and OCLV is not listed on Trade.
 
 ## Current target
 
@@ -66,8 +66,8 @@ Not in the initial phase. LUX is a separate scope decision.
 
 ### What should I check before I send?
 
-Check the asset, the network, the bridge address, the swap fee and the official links page. If anything differs from the app, stop.
+Check the asset, the network, the bridge address, the current swap terms and the official links page. If anything differs from the app, stop.
 
 ### Where are the current terms?
 
-In the app. The app shows the bridge address and the swap fee before confirmation.
+In the app. The app shows the bridge address and current swap terms before confirmation.

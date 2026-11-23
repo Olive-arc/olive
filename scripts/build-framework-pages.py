@@ -128,8 +128,8 @@ clv_body = '''
 <p>Under the initial model, Olive controls the underlying CLV through its designated custody arrangement. The framework records the selected network, route and asset so the transfer can be reviewed against the current terms.</p>
 <p>CLV is the underlying asset. OCLV is the representation. OLV is the native platform token.</p></section>
 <section class="docs-section"><h2>Current terms</h2>
-<p>Choose CLV on Ethereum or CLV on BNB Smart Chain. Both bridge to OCLV at <strong>1 CLV to 1 OCLV</strong>. The Olive bridge is free; network fees may still apply.</p>
-<p>OCLV is not listed on Trade. It can only be swapped to OLV through the approved OCLV → OLV swap, which carries a fee shown before confirmation.</p>
+<p>Choose CLV on Ethereum or CLV on BNB Smart Chain. Both bridge to OCLV at <strong>1 CLV to 1 OCLV</strong>. Network fees may still apply.</p>
+<p>OCLV is not listed on Trade. It can only be swapped to OLV through the approved OCLV → OLV swap. Current swap terms are shown in the app before confirmation.</p>
 <p>LUX is not part of the initial CLV phase.</p></section>
 <section class="docs-section"><h2>Verify</h2>
 <p>Use the official links and the scam warning before sending anything. Support never asks for a seed phrase or a direct-message address.</p>
@@ -141,7 +141,7 @@ oclv_body = '''
 <p>OCLV is created when CLV is bridged into Olive at 1:1. It is not OLV, and it is not a cross-chain token in the initial implementation.</p>
 <div class="docs-callout">OCLV is not listed on Trade. Its only approved conversion is the OCLV → OLV swap.</div></section>
 <section class="docs-section"><h2>Initial boundaries</h2>
-<ul class="docs-list"><li>CLV → OCLV is a 1:1 bridge.</li><li>OCLV is not cross-chain in the initial implementation.</li><li>OCLV is not tradeable on the Trade page.</li><li>OCLV can be swapped to OLV when the admin enables the swap route.</li><li>The swap has a fee shown before confirmation; the bridge is free.</li><li>Backing and redemption rules remain separate integration terms.</li></ul></section>
+<ul class="docs-list"><li>CLV → OCLV is a 1:1 bridge.</li><li>OCLV is not cross-chain in the initial implementation.</li><li>OCLV is not tradeable on the Trade page.</li><li>OCLV can be swapped to OLV when the admin enables the swap route.</li><li>Current swap terms are shown in the app before confirmation.</li><li>Backing and redemption rules remain separate integration terms.</li></ul></section>
 <section class="docs-section"><h2>Issuance and accounting</h2>
 <p>OCLV is credited after the CLV bridge is reviewed and approved. Records keep custody assets, representation liabilities and the native token separate.</p>
 <p>Do not assume OCLV is fully backed, guaranteed, risk-free, redeemable on demand or transferable across networks.</p></section>
@@ -209,7 +209,7 @@ faq_body = '''
 <section class="docs-section"><h2>Do all assets use the same rules?</h2><p>No. Each integration defines its own custody, verification, representation, accounting and redemption rules.</p></section>
 <section class="docs-section"><h2>Is a representation cross-chain?</h2><p>Not by default.</p></section>
 <section class="docs-section"><h2>Is a representation fully backed or redeemable?</h2><p>Those claims require an integration-specific approved model and evidence.</p></section>
-<section class="docs-section"><h2>How do I get OLV?</h2><p>Bridge CLV to OCLV at 1:1, then swap OCLV to OLV through the approved swap route when it is enabled. The swap fee is shown before confirmation.</p></section>
+<section class="docs-section"><h2>How do I get OLV?</h2><p>Bridge CLV to OCLV at 1:1, then swap OCLV to OLV through the approved swap route when it is enabled. Current swap terms are shown before confirmation.</p></section>
 <section class="docs-section"><h2>Is OCLV tradeable?</h2><p>No. OCLV is not listed on Trade. It can only be swapped to OLV.</p></section>
 <section class="docs-section"><h2>Where do I find an asset's terms?</h2><p>In the app and that integration's case study. Do not apply one integration's terms to another asset.</p></section>
 <section class="docs-section"><h2>Where are the official links?</h2><p>Site: <a href="https://olivefinance.org">olivefinance.org</a> · App: <a href="https://wallet.olivefinance.org">wallet.olivefinance.org</a> · Telegram: <a href="https://t.me/olive_eng">t.me/olive_eng</a>. Never use an address or link from a direct message.</p></section>
@@ -232,7 +232,7 @@ glossary_body = '''
 <p><strong>Reconciliation.</strong> Comparison of custody records, representation liabilities and ledger balances.</p>
 <p><strong>Cross-chain.</strong> Movement or coordination between networks. Not default.</p>
 <p><strong>Asset bridge.</strong> The CLV → OCLV conversion route inside Olive. It is not a cross-chain bridge.</p>
-<p><strong>Swap.</strong> The OCLV → OLV conversion at a fixed rate, with the fee shown before confirmation.</p></section>
+<p><strong>Swap.</strong> The OCLV → OLV conversion at a fixed rate, with current terms shown in the app before confirmation.</p></section>
 <section class="docs-section"><h2>Claim rules</h2>
 <p>Use OLV only as the native token name. Refer to external assets generically unless the page is an integration case study.</p></section>
 '''
@@ -262,7 +262,7 @@ architecture_body = '''
 <p>Custody assets, representation liabilities, native supply and clearing accounts remain separate. Reconciliation compares custody, liabilities and ledger records.</p></section>
 <section class="docs-section"><h2>Product and protocol access</h2>
 <p>Products access approved assets and representations through standard connectors. Multi-step actions execute atomically where required. Product totals follow approved accounting rules.</p></section>
-<section class="docs-section"><h2>Native token and swap access</h2><p>Native-token trading and representation swaps are admin-gated product functions. They use current terms, snapshot the fee and rates at submission, and never imply a fixed market conversion outside the configured pair.</p></section>
+<section class="docs-section"><h2>Native token and swap access</h2><p>Native-token trading and representation swaps are admin-gated product functions. They use current terms, snapshot the configured terms and rates at submission, and never imply a fixed market conversion outside the configured pair.</p></section>
 <section class="docs-section"><h2>Monitoring and governance</h2>
 <p>Transactions are simulated, activity is monitored and risk conditions trigger pause controls. Roles, approvals, audit and incident response are part of the architecture.</p></section>
 <section class="docs-section"><h2>Interoperability</h2>

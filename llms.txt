@@ -8,7 +8,7 @@ Whitepaper: https://olivefinance.org/olive-whitepaper.pdf
 
 Olive is the successor to Clover Finance and Lucent Network, adopted by a new team. It is not affiliated with oliveapp.finance, Olive Capital, or Olive Foundation Nepal.
 
-Current model: CLV → OCLV is a free 1:1 asset bridge. OCLV is not tradeable and is not listed on Trade. OCLV → OLV is a fixed 1:1 swap with a 1% fee in OCLV, shown before confirmation. OLV is tradeable only when Olive enables Trade. There is no user-facing migration flow.
+Current model: CLV → OCLV is a 1:1 asset bridge. OCLV is not tradeable and is not listed on Trade. OCLV → OLV is a fixed 1:1 swap. OLV is tradeable only when Olive enables Trade. There is no user-facing migration flow.
 
 ## Framework
 - [Framework](https://olivefinance.org/framework/): the asset-agnostic model.
@@ -43,4 +43,4 @@ Current model: CLV → OCLV is a free 1:1 asset bridge. OCLV is not tradeable an
 ## Notes
 - Olive is in development. Nothing on this site is financial advice or a promise of returns.
 - Integration-specific assembly, custody and representation terms live in the integration case study.
-- The bridge address, swap fee and limits are shown inside the app after sign-in.
+- The bridge address, swap terms and limits are shown inside the app after sign-in.

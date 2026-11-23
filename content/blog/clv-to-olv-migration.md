@@ -1,11 +1,11 @@
 ---
 slug: clv-to-olv-migration
 title: "CLV to OCLV bridge and OLV swap: what holders need"
-description: "Olive bridges CLV into OCLV at 1:1. Here is how the bridge works, the network-specific addresses, and how OCLV can later be swapped to OLV with a fee."
+description: "Olive bridges CLV into OCLV at 1:1. Here is how the bridge works, the network-specific addresses, and how the approved OCLV to OLV swap works."
 cluster: migration
 type: guide
 target_query: "clv to oclv bridge"
-answer: "Olive bridges CLV into OCLV at 1:1. CLV is the first adopted asset, and OCLV is its representation. OLV is the separate native token. OCLV is not tradeable and is not listed on Trade; it can only be swapped to OLV through the approved swap, which charges a fee shown before confirmation."
+answer: "Olive bridges CLV into OCLV at 1:1. CLV is the first adopted asset, and OCLV is its representation. OLV is the separate native token. OCLV is not tradeable and is not listed on Trade; it can only be swapped to OLV through the approved swap. Current swap terms are shown in the app before confirmation."
 published: "2026-11-19"
 updated: "2026-11-23"
 internal_links: ["/blog/clv-migration-eligibility/", "/blog/clv-migration-official-links/", "/blog/clv-migration-guide/", "/blog/clv-lux-olv-glossary/"]
@@ -17,7 +17,7 @@ Clover Finance holders have watched the project change shape more than once. It 
 
 Status checked 23 November 2026.
 
-This CLV to OCLV bridge guide covers the current path. The bridge is free and fixes the old migration framing.
+This CLV to OCLV bridge guide covers the current path and fixes the old migration framing.
 
 The current Olive bridge target is OCLV, Olive's representation of CLV. It is not OLV.
 
@@ -48,7 +48,7 @@ LUX is not part of the initial phase. Do not send LUX based on an old page or a 
 3. **The right network.** Ethereum for ERC20 CLV, BNB Smart Chain for BEP20 CLV. The app states what it supports.
 4. **A record of what you send.** Keep the transaction hash and the amount.
 
-The bridge is 1 CLV to 1 OCLV and is free. Network fees may still apply. Do not rely on an address from a post, a screenshot or a direct message.
+The bridge is 1 CLV to 1 OCLV. Network fees may still apply. Do not rely on an address from a post, a screenshot or a direct message.
 
 ## How to start
 
@@ -79,7 +79,7 @@ Keep a separate record for each one, and check the network in the app before you
 
 ## After OCLV
 
-OCLV is not listed on Trade. It can only be swapped to OLV through the approved OCLV → OLV swap. The swap is fixed at 1:1 and charges a 1% fee in OCLV, shown before confirmation. The bridge itself is free.
+OCLV is not listed on Trade. It can only be swapped to OLV through the approved OCLV → OLV swap. The swap is fixed at 1:1. Current swap terms are shown in the app before confirmation.
 
 ## The bridge address
 
