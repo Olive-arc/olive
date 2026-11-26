@@ -5,9 +5,9 @@ description: "The current Olive framework phase targets CLV adoption into OCLV. 
 cluster: migration
 type: guide
 target_query: "clv migration"
-answer: "The current Olive migration target is OCLV, Olive's representation of CLV. CLV on Ethereum or BNB Smart Chain is the initial framework case. LUX is not part of the initial phase. The app shows the current rate and steps."
+answer: "The current Olive migration target is OCLV, Olive's representation of CLV. CLV on Ethereum or BNB Smart Chain is the initial framework case. LUX has its own bridge and migration path. The app shows the current rate and steps."
 published: "2026-11-19"
-updated: "2026-11-23"
+updated: "2026-11-24"
 internal_links: ["/blog/clv-to-olv-migration/", "/blog/clv-migration-eligibility/", "/blog/clv-migration-official-links/", "/blog/clv-lux-olv-glossary/"]
 sources: ["https://docs.clv.org/", "https://t.me/olive_eng"]
 disclaimer: financial
@@ -31,7 +31,7 @@ This CLV migration guide covers the current path. The migration target is OCLV. 
 | --- | --- | --- | --- |
 | CLV | Ethereum | ERC20 | Adopt into Olive as OCLV |
 | CLV | BNB Smart Chain | BEP20 | Adopt into Olive as OCLV |
-| LUX | Solana | SPL | Not part of the initial phase |
+| LUX | Solana | SPL | Bridge to OLUX at 1:1, then swap to OLV |
 
 If your asset is not in the table, check the app before you act.
 
@@ -46,7 +46,7 @@ Lucent's swap moved CLV to LUX in 2025. Olive's current migration targets OCLV. 
 
 ## Eligibility in one paragraph
 
-CLV holders on Ethereum and BNB Smart Chain are the initial framework case, subject to the app terms. LUX is not part of the initial phase.
+CLV holders on Ethereum and BNB Smart Chain are the initial framework case, subject to the app terms. LUX has its own bridge and migration path.
 
 The full detail is on the [eligibility page](/blog/clv-migration-eligibility/).
 
@@ -109,7 +109,7 @@ OCLV, Olive's representation of CLV. OLV is the native platform token, not the m
 
 ### Does the migration accept LUX?
 
-Not in the initial phase. LUX scope is separate.
+LUX has its own bridge and migration path. See the [LUX page](/blog/lux-to-olv-migration/).
 
 ### Is there a deadline?
 

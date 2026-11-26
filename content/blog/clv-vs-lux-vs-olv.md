@@ -7,7 +7,7 @@ type: comparison
 target_query: "clv vs lux vs olv"
 answer: "CLV is the original Clover token on Ethereum and BNB Smart Chain. LUX is the Lucent Network token on Solana. OLV is Olive's native platform token. OCLV is Olive's representation of CLV. They are different tokens with different roles."
 published: "2026-11-19"
-updated: "2026-11-23"
+updated: "2026-11-24"
 internal_links: ["/blog/what-is-the-clv-token/", "/blog/clv-to-olv-migration/", "/blog/lux-to-olv-migration/"]
 sources: ["https://docs.clv.org/", "https://lucent-network.gitbook.io/docs/upgrading-usdclv-to-usdlux"]
 disclaimer: financial
@@ -22,7 +22,7 @@ This comparison sets CLV, LUX, OLV and OCLV side by side. The CLV vs LUX vs OLV 
 | Token | Role | Network | Current path |
 | --- | --- | --- | --- |
 | CLV | Original Clover token and Olive's first adopted asset | Ethereum, BNB Smart Chain | Adopt into Olive as OCLV |
-| LUX | Lucent Network token | Solana | Not part of the initial CLV phase |
+| LUX | Lucent Network token | Solana | Bridge to OLUX at 1:1, then swap to OLV |
 | OLV | Olive's native platform token | Olive platform | Separate from adopted assets |
 | OCLV | Olive's representation of CLV | Olive ecosystem | Created through the approved CLV adoption process |
 
@@ -38,7 +38,7 @@ If you hold CLV, the [CLV to OCLV guide](/blog/clv-to-olv-migration/) is the pla
 
 CLV 2.0 was announced in January 2025. It moved the project's direction to Lucent Network and introduced LUX, a Solana SPL token.
 
-LUX is not part of the initial Olive CLV phase. The current framework target is CLV adoption into OCLV. LUX is a separate scope question.
+LUX has been added to Olive. Olive bridges LUX to OLUX at 1:1, then offers the OLUX to OLV swap at the rate shown in the app.
 
 ## OLV, the native platform token
 
@@ -60,7 +60,7 @@ The issuance, transfer and redemption rules for OCLV are part of the framework's
 
 **"OCLV and OLV are the same."** No. OCLV represents CLV. OLV is the native token.
 
-**"I have to swap to LUX first."** No. LUX is not part of the initial CLV phase. Start with CLV.
+**"I have to swap to LUX first."** No. CLV and LUX have separate paths. Start with the token you hold.
 
 **"The Lucent deadline is the Olive deadline."** No. Lucent's swap has a published window ending 17 July 2027. Olive's terms are shown in the app.
 
@@ -70,7 +70,7 @@ The issuance, transfer and redemption rules for OCLV are part of the framework's
 
 - If you hold CLV, use the [CLV to OCLV migration guide](/blog/clv-to-olv-migration/).
 - If you are not sure what you hold, start with the [migration guide](/blog/clv-migration-guide/).
-- For LUX, read the [LUX status page](/blog/lux-to-olv-migration/).
+- For LUX, read the [LUX bridge and migration page](/blog/lux-to-olv-migration/).
 
 ## Frequently asked questions
 
@@ -88,4 +88,4 @@ No. OCLV is Olive's representation of CLV. OLV is the native token.
 
 ### Do I need LUX to migrate CLV?
 
-No. LUX is not part of the initial CLV phase.
+No. CLV and LUX use separate paths. Start with the token you hold.

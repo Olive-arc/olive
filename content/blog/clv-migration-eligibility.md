@@ -5,9 +5,9 @@ description: "The initial Olive framework phase covers CLV on Ethereum and BNB S
 cluster: migration
 type: task
 target_query: "clv adoption eligibility"
-answer: "The initial Olive framework phase covers CLV on Ethereum and BNB Smart Chain. LUX is not part of the initial phase. The app and current terms are the authority on eligibility for each CLV route."
+answer: "The initial Olive framework phase covers CLV on Ethereum and BNB Smart Chain. LUX has its own bridge and migration path. The app and current terms are the authority on eligibility for each CLV route."
 published: "2026-11-19"
-updated: "2026-11-23"
+updated: "2026-11-24"
 internal_links: ["/blog/clv-migration-guide/", "/blog/clv-to-olv-migration/", "/blog/clv-migration-checklist/"]
 sources: ["https://docs.clv.org/", "https://olivefinance.org/"]
 disclaimer: financial
@@ -15,7 +15,7 @@ disclaimer: financial
 
 Status checked 23 November 2026.
 
-The eligibility question is simpler once the token roles are clear. CLV is the first adopted asset. OLV is the native platform token. OCLV is Olive's representation of CLV. LUX is not part of the initial phase.
+The eligibility question is simpler once the token roles are clear. CLV is the first adopted asset. OLV is the native platform token. OCLV is Olive's representation of CLV. LUX has its own path.
 
 ## CLV adoption eligibility
 
@@ -26,9 +26,9 @@ CLV holders on:
 
 Eligibility is subject to the current terms shown in the app.
 
-## Who is not covered in the initial phase
+## The separate LUX path
 
-LUX holders. LUX scope is a separate decision.
+LUX has been added to Olive. It uses its own bridge and migration path, not the CLV route. Read the [LUX bridge and migration page](/blog/lux-to-olv-migration/).
 
 An asset with a familiar name on another network is not automatically accepted. Check the network and the contract.
 
@@ -45,7 +45,7 @@ Treat them as two routes. Keep a record for each.
 
 ## If you swapped to LUX
 
-Your LUX is not part of the initial phase. Do not send it to an olive address based on an old page or a message. Read the [LUX status page](/blog/lux-to-olv-migration/).
+LUX has been added to Olive. Use the [LUX bridge and migration page](/blog/lux-to-olv-migration/). Do not send it to a CLV address based on an old page or a message.
 
 ## Frequently asked questions
 
@@ -55,7 +55,7 @@ The initial phase covers CLV on Ethereum and BNB Smart Chain, subject to the app
 
 ### Is LUX eligible?
 
-Not in the initial phase.
+Yes. LUX has its own bridge and migration path. Use the [LUX bridge and migration page](/blog/lux-to-olv-migration/).
 
 ### Is there a snapshot?
 

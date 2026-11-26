@@ -7,7 +7,7 @@ type: guide
 target_query: "clv to oclv bridge"
 answer: "Olive bridges CLV into OCLV at 1:1. CLV is the first adopted asset, and OCLV is its representation. OLV is the separate native token. OCLV is not tradeable and is not listed on Trade; it can only be swapped to OLV through the approved swap. Current swap terms are shown in the app before confirmation."
 published: "2026-11-19"
-updated: "2026-11-23"
+updated: "2026-11-24"
 internal_links: ["/blog/clv-migration-eligibility/", "/blog/clv-migration-official-links/", "/blog/clv-migration-guide/", "/blog/clv-lux-olv-glossary/"]
 sources: ["https://docs.clv.org/", "https://olivefinance.org/"]
 disclaimer: financial
@@ -39,7 +39,7 @@ OCLV is not a renamed CLV or a claim that the earlier project delivered everythi
 
 The initial phase covers CLV on Ethereum and BNB Smart Chain.
 
-LUX is not part of the initial phase. Do not send LUX based on an old page or a message.
+If you hold LUX, it has its own bridge and migration path. Use the [LUX bridge and migration page](/blog/lux-to-olv-migration/). Do not send LUX to a CLV address based on an old page or a message.
 
 ## What you need before you start
 
@@ -67,7 +67,7 @@ There are two different events in this history.
 
 **Lucent's CLV to LUX swap** moved CLV holders to LUX, the Solana token of Lucent Network. Its published window ends 17 July 2027.
 
-**Olive's CLV adoption migration** targets OCLV. LUX is not part of the initial phase.
+**Olive's CLV adoption migration** targets OCLV. LUX has its own separate path.
 
 Do not treat one window as the other.
 
@@ -103,9 +103,9 @@ It is the path for CLV holders to bring CLV into Olive under the current framewo
 
 No. OLV is Olive's native platform token. OCLV is the representation of CLV.
 
-### Is LUX part of the initial phase?
+### Does Olive support LUX?
 
-No. LUX scope is a separate decision.
+Yes. LUX has been added to Olive. Use the [LUX bridge and migration page](/blog/lux-to-olv-migration/).
 
 ### What rate applies?
 

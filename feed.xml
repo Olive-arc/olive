@@ -2,7 +2,7 @@
 <rss version="2.0"><channel>
   <title>Olive blog</title>
   <link>https://olivefinance.org/blog/</link>
-  <description>Guides and explainers on Olive, connected DeFi, the CLV bridge and the OCLV swap.</description>
+  <description>Guides and explainers on Olive, connected DeFi, and the CLV and LUX bridges.</description>
   <language>en</language>
     <item>
       <title>What is the CLV token? Clover&#x27;s token, explained</title>
@@ -54,11 +54,11 @@
       <description>Olive is the successor to Clover and Lucent, adopted by a new team. Here is what that word means, what changes, and what stays the same for holders.</description>
     </item>
     <item>
-      <title>LUX migration status: not in the initial CLV phase</title>
+      <title>LUX migration status: LUX is now supported by Olive</title>
       <link>https://olivefinance.org/blog/lux-to-olv-migration/</link>
       <guid isPermaLink="true">https://olivefinance.org/blog/lux-to-olv-migration/</guid>
       <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
-      <description>LUX was introduced by Lucent Network in 2025. Olive&#x27;s initial framework phase targets CLV adoption into OCLV, not LUX. Here is the current status and scope.</description>
+      <description>LUX has been added to Olive. LUX bridges 1:1 to OLUX, and OLUX can be swapped to OLV at the rate shown in the app. Here is the current LUX migration status.</description>
     </item>
     <item>
       <title>Lucent Network status: LUX, the swap and what now</title>

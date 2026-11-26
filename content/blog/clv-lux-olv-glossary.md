@@ -7,7 +7,7 @@ type: glossary
 target_query: "clv lux olv"
 answer: "Clover Finance is the original project, CLV is its token, Lucent Network introduced LUX, Olive is the successor, OLV is Olive's native platform token, and OCLV is Olive's representation of CLV. The initial framework phase targets CLV adoption into OCLV."
 published: "2026-11-19"
-updated: "2026-11-23"
+updated: "2026-11-24"
 internal_links: ["/blog/clv-migration-guide/", "/blog/what-is-the-clv-token/", "/blog/clv-to-olv-migration/"]
 sources: ["https://docs.clv.org/", "https://lucent-network.gitbook.io/docs/upgrading-usdclv-to-usdlux"]
 disclaimer: financial
@@ -29,7 +29,7 @@ The CLV LUX OLV OCLV set is four different names with four different roles. This
 
 **CLV.** The original token. It lives on Ethereum as an ERC20 and on BNB Smart Chain as a BEP20. It is the first adopted asset in the Olive framework.
 
-**LUX.** The Lucent Network token. It is a Solana SPL token introduced with the 2025 move. LUX is not part of the initial CLV phase.
+**LUX.** The Lucent Network token. It is a Solana SPL token introduced with the 2025 move. Olive supports LUX through its own bridge and migration path.
 
 **OLV.** Olive's native platform token. OLV is separate from adopted assets and their representations.
 
@@ -100,7 +100,7 @@ No. OCLV represents CLV. OLV is the native token.
 
 ### Which one do I need for the migration?
 
-Start with CLV. The current framework target is CLV adoption into OCLV.
+Start with the token you hold. CLV uses the CLV path, and LUX uses the [LUX bridge and migration path](/blog/lux-to-olv-migration/).
 
 ### Does the glossary change the terms?
 

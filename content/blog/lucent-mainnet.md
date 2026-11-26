@@ -7,7 +7,7 @@ type: explainer
 target_query: "lucent network mainnet"
 answer: "Lucent Network announced its mainnet in July 2025, built on the Solana Virtual Machine and the SOON stack, with LUX as its Solana SPL token. It followed the January 2025 CLV 2.0 announcement and the 1:1 CLV to LUX swap. Olive later became the successor and accepts CLV in the initial framework phase."
 published: "2026-11-19"
-updated: "2026-11-19"
+updated: "2026-11-24"
 internal_links: ["/blog/lucent-network-status/", "/blog/lux-to-olv-migration/", "/blog/clover-finance-history/"]
 sources: ["https://medium.com/@LucentNetwork/lucent-live-ama-849cb0476f89", "https://lucent-network.gitbook.io/docs/upgrading-usdclv-to-usdlux"]
 disclaimer: financial
@@ -79,7 +79,7 @@ Two cautions.
 
 ## Where to go next
 
-The [Lucent Network status](/blog/lucent-network-status/) page covers the current terms and the two windows. The [LUX status](/blog/lux-to-olv-migration/) explains the current LUX scope. The [Clover Finance history](/blog/clover-finance-history/) puts the mainnet in the longer timeline.
+The [Lucent Network status](/blog/lucent-network-status/) page covers the current terms and the two windows. The [LUX bridge and migration page](/blog/lux-to-olv-migration/) explains the current LUX path. The [Clover Finance history](/blog/clover-finance-history/) puts the mainnet in the longer timeline.
 
 ## Frequently asked questions
 
@@ -97,4 +97,4 @@ No. CLV stayed CLV. The swap was a separate, optional step that moved CLV to LUX
 
 ### Can I still migrate LUX to Olive?
 
-No. LUX is not part of the initial Olive phase. Its scope is a separate decision.
+Yes. LUX has been added to Olive. Use the [LUX bridge and migration page](/blog/lux-to-olv-migration/).

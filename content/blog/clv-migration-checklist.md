@@ -7,7 +7,7 @@ type: task
 target_query: "clv migration checklist"
 answer: "To start, sign in at wallet.olivefinance.org, open the migration page, confirm the current asset, network, rate and steps, and follow the in-app process from a wallet you control. OCLV is the representation target, not OLV."
 published: "2026-11-19"
-updated: "2026-11-23"
+updated: "2026-11-24"
 internal_links: ["/blog/clv-to-olv-migration/", "/blog/clv-migration-guide/", "/blog/clv-migration-official-links/"]
 sources: ["https://docs.clv.org/", "https://olivefinance.org/"]
 disclaimer: financial
@@ -42,7 +42,7 @@ The destination representation is **OCLV**, Olive's representation of CLV.
 
 OLV is Olive's native platform token. It is not the migration destination.
 
-LUX is not part of the initial phase.
+If you hold LUX, use the [LUX bridge and migration page](/blog/lux-to-olv-migration/). It is a separate path from CLV.
 
 ## Frequently asked questions
 

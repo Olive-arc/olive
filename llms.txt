@@ -8,13 +8,14 @@ Whitepaper: https://olivefinance.org/olive-whitepaper.pdf
 
 Olive is the successor to Clover Finance and Lucent Network, adopted by a new team. It is not affiliated with oliveapp.finance, Olive Capital, or Olive Foundation Nepal.
 
-Current model: CLV → OCLV is a 1:1 asset bridge. OCLV is not tradeable and is not listed on Trade. OCLV → OLV is a fixed 1:1 swap. OLV is tradeable only when Olive enables Trade. There is no user-facing migration flow.
+Current model: CLV → OCLV and LUX → OLUX are 1:1 asset bridges. OCLV and OLUX are not tradeable and are not listed on Trade. OCLV → OLV and OLUX → OLV are fixed 1:1 swaps. OLV is tradeable only when Olive enables Trade. The app presents these paths as Bridge and Swap.
 
 ## Framework
 - [Framework](https://olivefinance.org/framework/): the asset-agnostic model.
 - [OLV and asset roles](https://olivefinance.org/token/): native token and integration roles.
 - [Adoption](https://olivefinance.org/adoption/): how an external asset enters the framework.
 - [Integration case](https://olivefinance.org/adoption/clv/): the first adopted asset.
+- [LUX bridge and migration](https://olivefinance.org/blog/lux-to-olv-migration/): LUX is now supported.
 - [Security and custody](https://olivefinance.org/security/): controls and risks.
 - [Interoperability](https://olivefinance.org/interoperability/): current scope and later direction.
 - [Docs](https://olivefinance.org/docs/): framework reference.
@@ -36,7 +37,7 @@ Current model: CLV → OCLV is a 1:1 asset bridge. OCLV is not tradeable and is 
 - [RWA tokenization and portfolio oversight, explained](https://olivefinance.org/blog/rwa-tokenization-portfolio/): Tokenized real-world assets come with product-specific terms. Here is what access means, how oversight works, and why access is not ownership.
 - [Quantitative investing in DeFi: data, models and risk](https://olivefinance.org/blog/quantitative-investing-defi/): Quantitative investing uses data and models to evaluate opportunities. Here is what it means in DeFi, what the Olive product describes, and where limits are.
 - [Olive successor to Clover: what it means for holders](https://olivefinance.org/blog/olive-successor-clover/): Olive is the successor to Clover and Lucent, adopted by a new team. Here is what that word means, what changes, and what stays the same for holders.
-- [LUX migration status: not in the initial CLV phase](https://olivefinance.org/blog/lux-to-olv-migration/): LUX was introduced by Lucent Network in 2025. Olive's initial framework phase targets CLV adoption into OCLV, not LUX. Here is the current status and scope.
+- [LUX migration status: LUX is now supported by Olive](https://olivefinance.org/blog/lux-to-olv-migration/): LUX has been added to Olive. LUX bridges 1:1 to OLUX, and OLUX can be swapped to OLV at the rate shown in the app. Here is the current LUX migration status.
 - [Lucent Network status: LUX, the swap and what now](https://olivefinance.org/blog/lucent-network-status/): Lucent Network is the 2025 direction for CLV, with LUX on Solana and a swap window ending 17 July 2027. Here is where holders stand and what comes next.
 - [Lucent Network mainnet: what launched in 2025](https://olivefinance.org/blog/lucent-mainnet/): Lucent launched its mainnet in July 2025 on the Solana Virtual Machine, with LUX as its token. Here is what launched and what it meant for CLV holders.
 

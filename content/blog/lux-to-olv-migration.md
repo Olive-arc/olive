@@ -1,70 +1,81 @@
 ---
 slug: lux-to-olv-migration
-title: "LUX migration status: not in the initial CLV phase"
-description: "LUX was introduced by Lucent Network in 2025. Olive's initial framework phase targets CLV adoption into OCLV, not LUX. Here is the current status and scope."
+title: "LUX migration status: LUX is now supported by Olive"
+description: "LUX has been added to Olive. LUX bridges 1:1 to OLUX, and OLUX can be swapped to OLV at the rate shown in the app. Here is the current LUX migration status."
 cluster: migration
 type: task
 target_query: "lux migration status"
-answer: "LUX was introduced with Lucent Network in 2025. The initial Olive framework phase targets CLV adoption into OCLV, not LUX. LUX is not part of that initial phase, and its scope remains a separate decision."
+answer: "LUX has been added to Olive. LUX bridges 1:1 to OLUX, and OLUX can be swapped to OLV at the rate shown in the app. This page covers the current LUX bridge and migration path and points holders to the app for live terms."
 published: "2026-11-19"
-updated: "2026-11-23"
-internal_links: ["/blog/clv-to-olv-migration/", "/blog/clv-migration-eligibility/", "/blog/clv-migration-official-links/", "/blog/clv-migration-guide/"]
+updated: "2026-11-24"
+internal_links: ["/blog/clv-to-olv-migration/", "/blog/clv-vs-lux-vs-olv/", "/blog/clv-migration-official-links/", "/blog/clv-migration-scams/"]
 sources: ["https://lucent-network.gitbook.io/docs/upgrading-usdclv-to-usdlux", "https://olivefinance.org/"]
 disclaimer: financial
 ---
 
-If you held CLV through 2025, you may have swapped it for LUX when Lucent Network launched. That swap was one chapter. Olive is the successor, but its initial framework phase targets CLV adoption into OCLV.
+LUX migration status has changed. LUX has been added to Olive, so holders can use the LUX bridge and migration path in the app.
 
-Status checked 23 November 2026.
+Status checked 24 November 2026.
 
-This LUX migration status page explains the current scope. LUX is not part of that initial phase.
+## What changed
 
-## What changed, briefly
+Olive now supports LUX. The public path is LUX to OLUX at a 1:1 ratio, then OLUX to OLV at the rate shown in the app.
 
-Clover Finance launched in 2021 and rebranded to CLV in 2022. In January 2025 the team announced CLV 2.0 and a move to Lucent Network, built around the Solana Virtual Machine. The CLV to LUX swap opened at a 1:1 ratio, with a published window ending 17 July 2027.
+LUX is a Solana SPL token. It is separate from CLV, and the LUX path is separate from CLV adoption.
 
-Olive is the successor to Clover Finance and Lucent Network, adopted by a new team. Its current framework direction separates:
+## The 1:1 LUX bridge
 
-- OLV, the native platform token
-- CLV, the first adopted underlying asset
-- OCLV, Olive's representation of CLV
+The bridge ratio is **1 LUX = 1 OLUX**. OLUX is Olive's representation of LUX. It is not OLV and it is not tradeable.
 
-## Does Olive accept LUX?
+Once LUX is bridged, the OLUX can be swapped to OLV. The app shows the rate and current terms before you confirm.
 
-Not in the initial CLV phase. LUX scope is a separate decision.
+## How to use the LUX path
 
-Do not send LUX to a migration address based on an old page or a direct message. The app and official channels are the authority.
+1. Open the Olive app and choose the LUX bridge.
+2. Follow the address and network shown in the app. Do not use an address from a message or an old page.
+3. Bridge LUX to OLUX at 1:1.
+4. Swap OLUX to OLV at the rate shown in the app.
 
-## If you still hold CLV
+The app is the authority on current availability, limits and terms.
 
-Use the [CLV to OCLV guide](/blog/clv-to-olv-migration/). CLV on Ethereum or BNB Smart Chain is the current framework case.
+## What OLUX is
 
-## If you swapped to LUX
+OLUX is the representation created when LUX is bridged. It keeps the LUX path separate from OLV.
 
-Your Lucent swap record is separate from the Olive framework. Keep the transaction record. Do not assume the Lucent swap window is an Olive window, or that LUX is accepted because an earlier Olive page said so.
+OLUX is not CLV, OCLV or OLV. It is not a cross-chain token. The public path for OLUX is the swap to OLV described here.
 
-The Lucent swap has a published window ending 17 July 2027. That is a Lucent term.
+## Who the LUX path is for
 
-## Verify before you act
+The LUX path is for holders who want to use LUX with Olive. If you still hold CLV, use the [CLV to OCLV guide](/blog/clv-to-olv-migration/). If you are not sure which token you hold, check the token and network before you act.
+
+## Safety and verification
 
 Use the [official links page](/blog/clv-migration-official-links/) and read the [scam warning](/blog/clv-migration-scams/). The only support channel we publish is [t.me/olive_eng](https://t.me/olive_eng).
 
-A migration is a moment when impersonators appear. No real support person asks for your seed phrase or recovery words.
+Do not send LUX to an address from a direct message, an old post, or a page that is not Olive's. No real support person asks for your seed phrase or recovery words.
+
+## Current terms
+
+The app shows the current rate and terms that apply to your bridge and swap.
 
 ## Frequently asked questions
 
 ### Does Olive accept LUX?
 
-Not in the initial CLV phase. LUX scope is a separate decision.
+Yes. LUX has been added to Olive and can be used through the LUX bridge and migration path.
+
+### What is the LUX to OLUX ratio?
+
+1 LUX = 1 OLUX.
+
+### Can I swap OLUX to OLV?
+
+Yes. OLUX can be swapped to OLV at the rate shown in the app.
+
+### Is LUX the same as CLV?
+
+No. LUX is a Solana SPL token. CLV is the original token, and the two paths are separate.
 
 ### Is there a LUX migration deadline?
 
-The Lucent CLV to LUX swap has a published window ending 17 July 2027. Olive has not published a LUX adoption process.
-
-### What should I do if I hold LUX?
-
-Keep your records and wait for an official decision. Do not send assets to an address from a message.
-
-### What if I never swapped to LUX?
-
-Nothing is lost. Start with the [CLV to OCLV guide](/blog/clv-to-olv-migration/).
+No Olive LUX deadline is stated on this page. Check the app for current availability and terms.

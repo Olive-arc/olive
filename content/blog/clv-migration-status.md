@@ -7,7 +7,7 @@ type: task
 target_query: "clv bridge status"
 answer: "Olive bridges CLV into OCLV at 1:1 on Ethereum and BNB Smart Chain. OCLV is not tradeable and is not listed on Trade. It can be swapped to OLV through the approved swap at a fixed 1:1 rate. OLV is tradeable only when Olive enables Trade. Current swap terms are shown in the app."
 published: "2026-11-19"
-updated: "2026-11-23"
+updated: "2026-11-24"
 internal_links: ["/blog/clv-to-olv-migration/", "/blog/clv-migration-guide/", "/blog/clv-migration-official-links/"]
 sources: ["https://docs.clv.org/", "https://olivefinance.org/"]
 disclaimer: financial
@@ -27,12 +27,12 @@ The bridge target is **OCLV**, Olive's representation of CLV.
 
 OLV is Olive's native platform token. It is the output of the OCLV → OLV swap, not the bridge destination.
 
-## Assets in the initial phase
+## Assets with a public path
 
 | Asset | Networks | Status |
 | --- | --- | --- |
 | CLV | Ethereum, BNB Smart Chain | Initial framework case |
-| LUX | Solana | Not part of the initial phase |
+| LUX | Solana | Added; separate LUX bridge and migration path |
 
 ## What to verify
 
@@ -46,7 +46,7 @@ OLV is Olive's native platform token. It is the output of the OCLV → OLV swap,
 - a rate from a screenshot or post
 - a link from a direct message
 - an old page that says the destination is OLV
-- any claim that LUX is accepted in the initial phase
+- any claim that LUX uses the CLV bridge or a CLV address
 
 ## Related pages
 
@@ -60,9 +60,9 @@ OLV is Olive's native platform token. It is the output of the OCLV → OLV swap,
 
 No. OCLV is not listed on Trade. It can only be swapped to OLV through the approved swap.
 
-### Does the bridge accept LUX?
+### Does Olive support LUX?
 
-Not in the initial phase. LUX is a separate scope decision.
+Yes. LUX has been added and uses its own bridge path. Read the [LUX bridge and migration page](/blog/lux-to-olv-migration/).
 
 ### What should I check before I send?
 
